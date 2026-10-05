@@ -1,0 +1,416 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Painel Empresa X</title>
+<style>
+/* Layout: faixa de filtros fixa no topo, resumo em frase, 5 KPIs, depois blocos de análise em grade de 12 colunas. */
+:root {
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,.10); --wash: #f0efec;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4;
+  --good: #0ca30c; --warn: #fab219; --crit: #d03b3b; --good-ink: #006300;
+  --bar-neutral: #b9b8b0;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: #262625;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181;
+    --good-ink: #0ca30c; --bar-neutral: #4a4a47; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,.10); --wash: #262625;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181;
+  --good-ink: #0ca30c; --bar-neutral: #4a4a47; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--page); color: var(--ink); font: 14px/1.45 var(--font); margin: 0; padding-inline: 16px; padding-block: 0 40px; }
+.wrap { max-width: 1240px; margin-inline: auto; display: flex; flex-direction: column; gap: 16px; }
+h1, h2, h3, p { margin: 0; }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--s1); outline-offset: 2px; }
+
+/* topo */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--page); padding-block: 14px 10px; border-bottom: 1px solid var(--grid); display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: flex-end; justify-content: space-between; }
+.brand h1 { font-size: 20px; font-weight: 650; letter-spacing: -.01em; text-wrap: balance; }
+.brand p { color: var(--ink2); font-size: 12.5px; margin-top: 2px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: flex-end; min-width: 0; }
+.ctl { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.ctl > span { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.seg { display: inline-flex; background: var(--wash); border-radius: 8px; padding: 2px; gap: 2px; flex-wrap: wrap; }
+.seg button { border: 0; background: transparent; padding: 5px 11px; border-radius: 6px; cursor: pointer; color: var(--ink2); }
+.seg button:hover { background: var(--surface); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); font-weight: 600; box-shadow: 0 0 0 1px var(--border); }
+select { background: var(--wash); border: 0; border-radius: 8px; padding: 7px 10px; max-width: 100%; cursor: pointer; }
+
+.lead { font-size: 15px; color: var(--ink); max-width: 80ch; text-wrap: pretty; }
+.lead b { font-weight: 650; }
+
+/* cartões */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; min-width: 0; }
+.card h2 { font-size: 13px; font-weight: 650; }
+.card .sub { color: var(--ink2); font-size: 12px; margin-top: 2px; }
+.card header { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+
+.kpis { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 12px; }
+.kpi { display: flex; flex-direction: column; gap: 6px; padding: 14px; }
+.kpi .lab { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.kpi .val { white-space: nowrap; font-size: 24px; font-weight: 650; letter-spacing: -.02em; line-height: 1.1; }
+.kpi .row { display: flex; justify-content: space-between; align-items: flex-end; gap: 8px; }
+.kpi .note { font-size: 12px; color: var(--ink2); }
+.delta { font-size: 12px; display: inline-flex; gap: 4px; align-items: center; color: var(--ink2); white-space: nowrap; }
+.delta i { font-style: normal; font-size: 9px; }
+.delta.up i { color: var(--good); } .delta.down i { color: var(--crit); }
+.kpi svg { flex: none; }
+
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
+.c8 { grid-column: span 8; } .c7 { grid-column: span 7; } .c6 { grid-column: span 6; } .c5 { grid-column: span 5; } .c4 { grid-column: span 4; } .c12 { grid-column: span 12; }
+
+/* gráficos */
+.chart { position: relative; min-height: 40px; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.gl { stroke: var(--grid); stroke-width: 1; } .ax { stroke: var(--axis); stroke-width: 1; }
+.tk { fill: var(--muted); font-size: 11px; }
+.tip { position: absolute; pointer-events: none; z-index: 3; background: var(--surface); border: 1px solid var(--border); box-shadow: 0 4px 16px rgba(0,0,0,.18); border-radius: 8px; padding: 8px 10px; font-size: 12px; min-width: 150px; }
+.tip b { display: block; margin-bottom: 4px; font-weight: 650; }
+.tip div { display: flex; justify-content: space-between; gap: 14px; }
+.tip span.k { display: inline-flex; align-items: center; gap: 6px; color: var(--ink2); }
+.tip i.sw { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--ink2); margin-bottom: 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 14px; height: 0; border-top: 2px solid; display: inline-block; }
+.legend i.dash { border-top-style: dashed; } .legend i.dot { border-top-style: dotted; }
+.legend i.sw { width: 9px; height: 9px; border: 0; border-radius: 2px; }
+
+.rows { display: flex; flex-direction: column; gap: 6px; }
+.r { display: grid; grid-template-columns: minmax(96px, 150px) minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 3px 4px; border-radius: 6px; border: 0; background: transparent; width: 100%; text-align: left; }
+button.r { cursor: pointer; } button.r:hover { background: var(--wash); }
+.r .nm { font-size: 12.5px; color: var(--ink); overflow-wrap: anywhere; }
+.r .trk { height: 12px; position: relative; }
+.r .bar { position: absolute; top: 0; bottom: 0; border-radius: 0 4px 4px 0; min-width: 2px; }
+.r .vl { font-size: 12.5px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.r .vl small { color: var(--ink2); font-size: 11.5px; margin-left: 6px; }
+.rows.stk .r .vl small { display: block; margin: 0; }
+.r.dim { opacity: .45; }
+.r.sel { background: var(--wash); }
+@media (prefers-reduced-motion: no-preference) { .r .bar { transition: width .35s ease, left .35s ease; } }
+
+.obr { display: grid; grid-template-columns: minmax(110px, 190px) minmax(0, 1fr) auto; gap: 6px 10px; align-items: center; padding-block: 6px; border-top: 1px solid var(--grid); }
+.obr:first-child { border-top: 0; }
+.obr .bars { display: flex; flex-direction: column; gap: 3px; }
+.obr .bars div { height: 7px; border-radius: 0 3px 3px 0; min-width: 2px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; white-space: nowrap; }
+.chip i { font-style: normal; font-size: 10px; }
+
+table { border-collapse: collapse; font-size: 12.5px; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 5px 8px; text-align: right; border-bottom: 1px solid var(--grid); }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--muted); font-weight: 500; }
+.scroll { overflow-x: auto; }
+details { margin-top: 10px; } summary { cursor: pointer; color: var(--ink2); font-size: 12px; }
+
+.sim { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
+.sl { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; margin-bottom: 12px; }
+.sl label { font-size: 12.5px; } .sl output { font-size: 12.5px; font-variant-numeric: tabular-nums; color: var(--ink2); }
+.sl input { grid-column: 1 / -1; width: 100%; accent-color: var(--s1); }
+.outs { display: flex; flex-direction: column; gap: 10px; }
+.out { display: flex; justify-content: space-between; gap: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--grid); align-items: baseline; }
+.out span { color: var(--ink2); font-size: 12.5px; } .out b { font-size: 18px; font-weight: 650; }
+.foot { color: var(--muted); font-size: 12px; text-align: center; padding-top: 8px; text-wrap: balance; }
+
+@media (max-width: 1000px) {
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .c8, .c7, .c6, .c5, .c4 { grid-column: span 12; }
+  .sim { grid-template-columns: 1fr; }
+}
+@media (max-width: 520px) {
+  .kpis { grid-template-columns: 1fr; }
+  .r, .obr { grid-template-columns: 1fr; gap: 4px; }
+  .r .vl, .obr .chip { text-align: left; }
+}
+</style>
+<!--FIM-HEAD-->
+<div class="wrap">
+  <div class="top">
+    <div class="brand">
+      <h1>Empresa X · Painel executivo</h1>
+      <p>Protótipo do dashboard, com os mesmos dados fictícios do banco de dados do repositório.</p>
+    </div>
+    <div class="controls">
+      <div class="ctl"><span>Ano</span><div class="seg" id="seg-ano" role="group" aria-label="Ano"></div></div>
+      <div class="ctl"><span>Métrica</span><div class="seg" id="seg-met" role="group" aria-label="Métrica"></div></div>
+      <div class="ctl"><span>Filial</span><select id="sel-filial" aria-label="Filial"></select></div>
+    </div>
+  </div>
+
+  <p class="lead" id="lead"></p>
+  <section class="kpis" id="kpis" aria-label="Indicadores principais"></section>
+
+  <section class="grid">
+    <div class="card c8">
+      <header><div><h2 id="t-line"></h2><p class="sub" id="s-line"></p></div></header>
+      <div class="legend" id="lg-line"></div>
+      <div class="chart" id="ch-line"></div>
+      <details><summary>Ver como tabela</summary><div class="scroll" id="tb-line"></div></details>
+    </div>
+    <div class="card c4">
+      <header><div><h2 id="t-fil"></h2><p class="sub">Clique em uma filial para filtrar a página</p></div></header>
+      <div class="rows stk" id="ch-fil"></div>
+    </div>
+
+    <div class="card c6">
+      <header><div><h2>Receita líquida por categoria</h2><p class="sub">Margem bruta ao lado de cada barra</p></div></header>
+      <div class="rows" id="ch-cat"></div>
+    </div>
+    <div class="card c6">
+      <header><div><h2>Mix de canais por trimestre</h2><p class="sub">Participação na receita líquida · todo o histórico</p></div></header>
+      <div class="legend" id="lg-can"></div>
+      <div class="chart" id="ch-can"></div>
+    </div>
+
+    <div class="card c6">
+      <header><div><h2>Gastos: orçado × realizado</h2><p class="sub" id="s-orc"></p></div></header>
+      <div id="ch-orc"></div>
+    </div>
+    <div class="card c6">
+      <header><div><h2>Do faturamento ao resultado (DRE)</h2><p class="sub" id="s-dre"></p></div></header>
+      <div class="rows" id="ch-dre"></div>
+    </div>
+
+    <div class="card c12">
+      <header><div><h2>Simulador de cenários</h2><p class="sub">E se mudarmos preço, volume, custo ou despesas? Calculado sobre o período e a filial selecionados.</p></div></header>
+      <div class="sim">
+        <div id="sim-in">
+          <div class="sl"><label for="p-preco">Preço</label><output id="o-preco"></output><input type="range" id="p-preco" min="-10" max="10" step="1" value="0"></div>
+          <div class="sl"><label for="p-vol">Volume de vendas</label><output id="o-vol"></output><input type="range" id="p-vol" min="-20" max="20" step="1" value="0"></div>
+          <div class="sl"><label for="p-custo">Custo dos produtos</label><output id="o-custo"></output><input type="range" id="p-custo" min="-10" max="15" step="1" value="0"></div>
+          <div class="sl"><label for="p-desp">Despesas</label><output id="o-desp"></output><input type="range" id="p-desp" min="-15" max="15" step="1" value="0"></div>
+        </div>
+        <div class="outs" id="sim-out"></div>
+      </div>
+    </div>
+  </section>
+  <p class="foot">Protótipo estático. No Power BI, cada visual daqui vira um visual interativo com as medidas de powerbi/medidas_dax.md.</p>
+</div>
+
+<script>
+const D = /*__DADOS__*/null;
+const MES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+const NM = D.meses.length, NF = D.filiais.length, NC = D.cats.length, NK = D.canais.length, NG = D.grupos.length;
+const CORTE = D.corteIdx;
+const mk = (...d) => d.length === 1 ? Array(d[0]).fill(0) : Array.from({ length: d[0] }, () => mk(...d.slice(1)));
+const RL = mk(NM, NF), CMV = mk(NM, NF), BR = mk(NM, NF), DS = mk(NM, NF), IM = mk(NM, NF), META = mk(NM, NF);
+const RLc = mk(NM, NF, NC), CMVc = mk(NM, NF, NC), RLk = mk(NM, NF, NK);
+const DR = mk(NM, NF, NG), DO = mk(NM, NF, NG), DRt = mk(NM, NF, 2), DOt = mk(NM, NF, 2);
+for (const [m, f, c, k, br, ds, im, rl, cmv] of D.vendas) {
+  BR[m][f] += br; DS[m][f] += ds; IM[m][f] += im; RL[m][f] += rl; CMV[m][f] += cmv;
+  RLc[m][f][c] += rl; CMVc[m][f][c] += cmv; RLk[m][f][k] += rl;
+}
+for (const [m, f, g, t, r, o] of D.desp) { DR[m][f][g] += r; DO[m][f][g] += o; DRt[m][f][t] += r; DOt[m][f][t] += o; }
+for (const [m, f, v] of D.metas) META[m][f] += v;
+
+const S = { ano: 2026, met: 'rl', fil: null };
+const METS = [['rl', 'Receita líquida'], ['lb', 'Lucro bruto'], ['res', 'Resultado operacional'], ['desp', 'Despesas']];
+const fl = () => S.fil === null ? [...Array(NF).keys()] : [S.fil];
+const sum2 = (A, ms, fs) => { let s = 0; for (const m of ms) for (const f of fs) s += A[m][f]; return s; };
+const sum3 = (A, ms, fs, k) => { let s = 0; for (const m of ms) for (const f of fs) s += A[m][f][k]; return s; };
+const sum3all = (A, ms, fs) => { let s = 0; for (const m of ms) for (const f of fs) for (const x of A[m][f]) s += x; return s; };
+const base = a => (a - 2024) * 12;
+const realMonths = a => { const r = []; for (let i = 0; i < 12; i++) { const m = base(a) + i; if (m >= 0 && m < NM && m <= CORTE) r.push(m); } return r; };
+const lastN = a => realMonths(a).length;
+const periodo = a => realMonths(a);
+const priorPeriodo = a => (a > 2024 ? realMonths(a - 1).slice(0, lastN(a)) : []);
+
+function tot(ms, fs) {
+  const br = sum2(BR, ms, fs), ds = sum2(DS, ms, fs), im = sum2(IM, ms, fs), rl = sum2(RL, ms, fs), cmv = sum2(CMV, ms, fs);
+  const desp = sum3all(DR, ms, fs), orc = sum3all(DO, ms, fs), meta = sum2(META, ms, fs);
+  return { br, ds, im, rl, cmv, lb: rl - cmv, desp, orc, meta, res: rl - cmv - desp };
+}
+const metVal = (k, ms, fs) => { const t = tot(ms, fs); return t[k]; };
+
+/* formatação */
+const nf1 = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+const nf0 = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 });
+const mi_ = v => 'R$ ' + nf1.format(v / 1e6) + ' mi';
+const brl = v => { const a = Math.abs(v); const s = v < 0 ? '−' : ''; return a >= 1e6 ? s + 'R$ ' + nf1.format(a / 1e6) + ' mi' : a >= 1e3 ? s + 'R$ ' + nf0.format(a / 1e3) + ' mil' : s + 'R$ ' + nf0.format(a); };
+const short = v => { const a = Math.abs(v); const s = v < 0 ? '−' : ''; return a >= 1e6 ? s + nf1.format(a / 1e6).replace(',0', '') + ' mi' : a >= 1e3 ? s + nf0.format(a / 1e3) + ' mil' : nf0.format(v); };
+const pct = v => nf1.format(v * 100) + '%';
+const pctS = v => (v >= 0 ? '+' : '−') + nf1.format(Math.abs(v) * 100) + '%';
+const colors = ['var(--s1)', 'var(--s2)', 'var(--s3)', 'var(--s4)', 'var(--s5)'];
+const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+
+/* dicas (tooltip) */
+function attachTip(el, svg, getHtml, getPos) {
+  const tip = el.querySelector('.tip');
+  svg.addEventListener('pointermove', e => {
+    const r = el.getBoundingClientRect(); const x = e.clientX - r.left;
+    const info = getPos(x, e.clientY - r.top);
+    if (!info) { tip.hidden = true; return; }
+    tip.innerHTML = getHtml(info.i); tip.hidden = false;
+    const w = tip.offsetWidth; let left = info.x + 14; if (left + w > r.width) left = info.x - w - 14;
+    tip.style.left = Math.max(0, left) + 'px'; tip.style.top = '8px';
+    el.querySelectorAll('[data-hl]').forEach(n => { n.style.display = Number(n.dataset.hl) === info.i ? '' : 'none'; });
+  });
+  svg.addEventListener('pointerleave', () => { tip.hidden = true; el.querySelectorAll('[data-hl]').forEach(n => { n.style.display = 'none'; }); });
+}
+function ticks(min, max, n = 4) {
+  const range = (max - min) || 1; const raw = range / n; const p = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1, 2, 2.5, 5, 10].map(f => f * p).find(s => s >= raw) || p;
+  const t = []; for (let v = Math.floor(min / step) * step; v <= max + step * .001; v += step) t.push(v);
+  return t;
+}
+
+/* ---------- gráfico de linhas ---------- */
+function lineChart(el, series, labels, opts) {
+  const w = Math.max(280, el.clientWidth), H = 250, m = { l: 48, r: 14, t: 10, b: 24 };
+  const vals = series.flatMap(s => s.v.filter(x => x !== null));
+  let lo = Math.min(0, ...vals), hi = Math.max(...vals, 1); const tk = ticks(lo, hi, 4); lo = tk[0]; hi = tk[tk.length - 1];
+  const X = i => m.l + (w - m.l - m.r) * i / (labels.length - 1), Y = v => m.t + (H - m.t - m.b) * (1 - (v - lo) / (hi - lo));
+  let g = tk.map(t => `<line class="gl" x1="${m.l}" x2="${w - m.r}" y1="${Y(t)}" y2="${Y(t)}"/><text class="tk" x="${m.l - 8}" y="${Y(t) + 4}" text-anchor="end">${short(t)}</text>`).join('');
+  g += `<line class="ax" x1="${m.l}" x2="${w - m.r}" y1="${Y(Math.max(lo, 0))}" y2="${Y(Math.max(lo, 0))}"/>`;
+  g += labels.map((l, i) => `<text class="tk" x="${X(i)}" y="${H - 6}" text-anchor="middle">${l}</text>`).join('');
+  let paths = '';
+  for (const s of series) {
+    let d = '', pen = false;
+    s.v.forEach((v, i) => { if (v === null) { pen = false; return; } d += (pen ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1); pen = true; });
+    paths += `<path d="${d}" fill="none" stroke="${s.color}" stroke-width="${s.w || 2}" stroke-linecap="round" stroke-linejoin="round" ${s.dash ? `stroke-dasharray="${s.dash}"` : ''}/>`;
+    if (s.end) { let li = -1; s.v.forEach((v, i) => { if (v !== null) li = i; }); if (li >= 0) paths += `<circle cx="${X(li)}" cy="${Y(s.v[li])}" r="4" fill="${s.color}" stroke="var(--surface)" stroke-width="2"/>`; }
+  }
+  const hl = labels.map((_, i) => `<g data-hl="${i}" style="display:none"><line x1="${X(i)}" x2="${X(i)}" y1="${m.t}" y2="${H - m.b}" stroke="var(--axis)" stroke-width="1"/>${series.map(s => s.v[i] === null ? '' : `<circle cx="${X(i)}" cy="${Y(s.v[i])}" r="4" fill="${s.color}" stroke="var(--surface)" stroke-width="2"/>`).join('')}</g>`).join('');
+  el.innerHTML = `<svg viewBox="0 0 ${w} ${H}" width="${w}" height="${H}" role="img" aria-label="${esc(opts.aria)}">${g}${paths}${hl}<rect x="${m.l}" y="0" width="${w - m.l - m.r}" height="${H}" fill="transparent"/></svg><div class="tip" hidden></div>`;
+  const svg = el.querySelector('svg');
+  attachTip(el, svg, i => `<b>${labels[i]}</b>` + series.map(s => s.v[i] === null ? '' : `<div><span class="k"><i class="sw" style="background:${s.color}"></i>${esc(s.name)}</span><span>${brl(s.v[i])}</span></div>`).join(''),
+    x => { const i = Math.round((x - m.l) / (w - m.l - m.r) * (labels.length - 1)); if (i < 0 || i >= labels.length) return null; return { i, x: X(i) }; });
+}
+
+/* ---------- colunas 100% empilhadas ---------- */
+function stackChart(el, qLabels, data, names) {
+  const w = Math.max(280, el.clientWidth), H = 230, m = { l: 36, r: 6, t: 8, b: 24 }, n = qLabels.length;
+  const slot = (w - m.l - m.r) / n, bw = Math.min(34, slot * .66);
+  const Y = p => m.t + (H - m.t - m.b) * (1 - p);
+  let g = [0, .25, .5, .75, 1].map(t => `<line class="gl" x1="${m.l}" x2="${w - m.r}" y1="${Y(t)}" y2="${Y(t)}"/><text class="tk" x="${m.l - 6}" y="${Y(t) + 4}" text-anchor="end">${t * 100}%</text>`).join('');
+  let bars = '';
+  data.forEach((col, i) => {
+    const tt = col.reduce((a, b) => a + b, 0) || 1; let acc = 0; const cx = m.l + slot * i + slot / 2;
+    col.forEach((v, k) => { const p0 = acc / tt, p1 = (acc + v) / tt; acc += v; const y1 = Y(p1), y0 = Y(p0); if (v > 0) bars += `<rect x="${cx - bw / 2}" y="${y1 + 1}" width="${bw}" height="${Math.max(0, y0 - y1 - 2)}" rx="2" fill="${colors[k + 0] ?? 'var(--s5)'}"/>`; });
+    if (i % (n > 8 ? 2 : 1) === 0) g += `<text class="tk" x="${cx}" y="${H - 6}" text-anchor="middle">${qLabels[i]}</text>`;
+  });
+  const hl = data.map((_, i) => `<rect data-hl="${i}" style="display:none" x="${m.l + slot * i}" y="${m.t}" width="${slot}" height="${H - m.t - m.b}" fill="var(--wash)" opacity=".5"/>`).join('');
+  el.innerHTML = `<svg viewBox="0 0 ${w} ${H}" width="${w}" height="${H}" role="img" aria-label="Participação de cada canal na receita por trimestre">${g}${hl}${bars}<rect x="${m.l}" y="0" width="${w - m.l - m.r}" height="${H}" fill="transparent"/></svg><div class="tip" hidden></div>`;
+  attachTip(el, el.querySelector('svg'), i => { const tt = data[i].reduce((a, b) => a + b, 0) || 1; return `<b>${qLabels[i]}</b>` + data[i].map((v, k) => `<div><span class="k"><i class="sw" style="background:${colors[k]}"></i>${esc(names[k])}</span><span>${pct(v / tt)}</span></div>`).join(''); },
+    x => { const i = Math.floor((x - m.l) / slot); return i >= 0 && i < n ? { i, x: m.l + slot * (i + .5) } : null; });
+}
+
+/* ---------- renderização ---------- */
+function render() {
+  const a = S.ano, ms = periodo(a), pms = priorPeriodo(a), fs = fl();
+  const T = tot(ms, fs), P = pms.length ? tot(pms, fs) : null;
+  const fname = S.fil === null ? 'todas as filiais' : D.filiais[S.fil];
+  const span = ms.length === 12 ? `${a}` : `${a} (jan–${MES[ms.length - 1]})`;
+
+  document.getElementById('lead').innerHTML = `Em <b>${span}</b>, ${esc(fname)}: receita líquida de <b>${mi_(T.rl)}</b>${P ? ` (${pctS(T.rl / P.rl - 1)} sobre o mesmo período de ${a - 1})` : ''}, margem bruta de <b>${pct(T.lb / T.rl)}</b> e resultado operacional de <b>${brl(T.res)}</b> (${pct(T.res / T.rl)} da receita).`;
+
+  /* KPIs */
+  const spark = (key) => {
+    const vals = [...Array(12).keys()].map(i => { const m = base(a) + i; return m <= CORTE ? metVal(key, [m], fs) : null; }).filter(v => v !== null);
+    if (vals.length < 2) return ''; const w = 70, h = 30, lo = Math.min(...vals), hi = Math.max(...vals), r = (hi - lo) || 1;
+    const pts = vals.map((v, i) => [2 + (w - 6) * i / (vals.length - 1), h - 4 - (h - 8) * (v - lo) / r]);
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><path d="${pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join('')}" fill="none" stroke="var(--s1)" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/><circle cx="${pts.at(-1)[0]}" cy="${pts.at(-1)[1]}" r="3" fill="var(--s1)" stroke="var(--surface)" stroke-width="1.5"/></svg>`;
+  };
+  const dlt = (cur, prev, goodUp = true, neutral = false) => { if (!prev) return '<span class="delta">sem ano anterior</span>'; const d = cur / prev - 1; const up = d >= 0; const cls = neutral ? '' : ((up === goodUp) ? 'up' : 'down'); return `<span class="delta ${cls}"><i>${up ? '▲' : '▼'}</i>${pctS(d)} vs ${a - 1}</span>`; };
+  const ating = T.meta ? T.rl / T.meta : null;
+  const kp = [
+    ['Receita líquida', mi_(T.rl), dlt(T.rl, P && P.rl), `Ticket de dados: ${ms.length} meses`, spark('rl')],
+    ['Lucro bruto', mi_(T.lb), dlt(T.lb, P && P.lb), `Margem bruta ${pct(T.lb / T.rl)}`, spark('lb')],
+    ['Despesas', mi_(T.desp), dlt(T.desp, P && P.desp, false, true), `${pct(T.desp / T.rl)} da receita`, spark('desp')],
+    ['Resultado operacional', brl(T.res), P ? dlt(T.res, P.res) : '<span class="delta">sem ano anterior</span>', `Margem operacional ${pct(T.res / T.rl)}`, spark('res')],
+    ['Atingimento da meta', ating === null ? '—' : pct(ating), ating === null ? '' : `<span class="delta ${ating >= 1 ? 'up' : 'down'}"><i>${ating >= 1 ? '▲' : '▼'}</i>${ating >= 1 ? 'meta batida' : 'abaixo da meta'}</span>`, ating === null ? '' : `Gap ${brl(T.rl - T.meta)}`, ''],
+  ];
+  kp[0][3] = `${ms.length} ${ms.length === 1 ? 'mês realizado' : 'meses realizados'}`;
+  document.getElementById('kpis').innerHTML = kp.map(k => `<div class="card kpi"><span class="lab">${k[0]}</span><div class="row"><span class="val">${k[1]}</span>${k[4]}</div><div class="row"><span class="note">${k[3]}</span>${k[2]}</div></div>`).join('');
+
+  /* linha mensal */
+  const mt = METS.find(x => x[0] === S.met);
+  document.getElementById('t-line').textContent = `${mt[1]} por mês · ${a}`;
+  document.getElementById('s-line').textContent = `${fname[0].toUpperCase() + fname.slice(1)} · linha cheia = realizado, tracejada = ${a - 1}${S.met === 'rl' ? ', pontilhada = meta' : ''}`;
+  const cur = [...Array(12).keys()].map(i => { const m = base(a) + i; return m <= CORTE ? metVal(S.met, [m], fs) : null; });
+  const prv = [...Array(12).keys()].map(i => { const m = base(a - 1) + i; return a > 2024 && m <= CORTE ? metVal(S.met, [m], fs) : null; });
+  const mta = [...Array(12).keys()].map(i => { const m = base(a) + i; return S.met === 'rl' ? sum2(META, [m], fs) || null : null; });
+  const series = [{ name: String(a), v: cur, color: 'var(--s1)', w: 2.25, end: true }];
+  if (a > 2024) series.push({ name: String(a - 1), v: prv, color: 'var(--muted)', dash: '5 4', w: 1.5 });
+  if (S.met === 'rl') series.push({ name: 'Meta', v: mta, color: 'var(--s2)', dash: '1.5 4', w: 2 });
+  lineChart(document.getElementById('ch-line'), series, MES, { aria: `${mt[1]} por mês em ${a}` });
+  document.getElementById('lg-line').innerHTML = series.map(s => `<span><i class="${s.dash ? (s.dash.startsWith('1.5') ? 'dot' : 'dash') : ''}" style="border-color:${s.color}"></i>${s.name}</span>`).join('');
+  document.getElementById('tb-line').innerHTML = `<table><thead><tr><th>Mês</th>${series.map(s => `<th>${s.name}</th>`).join('')}</tr></thead><tbody>${MES.map((l, i) => `<tr><td>${l}</td>${series.map(s => `<td>${s.v[i] === null ? '—' : brl(s.v[i])}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+
+  /* filiais */
+  document.getElementById('t-fil').textContent = `${mt[1]} por filial`;
+  const fv = D.filiais.map((n, i) => ({ n, i, v: metVal(S.met, ms, [i]), meta: sum2(META, ms, [i]), rl: sum2(RL, ms, [i]) })).filter(o => o.v !== 0 || sum2(RL, ms, [o.i]) > 0).sort((x, y) => y.v - x.v);
+  const fmax = Math.max(...fv.map(o => Math.abs(o.v)), 1), ftot = fv.reduce((s, o) => s + o.v, 0);
+  document.getElementById('ch-fil').innerHTML = fv.map(o => {
+    const note = S.met === 'rl' && o.meta ? `${pct(o.rl / o.meta)} da meta` : (ftot ? `${pct(o.v / ftot)} do total` : '');
+    return `<button class="r ${S.fil === null ? '' : (S.fil === o.i ? 'sel' : 'dim')}" data-f="${o.i}" aria-pressed="${S.fil === o.i}"><span class="nm">${esc(o.n)}</span><span class="trk"><span class="bar" style="width:${Math.abs(o.v) / fmax * 100}%;background:${o.v < 0 ? 'var(--crit)' : 'var(--s1)'}"></span></span><span class="vl">${brl(o.v)}<small>${note}</small></span></button>`;
+  }).join('');
+
+  /* categorias */
+  const cv = D.cats.map((n, k) => { const rl = sum3(RLc, ms, fs, k), cm = sum3(CMVc, ms, fs, k); return { n, k, rl, mg: rl ? (rl - cm) / rl : 0 }; }).sort((x, y) => y.rl - x.rl);
+  const cmax = Math.max(...cv.map(o => o.rl), 1);
+  document.getElementById('ch-cat').innerHTML = cv.map(o => `<div class="r"><span class="nm">${esc(o.n)}</span><span class="trk"><span class="bar" style="width:${o.rl / cmax * 100}%;background:${colors[o.k]}"></span></span><span class="vl">${brl(o.rl)}<small>margem ${pct(o.mg)}</small></span></div>`).join('');
+
+  /* canais por trimestre (todo o histórico) */
+  const qs = []; for (let q = 0; q * 3 <= CORTE; q++) { const ids = [q * 3, q * 3 + 1, q * 3 + 2].filter(m => m <= CORTE); qs.push({ l: `T${q % 4 + 1}/${String(2024 + Math.floor(q / 4)).slice(2)}`, ids }); }
+  const qd = qs.map(q => D.canais.map((_, k) => sum3(RLk, q.ids, fs, k)));
+  document.getElementById('lg-can').innerHTML = D.canais.map((n, k) => `<span><i class="sw" style="background:${colors[k]}"></i>${esc(n)}</span>`).join('');
+  stackChart(document.getElementById('ch-can'), qs.map(q => q.l), qd, D.canais);
+
+  /* orçado x realizado */
+  document.getElementById('s-orc').textContent = `${span} · ${fname}`;
+  const og = D.grupos.map((n, g) => ({ n, r: sum3(DR, ms, fs, g), o: sum3(DO, ms, fs, g) })), omax = Math.max(...og.flatMap(o => [o.r, o.o]), 1);
+  document.getElementById('ch-orc').innerHTML = og.map(o => {
+    const x = o.o ? o.r / o.o : 0; const st = x > 1.1 ? ['var(--crit)', '▲', `Estourou ${pct(x - 1)}`] : x > 1 ? ['var(--warn)', '▲', `Acima ${pct(x - 1)}`] : ['var(--good)', '●', 'Dentro do orçado'];
+    return `<div class="obr"><span class="nm">${esc(o.n.replace('Despesas ', 'Desp. '))}</span><div class="bars"><div style="width:${o.o / omax * 100}%;background:var(--bar-neutral)" title="Orçado"></div><div style="width:${o.r / omax * 100}%;background:var(--s1)" title="Realizado"></div></div><span class="chip"><i style="color:${st[0]}">${st[1]}</i>${brl(o.r)} · ${st[2]}</span></div>`;
+  }).join('') + `<div class="legend" style="margin:8px 0 0"><span><i class="sw" style="background:var(--bar-neutral)"></i>Orçado</span><span><i class="sw" style="background:var(--s1)"></i>Realizado</span></div>`;
+
+  /* DRE cascata */
+  document.getElementById('s-dre').textContent = `${span} · ${fname}`;
+  const dg = D.grupos.map((n, g) => sum3(DR, ms, fs, g));
+  const steps = [['Receita bruta', T.br, 't'], ['(−) Descontos', -T.ds, 'd'], ['(−) Impostos', -T.im, 'd'], ['(−) Custo dos produtos', -T.cmv, 'd'], ...D.grupos.map((n, g) => ['(−) ' + n.replace('Despesas ', ''), -dg[g], 'd']), ['Resultado operacional', T.res, 't']];
+  let run = 0; const sc = Math.max(T.br, 1);
+  document.getElementById('ch-dre').innerHTML = steps.map(([n, v, t]) => {
+    let from, to; if (t === 't') { from = Math.min(0, v); to = Math.max(0, v); if (n === 'Receita bruta') run = v; else run = v; } else { from = run + v; to = run; run += v; }
+    const left = Math.max(0, from) / sc * 100, wd = (Math.min(to, sc) - Math.max(from, 0)) / sc * 100;
+    const neg = t === 't' && v < 0;
+    return `<div class="r"><span class="nm">${esc(n)}</span><span class="trk"><span class="bar" style="left:${left}%;width:${Math.max(.6, Math.abs(wd))}%;border-radius:3px;background:${t === 't' ? (neg ? 'var(--crit)' : 'var(--s1)') : 'var(--bar-neutral)'}"></span></span><span class="vl">${brl(v)}</span></div>`;
+  }).join('');
+
+  /* simulador */
+  const dp = Number(document.getElementById('p-preco').value) / 100, dv = Number(document.getElementById('p-vol').value) / 100, dc = Number(document.getElementById('p-custo').value) / 100, dd = Number(document.getElementById('p-desp').value) / 100;
+  ['preco', 'vol', 'custo', 'desp'].forEach(k => { const v = Number(document.getElementById('p-' + k).value); document.getElementById('o-' + k).textContent = (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v) + '%'; });
+  const fix = sum3(DRt, ms, fs, 0), vr = sum3(DRt, ms, fs, 1);
+  const rlS = T.rl * (1 + dv) * (1 + dp), cmS = T.cmv * (1 + dv) * (1 + dc), dsS = (vr * (1 + dv) + fix) * (1 + dd), resS = rlS - cmS - dsS;
+  const dif = resS - T.res;
+  document.getElementById('sim-out').innerHTML = [
+    ['Receita líquida', `${mi_(rlS)}`, `base ${mi_(T.rl)}`], ['Despesas', `${mi_(dsS)}`, `base ${mi_(T.desp)}`],
+    ['Resultado operacional', brl(resS), `base ${brl(T.res)}`], ['Margem operacional', pct(resS / rlS), `base ${pct(T.res / T.rl)}`],
+    ['Diferença no resultado', `<span class="delta ${dif >= 0 ? 'up' : 'down'}" style="font-size:18px;font-weight:650;color:var(--ink)"><i>${dif >= 0 ? '▲' : '▼'}</i>${brl(dif)}</span>`, ''],
+  ].map(o => `<div class="out"><span>${o[0]}${o[2] ? ` <small style="color:var(--muted)">· ${o[2]}</small>` : ''}</span><b>${o[1]}</b></div>`).join('');
+}
+
+/* controles */
+const segAno = document.getElementById('seg-ano'), segMet = document.getElementById('seg-met'), selF = document.getElementById('sel-filial');
+function drawCtl() {
+  segAno.innerHTML = [2024, 2025, 2026].map(y => `<button data-y="${y}" aria-pressed="${S.ano === y}">${y}</button>`).join('');
+  segMet.innerHTML = METS.map(([k, n]) => `<button data-m="${k}" aria-pressed="${S.met === k}">${n}</button>`).join('');
+  selF.innerHTML = `<option value="">Todas as filiais</option>` + D.filiais.map((n, i) => `<option value="${i}" ${S.fil === i ? 'selected' : ''}>${esc(n)}</option>`).join('');
+}
+segAno.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { S.ano = Number(b.dataset.y); drawCtl(); render(); } });
+segMet.addEventListener('click', e => { const b = e.target.closest('button'); if (b) { S.met = b.dataset.m; drawCtl(); render(); } });
+selF.addEventListener('change', () => { S.fil = selF.value === '' ? null : Number(selF.value); render(); });
+document.getElementById('ch-fil').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; const f = Number(b.dataset.f); S.fil = S.fil === f ? null : f; drawCtl(); render(); });
+document.getElementById('sim-in').addEventListener('input', render);
+let lastW = 0; new ResizeObserver(() => { const w = document.querySelector('.wrap').clientWidth; if (Math.abs(w - lastW) > 8) { lastW = w; render(); } }).observe(document.querySelector('.wrap'));
+drawCtl(); render();
+</script>

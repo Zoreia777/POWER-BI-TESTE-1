@@ -1,0 +1,25 @@
+id_vendedor,nome_vendedor,equipe,cargo,data_admissao
+1,João Pereira Rodrigues,Equipe São Paulo,Pleno,2020-02-01
+2,Queila Gomes Pereira,Equipe São Paulo,Pleno,2023-01-01
+3,Karina Campos,Equipe São Paulo,Sênior,2019-08-01
+4,Mariana Gomes Campos,Equipe São Paulo,Pleno,2020-03-01
+5,Olívia Barros Oliveira,Equipe São Paulo,Pleno,2019-04-01
+6,Rafael Martins Alves,Equipe Rio de Janeiro,Pleno,2020-07-01
+7,Bruno Fernandes Barbosa,Equipe Rio de Janeiro,Pleno,2021-08-01
+8,Úrsula Campos Carvalho,Equipe Rio de Janeiro,Sênior,2021-10-01
+9,Beatriz Martins Costa,Equipe Belo Horizonte,Sênior,2022-04-01
+10,Mariana Freitas Freitas,Equipe Belo Horizonte,Pleno,2023-04-01
+11,Sofia Campos,Equipe Belo Horizonte,Pleno,2019-10-01
+12,João Silva Cardoso,Equipe Curitiba,Pleno,2019-12-01
+13,Daniel Araújo,Equipe Curitiba,Pleno,2020-02-01
+14,Igor Costa,Equipe Curitiba,Sênior,2019-04-01
+15,Yasmin Oliveira,Equipe Porto Alegre,Júnior,2019-01-01
+16,Eduardo Martins,Equipe Porto Alegre,Pleno,2021-09-01
+17,Carla Nascimento,Equipe Brasília,Pleno,2019-05-01
+18,Wesley Monteiro,Equipe Brasília,Júnior,2022-01-01
+19,Bruno Carvalho Oliveira,Equipe Brasília,Júnior,2020-05-01
+20,Leonardo Mendes,Equipe Salvador,Pleno,2025-02-03
+21,Gustavo Lima Gomes,Equipe Salvador,Sênior,2025-02-03
+22,Yasmin Araújo,Equipe Recife,Pleno,2024-06-03
+23,Thiago Martins Dias,Equipe Recife,Pleno,2024-06-03
+24,Atendimento Digital,Equipe Digital,Pleno,2021-01-01

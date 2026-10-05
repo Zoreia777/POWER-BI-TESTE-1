@@ -1,0 +1,9 @@
+id_departamento,departamento,centro_custo,responsavel,tipo_area
+1,Comercial,CC-100,Fernanda Costa,Área-fim
+2,Marketing,CC-200,Mariana Martins Mendes,Área-fim
+3,Tecnologia da Informação,CC-300,Mariana Moreira,Suporte
+4,Recursos Humanos,CC-400,Débora Freitas,Suporte
+5,Financeiro,CC-500,Gabriela Oliveira,Suporte
+6,Operações & Logística,CC-600,Karina Freitas,Área-fim
+7,Administrativo,CC-700,Igor Monteiro Barbosa,Suporte
+8,Pesquisa & Desenvolvimento,CC-800,Wesley Moreira Gomes,Área-fim

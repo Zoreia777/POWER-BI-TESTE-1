@@ -1,0 +1,651 @@
+id_cliente,nome_cliente,segmento,cidade,uf,regiao,data_cadastro,data_primeira_compra
+1,Unidade Logística ME,Média Empresa,Curitiba,PR,Sul,2024-01-04,2024-01-05
+2,Zeca Fernandes Campos,Consumidor Final,São Paulo,SP,Sudeste,2023-12-23,2024-01-06
+3,Carla Castro Santos,Consumidor Final,São Paulo,SP,Sudeste,2023-12-24,2024-01-06
+4,Jaguar Comércio S.A.,Pequena Empresa,Sorocaba,SP,Sudeste,2024-01-08,2024-01-26
+5,Thiago Martins Pinto,Consumidor Final,Ribeirão Preto,SP,Sudeste,2024-01-03,2024-01-05
+6,Bruno Araújo Rodrigues,Consumidor Final,Londrina,PR,Sul,2024-01-15,2024-01-25
+7,Unidade Serviços Ltda,Média Empresa,Brasília,DF,Centro-Oeste,2023-12-21,2024-01-05
+8,Sigma Agro Ltda,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-24,2024-02-08
+9,Leonardo Rodrigues Mendes,Consumidor Final,São Paulo,SP,Sudeste,2024-01-22,2024-02-05
+10,Helix Alimentos Ltda,Pequena Empresa,Salvador,BA,Nordeste,2025-03-16,2025-03-19
+11,Rafael Cavalcanti,Consumidor Final,São José dos Campos,SP,Sudeste,2024-01-01,2024-01-20
+12,Íris Engenharia S.A.,Pequena Empresa,Feira de Santana,BA,Nordeste,2024-05-11,2024-05-21
+13,Zeca Carvalho Oliveira,Consumidor Final,Santos,SP,Sudeste,2024-02-06,2024-02-14
+14,Felipe Carvalho Souza,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-04-28,2024-05-07
+15,Lumen Engenharia EPP,Pequena Empresa,Uberlândia,MG,Sudeste,2024-01-16,2024-01-25
+16,Aurora Construções ME,Média Empresa,Belo Horizonte,MG,Sudeste,2023-12-27,2024-01-03
+17,Nimbus Logística S.A.,Pequena Empresa,Águas Claras,DF,Centro-Oeste,2024-01-17,2024-02-06
+18,Thiago Pereira Souza,Consumidor Final,São Paulo,SP,Sudeste,2024-01-09,2024-01-11
+19,Granito Tecnologia Ltda,Corporativo,Santos,SP,Sudeste,2023-12-17,2024-01-02
+20,Vinícius Santos,Consumidor Final,Juiz de Fora,MG,Sudeste,2024-09-13,2024-10-01
+21,Paulo Pinto,Consumidor Final,São Paulo,SP,Sudeste,2024-01-18,2024-02-01
+22,Nexo Construções Ltda,Média Empresa,Olinda,PE,Nordeste,2023-12-21,2024-01-04
+23,Thiago Alves Monteiro,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-01,2024-02-05
+24,Daniel Gomes,Consumidor Final,Feira de Santana,BA,Nordeste,2024-03-06,2024-03-08
+25,Alfa Saúde ME,Corporativo,Rio de Janeiro,RJ,Sudeste,2023-12-18,2024-01-04
+26,Débora Pereira Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2024-01-05,2024-01-19
+27,Unidade Contabilidade S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2024-02-13,2024-02-14
+28,Lucas Santos Ribeiro,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-05-25,2024-06-11
+29,Vanguarda Saúde S.A.,Média Empresa,Salvador,BA,Nordeste,2024-04-17,2024-05-04
+30,Gustavo Ribeiro Oliveira,Consumidor Final,Feira de Santana,BA,Nordeste,2024-01-01,2024-01-03
+31,Nicolas Souza Barbosa,Consumidor Final,Uberlândia,MG,Sudeste,2024-01-20,2024-01-29
+32,Radar Serviços S.A.,Média Empresa,Pelotas,RS,Sul,2024-01-02,2024-01-18
+33,Olívia Cavalcanti,Consumidor Final,Vitória da Conquista,BA,Nordeste,2024-12-14,2024-12-22
+34,Sigma Contabilidade EPP,Pequena Empresa,Belo Horizonte,MG,Sudeste,2024-06-16,2024-06-24
+35,Helix Contabilidade Ltda,Pequena Empresa,Porto Alegre,RS,Sul,2024-01-09,2024-01-17
+36,Isabela Mendes Araújo,Consumidor Final,São Paulo,SP,Sudeste,2023-12-28,2024-01-17
+37,Queila Lima,Consumidor Final,Recife,PE,Nordeste,2025-11-05,2025-11-21
+38,Débora Lima Cardoso,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-30,2024-02-03
+39,Isabela Campos Almeida,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-14,2024-01-22
+40,Helena Costa Rocha,Consumidor Final,São Paulo,SP,Sudeste,2023-12-29,2024-01-09
+41,Isabela Castro Alves,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-04,2024-01-16
+42,Felipe Santos,Consumidor Final,São José dos Campos,SP,Sudeste,2024-02-29,2024-03-07
+43,Topázio Comércio ME,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-07-07,2024-07-24
+44,Delta Comércio S.A.,Pequena Empresa,Porto Alegre,RS,Sul,2024-05-04,2024-05-13
+45,Nicolas Dias,Consumidor Final,Porto Alegre,RS,Sul,2024-01-12,2024-01-18
+46,Unidade Construções EPP,Pequena Empresa,Curitiba,PR,Sul,2023-12-31,2024-01-17
+47,Nexo Serviços EPP,Pequena Empresa,São Paulo,SP,Sudeste,2024-02-01,2024-02-21
+48,Bruno Castro,Consumidor Final,Curitiba,PR,Sul,2024-01-26,2024-02-01
+49,Fênix Engenharia S.A.,Média Empresa,Brasília,DF,Centro-Oeste,2023-12-24,2024-01-06
+50,Felipe Carvalho Freitas,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-28,2024-02-07
+51,Bruno Barbosa Cardoso,Consumidor Final,Maringá,PR,Sul,2024-03-24,2024-04-03
+52,Lucas Mendes Martins,Consumidor Final,Feira de Santana,BA,Nordeste,2025-02-23,2025-03-03
+53,Zeca Cavalcanti Moreira,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-07-02,2024-07-08
+54,Igor Rodrigues Barros,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-21,2024-03-11
+55,Yasmin Dias Pinto,Consumidor Final,Ceilândia,DF,Centro-Oeste,2024-06-06,2024-06-13
+56,Nexo Comércio Ltda,Média Empresa,São Paulo,SP,Sudeste,2024-01-09,2024-01-28
+57,Domínio Indústria Ltda,Corporativo,Contagem,MG,Sudeste,2023-12-21,2024-01-09
+58,Eduarda Rodrigues,Consumidor Final,Ceilândia,DF,Centro-Oeste,2024-02-24,2024-03-11
+59,Mariana Souza Gomes,Consumidor Final,Sorocaba,SP,Sudeste,2024-01-31,2024-02-09
+60,Caio Nascimento Oliveira,Consumidor Final,Niterói,RJ,Sudeste,2024-01-15,2024-02-01
+61,Eduarda Cardoso Barros,Consumidor Final,Recife,PE,Nordeste,2024-09-27,2024-09-27
+62,Thiago Ribeiro,Consumidor Final,Feira de Santana,BA,Nordeste,2025-10-28,2025-10-29
+63,Juliana Barros,Consumidor Final,Recife,PE,Nordeste,2024-04-13,2024-04-23
+64,Estrela Digital EPP,Pequena Empresa,Olinda,PE,Nordeste,2024-09-05,2024-09-24
+65,Débora Souza,Consumidor Final,Curitiba,PR,Sul,2024-02-01,2024-02-14
+66,Estrela Engenharia EPP,Pequena Empresa,Belo Horizonte,MG,Sudeste,2024-02-26,2024-03-15
+67,Caio Carvalho,Consumidor Final,São Paulo,SP,Sudeste,2023-05-20,
+68,Solaris Indústria EPP,Pequena Empresa,Curitiba,PR,Sul,2024-01-09,2024-01-17
+69,Henrique Dias Alves,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-19,2024-01-26
+70,Sigma Digital ME,Corporativo,Canoas,RS,Sul,2023-12-25,2024-01-11
+71,Nimbus Saúde ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-05,2024-01-13
+72,Leonardo Costa,Consumidor Final,Porto Alegre,RS,Sul,2024-02-08,2024-02-20
+73,Bruno Alves Alves,Consumidor Final,São Paulo,SP,Sudeste,2024-01-11,2024-01-18
+74,Solaris Serviços EPP,Pequena Empresa,São Paulo,SP,Sudeste,2024-02-10,2024-02-24
+75,Lumen Logística S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-17,2024-01-04
+76,Igor Cavalcanti,Consumidor Final,Uberlândia,MG,Sudeste,2024-04-23,2024-04-30
+77,Orbital Alimentos Ltda,Pequena Empresa,Sorocaba,SP,Sudeste,2024-01-07,2024-01-15
+78,Jaguar Alimentos Ltda,Média Empresa,Brasília,DF,Centro-Oeste,2024-02-17,2024-02-24
+79,Fênix Advocacia EPP,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-02-02,2024-02-17
+80,Prisma Serviços ME,Pequena Empresa,Recife,PE,Nordeste,2024-06-02,2024-06-13
+81,Pioneira Digital EPP,Pequena Empresa,Maringá,PR,Sul,2024-03-05,2024-03-13
+82,Unidade Construções Ltda,Pequena Empresa,Volta Redonda,RJ,Sudeste,2024-01-02,2024-01-02
+83,Olívia Rocha Rodrigues,Consumidor Final,Recife,PE,Nordeste,2024-07-01,2024-07-01
+84,Carla Moreira,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-10,2024-01-27
+85,Igor Castro,Consumidor Final,Caruaru,PE,Nordeste,2025-01-26,2025-02-01
+86,Sofia Oliveira,Consumidor Final,São Paulo,SP,Sudeste,2024-06-23,2024-07-13
+87,Alfa Serviços S.A.,Corporativo,Jaboatão dos Guararapes,PE,Nordeste,2024-03-18,2024-03-22
+88,Débora Nascimento Silva,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-06-16,2024-06-25
+89,Débora Martins,Consumidor Final,Curitiba,PR,Sul,2024-12-19,2024-12-30
+90,Aurora Educação ME,Média Empresa,Recife,PE,Nordeste,2024-08-03,2024-08-03
+91,Kappa Alimentos S.A.,Pequena Empresa,Taguatinga,DF,Centro-Oeste,2023-12-21,2024-01-02
+92,Pioneira Digital ME,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-30,2024-01-05
+93,Zeca Nascimento Dias,Consumidor Final,Curitiba,PR,Sul,2023-12-28,2024-01-07
+94,Nicolas Campos Cardoso,Consumidor Final,Salvador,BA,Nordeste,2024-01-02,2024-01-20
+95,Aurora Alimentos EPP,Pequena Empresa,São José dos Campos,SP,Sudeste,2024-01-03,2024-01-20
+96,Cadência Indústria Ltda,Média Empresa,Ceilândia,DF,Centro-Oeste,2024-01-06,2024-01-14
+97,Delta Saúde ME,Pequena Empresa,Curitiba,PR,Sul,2023-12-18,2024-01-02
+98,Sofia Barros Carvalho,Consumidor Final,Pelotas,RS,Sul,2024-01-19,2024-01-19
+99,João Almeida Freitas,Consumidor Final,Curitiba,PR,Sul,2024-02-08,2024-02-13
+100,Karina Rocha,Consumidor Final,Porto Alegre,RS,Sul,2024-09-11,2024-09-11
+101,Vinícius Oliveira Pinto,Consumidor Final,Vitória da Conquista,BA,Nordeste,2025-02-25,2025-03-10
+102,Atlas Digital S.A.,Média Empresa,Maringá,PR,Sul,2024-02-11,2024-02-14
+103,Queila Campos Rodrigues,Consumidor Final,Jaboatão dos Guararapes,PE,Nordeste,2025-11-25,2025-11-27
+104,Gabriela Nascimento Cavalcanti,Consumidor Final,Ponta Grossa,PR,Sul,2023-12-25,2024-01-05
+105,Unidade Advocacia S.A.,Pequena Empresa,Belo Horizonte,MG,Sudeste,2024-04-14,2024-05-03
+106,Solaris Digital EPP,Média Empresa,São Paulo,SP,Sudeste,2024-02-23,2024-03-14
+107,Mariana Martins Barbosa,Consumidor Final,Brasília,DF,Centro-Oeste,2024-02-13,2024-02-28
+108,Leonardo Cavalcanti,Consumidor Final,Canoas,RS,Sul,2024-01-20,2024-02-01
+109,Beatriz Gomes,Consumidor Final,Vitória da Conquista,BA,Nordeste,2025-07-11,2025-07-18
+110,Zênite Consultoria EPP,Média Empresa,São Paulo,SP,Sudeste,2024-02-27,2024-03-05
+111,Lumen Agro Ltda,Pequena Empresa,Recife,PE,Nordeste,2024-09-09,2024-09-14
+112,João Monteiro Barbosa,Consumidor Final,Curitiba,PR,Sul,2024-02-26,2024-03-14
+113,Mosaico Serviços S.A.,Média Empresa,Belo Horizonte,MG,Sudeste,2024-01-01,2024-01-10
+114,Juliana Cavalcanti,Consumidor Final,São Paulo,SP,Sudeste,2024-02-23,2024-02-28
+115,Vértice Contabilidade S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-16,2024-01-02
+116,Alfa Saúde S.A.,Média Empresa,Salvador,BA,Nordeste,2025-08-19,2025-08-25
+117,Domínio Logística S.A.,Corporativo,Rio de Janeiro,RJ,Sudeste,2023-12-25,2024-01-02
+118,Atlas Advocacia S.A.,Média Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-24,2024-01-02
+119,Lucas Almeida,Consumidor Final,Ribeirão Preto,SP,Sudeste,2024-03-10,2024-03-14
+120,Igor Ribeiro,Consumidor Final,Curitiba,PR,Sul,2024-02-17,2024-02-22
+121,Radar Saúde Ltda,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-01-02,2024-01-02
+122,Ana Pereira,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-21,2024-01-30
+123,Yasmin Moreira,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-18,2024-01-27
+124,Mariana Gomes,Consumidor Final,Ceilândia,DF,Centro-Oeste,2023-12-26,2024-01-10
+125,Lumen Construções EPP,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-06-18,2024-06-21
+126,Estrela Engenharia S.A.,Média Empresa,Volta Redonda,RJ,Sudeste,2024-01-10,2024-01-23
+127,Wesley Pinto Monteiro,Consumidor Final,São Paulo,SP,Sudeste,2023-12-31,2024-01-17
+128,Nexo Logística ME,Pequena Empresa,Lauro de Freitas,BA,Nordeste,2024-03-07,2024-03-18
+129,Sigma Engenharia ME,Pequena Empresa,Curitiba,PR,Sul,2024-01-04,2024-01-20
+130,Cadência Serviços Ltda,Pequena Empresa,Salvador,BA,Nordeste,2024-04-05,2024-04-23
+131,Gabriela Freitas Mendes,Consumidor Final,Maringá,PR,Sul,2023-12-27,2024-01-15
+132,Leonardo Silva Oliveira,Consumidor Final,Santos,SP,Sudeste,2024-02-10,2024-02-18
+133,Thiago Pereira Monteiro,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-04-14,2024-04-23
+134,Íris Digital Ltda,Corporativo,Sorocaba,SP,Sudeste,2024-01-02,2024-01-16
+135,Paulo Mendes,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-12,2024-01-31
+136,Lucas Campos Moreira,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-06-27,2024-06-29
+137,Leonardo Lima,Consumidor Final,Salvador,BA,Nordeste,2025-04-05,2025-04-11
+138,Ana Almeida,Consumidor Final,Santos,SP,Sudeste,2024-09-05,2024-09-05
+139,Juliana Rodrigues,Consumidor Final,Porto Alegre,RS,Sul,2024-12-04,2024-12-15
+140,Unidade Alimentos Ltda,Média Empresa,São Paulo,SP,Sudeste,2023-12-17,2024-01-02
+141,Yasmin Freitas Martins,Consumidor Final,São José dos Campos,SP,Sudeste,2024-01-04,2024-01-05
+142,Granito Tecnologia ME,Média Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-24,2024-01-09
+143,Sofia Mendes,Consumidor Final,Recife,PE,Nordeste,2026-05-26,2026-05-29
+144,Ana Martins Ribeiro,Consumidor Final,São Paulo,SP,Sudeste,2024-05-14,2024-05-14
+145,Ômega Advocacia S.A.,Corporativo,Curitiba,PR,Sul,2023-12-18,2024-01-03
+146,Delta Contabilidade EPP,Média Empresa,São Paulo,SP,Sudeste,2024-01-13,2024-01-18
+147,Isabela Castro Souza,Consumidor Final,Águas Claras,DF,Centro-Oeste,2024-01-06,2024-01-16
+148,Solaris Engenharia EPP,Pequena Empresa,Salvador,BA,Nordeste,2024-04-02,2024-04-11
+149,Unidade Serviços ME,Média Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-27,2024-01-16
+150,Radar Consultoria Ltda,Pequena Empresa,Lauro de Freitas,BA,Nordeste,2024-05-05,2024-05-08
+151,Aurora Advocacia ME,Média Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-31,2024-01-06
+152,Radar Digital Ltda,Pequena Empresa,Salvador,BA,Nordeste,2025-01-02,2025-01-20
+153,Eduardo Souza Costa,Consumidor Final,São Paulo,SP,Sudeste,2026-03-22,2026-03-30
+154,Ana Ribeiro Ribeiro,Consumidor Final,São Paulo,SP,Sudeste,2024-07-18,2024-07-23
+155,Vinícius Pereira,Consumidor Final,Recife,PE,Nordeste,2024-03-27,2024-03-28
+156,Débora Costa Fernandes,Consumidor Final,Sorocaba,SP,Sudeste,2024-01-19,2024-01-26
+157,Bruno Barbosa Lima,Consumidor Final,Brasília,DF,Centro-Oeste,2024-05-30,2024-06-10
+158,Gustavo Gomes Alves,Consumidor Final,Vitória da Conquista,BA,Nordeste,2025-01-28,2025-02-06
+159,Granito Indústria S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-26,2024-02-01
+160,Vanguarda Advocacia Ltda,Pequena Empresa,Recife,PE,Nordeste,2024-09-01,2024-09-12
+161,Bruno Gomes,Consumidor Final,Porto Alegre,RS,Sul,2024-01-24,2024-02-06
+162,Granito Agro ME,Média Empresa,Águas Claras,DF,Centro-Oeste,2023-12-25,2024-01-09
+163,Aurora Contabilidade ME,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-02-10,2024-02-19
+164,Ômega Logística ME,Média Empresa,Belo Horizonte,MG,Sudeste,2023-12-31,2024-01-17
+165,Quasar Educação EPP,Pequena Empresa,Pelotas,RS,Sul,2023-12-30,2024-01-12
+166,Eduardo Rodrigues Cardoso,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-13,2024-01-31
+167,Ana Oliveira Silva,Consumidor Final,Recife,PE,Nordeste,2024-06-28,2024-06-28
+168,Carla Monteiro Alves,Consumidor Final,Salvador,BA,Nordeste,2024-01-02,2024-01-04
+169,Wesley Nascimento Pinto,Consumidor Final,São Paulo,SP,Sudeste,2024-03-17,2024-03-22
+170,Atlas Educação Ltda,Pequena Empresa,Curitiba,PR,Sul,2023-12-18,2024-01-05
+171,Helix Logística ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-09,2024-01-26
+172,Prisma Engenharia ME,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-02-17,2024-02-21
+173,Eduarda Moreira Oliveira,Consumidor Final,Juiz de Fora,MG,Sudeste,2023-12-29,2024-01-12
+174,Mosaico Indústria Ltda,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-01-08,2024-01-18
+175,Helix Indústria S.A.,Corporativo,São Paulo,SP,Sudeste,2024-01-06,2024-01-09
+176,Thiago Barbosa,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-06-02,2024-06-21
+177,Alfa Alimentos S.A.,Pequena Empresa,Belo Horizonte,MG,Sudeste,2024-01-18,2024-02-07
+178,Mariana Barbosa Pereira,Consumidor Final,Recife,PE,Nordeste,2024-02-03,2024-02-22
+179,Úrsula Ribeiro Rodrigues,Consumidor Final,São Paulo,SP,Sudeste,2024-01-01,2024-01-02
+180,Atlas Agro EPP,Pequena Empresa,Juiz de Fora,MG,Sudeste,2023-12-27,2024-01-12
+181,Ana Souza Rocha,Consumidor Final,Curitiba,PR,Sul,2024-01-28,2024-02-10
+182,Ômega Logística Ltda,Pequena Empresa,Brasília,DF,Centro-Oeste,2023-12-18,2024-01-05
+183,Wesley Ribeiro,Consumidor Final,Porto Alegre,RS,Sul,2024-01-04,2024-01-18
+184,Juliana Araújo,Consumidor Final,Petrópolis,RJ,Sudeste,2024-01-20,2024-02-06
+185,Lucas Silva Pereira,Consumidor Final,Feira de Santana,BA,Nordeste,2025-05-16,2025-05-20
+186,Henrique Oliveira,Consumidor Final,Maringá,PR,Sul,2024-05-20,2024-05-27
+187,Fênix Saúde S.A.,Pequena Empresa,São José dos Campos,SP,Sudeste,2023-12-21,2024-01-09
+188,Rafael Nascimento Lima,Consumidor Final,Curitiba,PR,Sul,2024-01-03,2024-01-03
+189,Orbital Digital ME,Pequena Empresa,Jaboatão dos Guararapes,PE,Nordeste,2024-01-01,2024-01-19
+190,Vanguarda Advocacia EPP,Média Empresa,Recife,PE,Nordeste,2024-01-17,2024-01-25
+191,Mosaico Serviços Ltda,Média Empresa,Recife,PE,Nordeste,2024-05-16,2024-05-21
+192,Estrela Consultoria Ltda,Pequena Empresa,Pelotas,RS,Sul,2024-02-12,2024-02-23
+193,Radar Consultoria EPP,Média Empresa,Recife,PE,Nordeste,2024-05-23,2024-06-03
+194,Ômega Alimentos ME,Corporativo,Ribeirão Preto,SP,Sudeste,2023-12-30,2024-01-18
+195,Radar Advocacia Ltda,Pequena Empresa,Curitiba,PR,Sul,2024-01-13,2024-01-22
+196,Eduardo Almeida Barros,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-18,2024-03-21
+197,Daniel Freitas Gomes,Consumidor Final,São Paulo,SP,Sudeste,2024-03-25,2024-04-01
+198,Isabela Carvalho Dias,Consumidor Final,Brasília,DF,Centro-Oeste,2024-08-03,2024-08-06
+199,Delta Logística EPP,Pequena Empresa,Porto Alegre,RS,Sul,2024-01-22,2024-01-23
+200,Nexo Alimentos Ltda,Média Empresa,São Paulo,SP,Sudeste,2023-12-29,2024-01-17
+201,Igor Dias,Consumidor Final,São Paulo,SP,Sudeste,2026-03-14,2026-03-26
+202,Vanguarda Tecnologia ME,Média Empresa,Porto Alegre,RS,Sul,2023-12-29,2024-01-13
+203,Eduardo Freitas,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-29,2024-03-10
+204,Olívia Barros,Consumidor Final,Curitiba,PR,Sul,2024-04-26,2024-05-03
+205,Bruno Nascimento,Consumidor Final,Porto Alegre,RS,Sul,2025-03-25,2025-03-27
+206,Zênite Agro EPP,Pequena Empresa,Ceilândia,DF,Centro-Oeste,2024-03-18,2024-03-26
+207,Úrsula Santos Silva,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-10-05,2024-10-21
+208,Delta Saúde Ltda,Média Empresa,Belo Horizonte,MG,Sudeste,2024-01-26,2024-02-08
+209,Lucas Araújo,Consumidor Final,São Paulo,SP,Sudeste,2025-08-16,2025-08-30
+210,Nexo Digital Ltda,Pequena Empresa,Recife,PE,Nordeste,2024-07-13,2024-08-02
+211,Helix Tecnologia EPP,Média Empresa,Santos,SP,Sudeste,2024-01-09,2024-01-12
+212,Yasmin Santos Souza,Consumidor Final,São Paulo,SP,Sudeste,2024-02-15,2024-02-26
+213,Queila Souza Gomes,Consumidor Final,Curitiba,PR,Sul,2025-12-07,2025-12-11
+214,Topázio Consultoria EPP,Pequena Empresa,Curitiba,PR,Sul,2024-01-05,2024-01-13
+215,Eduardo Costa Santos,Consumidor Final,Volta Redonda,RJ,Sudeste,2024-01-22,2024-01-30
+216,Úrsula Ribeiro Dias,Consumidor Final,Volta Redonda,RJ,Sudeste,2023-12-18,2024-01-02
+217,Felipe Souza,Consumidor Final,São Paulo,SP,Sudeste,2024-07-02,2024-07-13
+218,Rafael Pereira Almeida,Consumidor Final,Jaboatão dos Guararapes,PE,Nordeste,2025-03-06,2025-03-07
+219,Felipe Gomes Castro,Consumidor Final,São Paulo,SP,Sudeste,2024-02-06,2024-02-07
+220,Fernanda Monteiro Campos,Consumidor Final,Contagem,MG,Sudeste,2024-04-04,2024-04-18
+221,Granito Serviços Ltda,Média Empresa,Belo Horizonte,MG,Sudeste,2024-01-01,2024-01-04
+222,Carla Pinto Freitas,Consumidor Final,Uberlândia,MG,Sudeste,2024-09-01,2024-09-06
+223,Úrsula Pinto Barros,Consumidor Final,São Paulo,SP,Sudeste,2024-03-17,2024-03-30
+224,Mosaico Comércio S.A.,Média Empresa,São Paulo,SP,Sudeste,2023-12-21,2024-01-09
+225,Paulo Oliveira Carvalho,Consumidor Final,Campinas,SP,Sudeste,2023-12-31,2024-01-11
+226,Horizonte Advocacia EPP,Pequena Empresa,Canoas,RS,Sul,2024-02-14,2024-02-22
+227,Ana Dias,Consumidor Final,São Paulo,SP,Sudeste,2024-08-25,2024-09-03
+228,Lucas Martins,Consumidor Final,São Paulo,SP,Sudeste,2024-05-08,2024-05-18
+229,Ana Freitas Mendes,Consumidor Final,Águas Claras,DF,Centro-Oeste,2025-01-25,2025-02-07
+230,Queila Nascimento Rocha,Consumidor Final,Porto Alegre,RS,Sul,2024-06-28,2024-07-15
+231,João Costa,Consumidor Final,São Paulo,SP,Sudeste,2024-05-04,2024-05-10
+232,Isabela Silva Freitas,Consumidor Final,Curitiba,PR,Sul,2024-12-09,2024-12-25
+233,Kappa Tecnologia EPP,Pequena Empresa,Salvador,BA,Nordeste,2024-11-19,2024-11-25
+234,Pioneira Advocacia S.A.,Pequena Empresa,Curitiba,PR,Sul,2024-01-20,2024-01-26
+235,Leonardo Barros,Consumidor Final,Pelotas,RS,Sul,2024-08-06,2024-08-06
+236,Unidade Engenharia S.A.,Pequena Empresa,Niterói,RJ,Sudeste,2024-01-01,2024-01-04
+237,Sofia Carvalho,Consumidor Final,Pelotas,RS,Sul,2024-05-27,2024-05-27
+238,João Martins,Consumidor Final,São Paulo,SP,Sudeste,2023-12-26,2024-01-08
+239,Eduardo Freitas Barros,Consumidor Final,Sorocaba,SP,Sudeste,2024-01-31,2024-02-17
+240,Mosaico Logística ME,Pequena Empresa,Brasília,DF,Centro-Oeste,2023-12-18,2024-01-02
+241,Vanguarda Saúde EPP,Pequena Empresa,Curitiba,PR,Sul,2024-01-04,2024-01-12
+242,Isabela Lima,Consumidor Final,Curitiba,PR,Sul,2024-03-22,2024-04-08
+243,Aurora Digital Ltda,Corporativo,São Paulo,SP,Sudeste,2023-12-23,2024-01-09
+244,Karina Nascimento,Consumidor Final,Belo Horizonte,MG,Sudeste,2025-11-13,2025-11-27
+245,Karina Castro,Consumidor Final,São Paulo,SP,Sudeste,2024-05-22,2024-05-29
+246,Felipe Mendes Monteiro,Consumidor Final,Recife,PE,Nordeste,2024-05-13,2024-06-01
+247,Íris Indústria ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-02-29,2024-03-09
+248,Gabriela Almeida Almeida,Consumidor Final,Salvador,BA,Nordeste,2024-11-04,2024-11-14
+249,Isabela Monteiro Alves,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-26,2024-03-27
+250,Orbital Tecnologia EPP,Pequena Empresa,Santos,SP,Sudeste,2024-01-03,2024-01-12
+251,Domínio Comércio Ltda,Pequena Empresa,Volta Redonda,RJ,Sudeste,2024-01-11,2024-01-15
+252,Paulo Rodrigues Almeida,Consumidor Final,Taguatinga,DF,Centro-Oeste,2024-11-17,2024-11-29
+253,Isabela Carvalho Carvalho,Consumidor Final,Sorocaba,SP,Sudeste,2024-03-01,2024-03-06
+254,Karina Dias,Consumidor Final,São Paulo,SP,Sudeste,2024-08-22,2024-09-10
+255,Bruno Araújo Castro,Consumidor Final,Curitiba,PR,Sul,2024-01-02,2024-01-06
+256,Estrela Construções ME,Média Empresa,São Paulo,SP,Sudeste,2024-04-12,2024-04-18
+257,Nicolas Rodrigues Carvalho,Consumidor Final,Pelotas,RS,Sul,2024-03-16,2024-03-28
+258,Vinícius Alves Oliveira,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-04-09,2024-04-09
+259,Bruno Martins,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-14,2024-03-31
+260,Henrique Ribeiro Souza,Consumidor Final,Jaboatão dos Guararapes,PE,Nordeste,2024-08-31,2024-09-11
+261,Zeca Campos,Consumidor Final,Ponta Grossa,PR,Sul,2024-04-18,2024-04-29
+262,Igor Castro Pereira,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-03-17,2024-03-17
+263,Juliana Fernandes Costa,Consumidor Final,Sorocaba,SP,Sudeste,2024-02-25,2024-03-13
+264,Fernanda Rodrigues Moreira,Consumidor Final,São Paulo,SP,Sudeste,2024-05-22,2024-06-11
+265,Lucas Costa Barbosa,Consumidor Final,Curitiba,PR,Sul,2025-09-28,2025-10-14
+266,Atlas Indústria ME,Corporativo,São Paulo,SP,Sudeste,2023-12-28,2024-01-02
+267,Bruno Rodrigues Santos,Consumidor Final,Ponta Grossa,PR,Sul,2024-02-25,2024-03-01
+268,Rafael Monteiro Rocha,Consumidor Final,Feira de Santana,BA,Nordeste,2024-02-17,2024-02-28
+269,Zênite Construções EPP,Média Empresa,Feira de Santana,BA,Nordeste,2024-04-13,2024-04-19
+270,Íris Indústria Ltda,Corporativo,Rio de Janeiro,RJ,Sudeste,2024-02-18,2024-02-27
+271,Nicolas Barbosa,Consumidor Final,Canoas,RS,Sul,2024-01-14,2024-01-15
+272,Wesley Moreira Gomes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-08-20,2024-08-29
+273,Leonardo Martins Gomes,Consumidor Final,São Paulo,SP,Sudeste,2024-01-03,2024-01-17
+274,Ana Fernandes Alves,Consumidor Final,Porto Alegre,RS,Sul,2025-10-16,2025-10-22
+275,Karina Rodrigues Martins,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-02-27,2024-02-27
+276,Wesley Lima,Consumidor Final,Santos,SP,Sudeste,2024-01-01,2024-01-15
+277,Eduardo Almeida,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-19,2024-01-24
+278,Zeca Souza,Consumidor Final,Contagem,MG,Sudeste,2024-06-08,2024-06-10
+279,João Almeida Rocha,Consumidor Final,Ribeirão Preto,SP,Sudeste,2024-05-13,2024-05-27
+280,Domínio Serviços ME,Média Empresa,Olinda,PE,Nordeste,2024-06-26,2024-07-03
+281,Daniel Martins Silva,Consumidor Final,Salvador,BA,Nordeste,2023-09-07,
+282,Nicolas Silva,Consumidor Final,São Paulo,SP,Sudeste,2024-04-14,2024-04-26
+283,Solaris Comércio ME,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-02-25,2024-03-14
+284,Vértice Advocacia S.A.,Pequena Empresa,Taguatinga,DF,Centro-Oeste,2023-12-19,2024-01-04
+285,Prisma Educação EPP,Pequena Empresa,Porto Alegre,RS,Sul,2024-01-11,2024-01-26
+286,Úrsula Monteiro,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2023-12-15,2024-01-02
+287,Olívia Fernandes Pinto,Consumidor Final,Salvador,BA,Nordeste,2024-04-21,2024-04-29
+288,Beatriz Fernandes Silva,Consumidor Final,Niterói,RJ,Sudeste,2024-06-22,2024-06-27
+289,Úrsula Nascimento Freitas,Consumidor Final,Curitiba,PR,Sul,2024-05-06,2024-05-13
+290,Zeca Santos Cavalcanti,Consumidor Final,Curitiba,PR,Sul,2024-01-24,2024-01-25
+291,Úrsula Rodrigues,Consumidor Final,Curitiba,PR,Sul,2024-01-07,2024-01-27
+292,Queila Carvalho Barbosa,Consumidor Final,Porto Alegre,RS,Sul,2024-06-15,2024-06-21
+293,Estrela Alimentos S.A.,Média Empresa,Feira de Santana,BA,Nordeste,2024-05-22,2024-05-23
+294,Úrsula Rodrigues Monteiro,Consumidor Final,São José dos Campos,SP,Sudeste,2024-01-27,2024-01-28
+295,Prisma Engenharia EPP,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-10,2024-01-18
+296,Isabela Santos,Consumidor Final,Porto Alegre,RS,Sul,2024-11-24,2024-11-27
+297,Aurora Engenharia EPP,Pequena Empresa,Lauro de Freitas,BA,Nordeste,2023-12-15,2024-01-02
+298,Gustavo Freitas Cardoso,Consumidor Final,Niterói,RJ,Sudeste,2024-01-09,2024-01-10
+299,Zênite Serviços Ltda,Média Empresa,São Paulo,SP,Sudeste,2023-12-25,2024-01-04
+300,Daniel Ribeiro Freitas,Consumidor Final,Porto Alegre,RS,Sul,2024-01-09,2024-01-23
+301,Karina Carvalho,Consumidor Final,Recife,PE,Nordeste,2024-10-24,2024-11-06
+302,Kappa Educação ME,Média Empresa,Juiz de Fora,MG,Sudeste,2023-12-19,2024-01-07
+303,Lumen Consultoria EPP,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-21,2024-01-27
+304,Granito Agro Ltda,Pequena Empresa,Sorocaba,SP,Sudeste,2024-03-11,2024-03-27
+305,Mosaico Tecnologia S.A.,Pequena Empresa,Feira de Santana,BA,Nordeste,2024-03-18,2024-03-22
+306,Topázio Serviços ME,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-01-10,2024-01-14
+307,Thiago Castro Barros,Consumidor Final,Maringá,PR,Sul,2024-12-04,2024-12-19
+308,Isabela Ribeiro Ribeiro,Consumidor Final,Porto Alegre,RS,Sul,2023-12-20,2024-01-09
+309,Prisma Engenharia Ltda,Média Empresa,Porto Alegre,RS,Sul,2024-01-08,2024-01-23
+310,Úrsula Monteiro Barbosa,Consumidor Final,Uberlândia,MG,Sudeste,2024-03-05,2024-03-07
+311,Ômega Comércio ME,Média Empresa,Brasília,DF,Centro-Oeste,2023-12-16,2024-01-01
+312,Jaguar Comércio Ltda,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-13,2024-01-18
+313,Mariana Costa,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2023-12-23,2024-01-10
+314,Gustavo Mendes Carvalho,Consumidor Final,São Paulo,SP,Sudeste,2024-01-06,2024-01-07
+315,Unidade Saúde EPP,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-19,2024-01-08
+316,Ômega Educação EPP,Pequena Empresa,Belo Horizonte,MG,Sudeste,2024-01-21,2024-01-31
+317,Vinícius Costa Santos,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-24,2024-01-31
+318,Horizonte Contabilidade Ltda,Média Empresa,Curitiba,PR,Sul,2024-01-19,2024-01-20
+319,Atlas Contabilidade S.A.,Média Empresa,Maringá,PR,Sul,2024-01-09,2024-01-09
+320,Topázio Serviços EPP,Média Empresa,Rio de Janeiro,RJ,Sudeste,2024-03-02,2024-03-13
+321,Bruno Pinto Dias,Consumidor Final,Porto Alegre,RS,Sul,2024-01-05,2024-01-12
+322,Unidade Indústria EPP,Corporativo,Petrópolis,RJ,Sudeste,2024-01-02,2024-01-03
+323,Unidade Engenharia ME,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-29,2024-01-08
+324,Helix Tecnologia ME,Pequena Empresa,Feira de Santana,BA,Nordeste,2024-05-31,2024-06-13
+325,Horizonte Construções S.A.,Média Empresa,Curitiba,PR,Sul,2023-12-29,2024-01-11
+326,Daniel Rocha Barbosa,Consumidor Final,Salvador,BA,Nordeste,2024-03-18,2024-03-31
+327,Leonardo Lima Almeida,Consumidor Final,São Paulo,SP,Sudeste,2023-12-29,2024-01-03
+328,Olívia Oliveira Pereira,Consumidor Final,Campinas,SP,Sudeste,2024-01-05,2024-01-07
+329,Fênix Advocacia ME,Pequena Empresa,Salvador,BA,Nordeste,2025-12-13,2025-12-31
+330,Pioneira Comércio S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-24,2024-01-31
+331,Sigma Saúde EPP,Pequena Empresa,Campinas,SP,Sudeste,2023-12-29,2024-01-05
+332,Lumen Indústria S.A.,Corporativo,Volta Redonda,RJ,Sudeste,2024-03-17,2024-04-03
+333,Aurora Educação EPP,Média Empresa,São Paulo,SP,Sudeste,2023-12-20,2024-01-06
+334,Eduarda Pinto Mendes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-16,2024-03-30
+335,Jaguar Serviços Ltda,Média Empresa,Belo Horizonte,MG,Sudeste,2024-02-11,2024-02-19
+336,Yasmin Pinto,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-11,2024-01-16
+337,Carla Castro Barros,Consumidor Final,Olinda,PE,Nordeste,2024-01-13,2024-01-25
+338,Carla Rodrigues Cardoso,Consumidor Final,Santos,SP,Sudeste,2024-06-08,2024-06-18
+339,Lucas Oliveira Cardoso,Consumidor Final,Olinda,PE,Nordeste,2024-10-17,2024-10-22
+340,Vinícius Cardoso,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-20,2024-02-26
+341,Thiago Pinto,Consumidor Final,Petrópolis,RJ,Sudeste,2024-01-04,2024-01-19
+342,Paulo Cardoso Souza,Consumidor Final,São Paulo,SP,Sudeste,2024-04-29,2024-05-16
+343,Gabriela Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2023-12-28,2024-01-12
+344,Leonardo Monteiro,Consumidor Final,Maringá,PR,Sul,2023-12-30,2024-01-02
+345,Nexo Engenharia ME,Corporativo,Niterói,RJ,Sudeste,2023-12-18,2024-01-03
+346,Helena Fernandes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2023-12-29,2024-01-05
+347,Estrela Construções S.A.,Pequena Empresa,Caxias do Sul,RS,Sul,2023-12-26,2024-01-05
+348,Estrela Saúde Ltda,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-02,2024-01-02
+349,Sigma Agro S.A.,Pequena Empresa,Campinas,SP,Sudeste,2023-12-31,2024-01-02
+350,Granito Logística S.A.,Média Empresa,Curitiba,PR,Sul,2024-02-01,2024-02-01
+351,Henrique Pereira Barbosa,Consumidor Final,Curitiba,PR,Sul,2024-01-19,2024-01-20
+352,Mosaico Saúde Ltda,Corporativo,Ribeirão Preto,SP,Sudeste,2023-12-25,2024-01-07
+353,Helena Souza Moreira,Consumidor Final,Curitiba,PR,Sul,2024-02-25,2024-03-07
+354,Paulo Pereira,Consumidor Final,Londrina,PR,Sul,2024-01-21,2024-01-26
+355,Fênix Alimentos S.A.,Corporativo,São Paulo,SP,Sudeste,2024-01-02,2024-01-04
+356,Úrsula Cardoso Monteiro,Consumidor Final,Ponta Grossa,PR,Sul,2024-06-04,2024-06-22
+357,Olívia Carvalho Araújo,Consumidor Final,São Paulo,SP,Sudeste,2024-04-01,2024-04-03
+358,Alfa Advocacia EPP,Pequena Empresa,Vitória da Conquista,BA,Nordeste,2024-02-13,2024-02-27
+359,Pioneira Tecnologia EPP,Pequena Empresa,Ponta Grossa,PR,Sul,2023-12-24,2024-01-03
+360,Sigma Consultoria ME,Média Empresa,Curitiba,PR,Sul,2024-01-05,2024-01-21
+361,Carla Oliveira,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-10,2024-01-27
+362,Prisma Agro S.A.,Pequena Empresa,Pelotas,RS,Sul,2024-03-16,2024-03-18
+363,Radar Alimentos Ltda,Pequena Empresa,Salvador,BA,Nordeste,2024-03-10,2024-03-13
+364,Prisma Serviços EPP,Pequena Empresa,Ponta Grossa,PR,Sul,2024-03-08,2024-03-26
+365,Unidade Consultoria S.A.,Pequena Empresa,Contagem,MG,Sudeste,2024-03-16,2024-04-04
+366,Alfa Indústria EPP,Pequena Empresa,Feira de Santana,BA,Nordeste,2024-05-07,2024-05-15
+367,Carla Cavalcanti,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-07-21,2024-08-07
+368,Fernanda Rodrigues,Consumidor Final,Porto Alegre,RS,Sul,2024-02-16,2024-03-01
+369,Kappa Engenharia Ltda,Pequena Empresa,Volta Redonda,RJ,Sudeste,2023-12-26,2024-01-02
+370,Atlas Contabilidade ME,Pequena Empresa,Ribeirão Preto,SP,Sudeste,2024-03-01,2024-03-20
+371,João Dias,Consumidor Final,Maringá,PR,Sul,2024-01-13,2024-01-31
+372,Sofia Nascimento Gomes,Consumidor Final,Brasília,DF,Centro-Oeste,2024-02-06,2024-02-24
+373,Beatriz Oliveira Barros,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-03-11,2024-03-11
+374,Lucas Martins Araújo,Consumidor Final,Salvador,BA,Nordeste,2025-09-14,2025-10-01
+375,Mariana Araújo,Consumidor Final,São Paulo,SP,Sudeste,2024-08-20,2024-09-09
+376,Gabriela Santos Nascimento,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-08-18,2024-09-04
+377,Helena Barros Souza,Consumidor Final,Caruaru,PE,Nordeste,2024-06-21,2024-06-26
+378,Cadência Agro ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-03-23,2024-03-27
+379,Gustavo Rodrigues Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2024-01-29,2024-02-09
+380,Daniel Almeida,Consumidor Final,Petrópolis,RJ,Sudeste,2024-06-22,2024-07-08
+381,Alfa Educação S.A.,Corporativo,Rio de Janeiro,RJ,Sudeste,2024-01-27,2024-01-30
+382,Yasmin Cavalcanti Ribeiro,Consumidor Final,Porto Alegre,RS,Sul,2024-09-09,2024-09-26
+383,Horizonte Engenharia Ltda,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-01-07,2024-01-10
+384,Juliana Gomes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-02,2024-03-22
+385,Felipe Gomes Pereira,Consumidor Final,Recife,PE,Nordeste,2024-05-29,2024-05-29
+386,Henrique Almeida Nascimento,Consumidor Final,São Paulo,SP,Sudeste,2024-03-30,2024-04-12
+387,Prisma Digital ME,Pequena Empresa,Petrópolis,RJ,Sudeste,2023-12-27,2024-01-04
+388,Helix Saúde ME,Pequena Empresa,Salvador,BA,Nordeste,2025-10-05,2025-10-17
+389,João Fernandes,Consumidor Final,São Paulo,SP,Sudeste,2024-05-20,2024-06-04
+390,Úrsula Nascimento,Consumidor Final,São Paulo,SP,Sudeste,2024-08-11,2024-08-15
+391,Nimbus Construções ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-16,2024-01-16
+392,Débora Santos Nascimento,Consumidor Final,Ribeirão Preto,SP,Sudeste,2024-09-19,2024-10-09
+393,Unidade Agro Ltda,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-18,2024-01-22
+394,Bruno Mendes Almeida,Consumidor Final,Brasília,DF,Centro-Oeste,2024-05-30,2024-06-08
+395,Vinícius Pereira Lima,Consumidor Final,Recife,PE,Nordeste,2024-11-18,2024-12-02
+396,Isabela Almeida,Consumidor Final,São Paulo,SP,Sudeste,2024-01-09,2024-01-22
+397,Juliana Rocha Nascimento,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2025-01-01,2025-01-08
+398,Sigma Alimentos ME,Média Empresa,Curitiba,PR,Sul,2024-01-29,2024-02-02
+399,Beatriz Martins Almeida,Consumidor Final,Recife,PE,Nordeste,2024-10-22,2024-10-26
+400,Felipe Moreira Fernandes,Consumidor Final,Niterói,RJ,Sudeste,2024-01-05,2024-01-23
+401,Isabela Nascimento Fernandes,Consumidor Final,São Paulo,SP,Sudeste,2024-02-16,2024-02-22
+402,Cadência Contabilidade S.A.,Corporativo,Belo Horizonte,MG,Sudeste,2024-01-25,2024-02-01
+403,Fênix Indústria EPP,Média Empresa,Porto Alegre,RS,Sul,2023-12-31,2024-01-10
+404,Eduarda Ribeiro Fernandes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-04-03,2024-04-20
+405,Atlas Advocacia Ltda,Pequena Empresa,Curitiba,PR,Sul,2024-01-18,2024-01-29
+406,Fênix Educação ME,Pequena Empresa,Recife,PE,Nordeste,2024-04-15,2024-05-03
+407,Yasmin Souza Lima,Consumidor Final,Curitiba,PR,Sul,2023-05-12,
+408,Domínio Logística EPP,Média Empresa,São Paulo,SP,Sudeste,2024-01-17,2024-01-30
+409,Delta Serviços S.A.,Pequena Empresa,Recife,PE,Nordeste,2024-04-06,2024-04-12
+410,Orbital Digital Ltda,Pequena Empresa,Santos,SP,Sudeste,2024-01-31,2024-02-06
+411,Íris Indústria EPP,Corporativo,Curitiba,PR,Sul,2024-01-01,2024-01-05
+412,Caio Santos,Consumidor Final,Brasília,DF,Centro-Oeste,2024-10-20,2024-10-21
+413,Nexo Digital EPP,Pequena Empresa,São Paulo,SP,Sudeste,2024-03-10,2024-03-10
+414,Ana Fernandes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-05-26,2024-06-06
+415,Thiago Araújo,Consumidor Final,Santos,SP,Sudeste,2023-12-16,2024-01-05
+416,Igor Alves Silva,Consumidor Final,Curitiba,PR,Sul,2024-01-18,2024-01-18
+417,Fernanda Gomes,Consumidor Final,Curitiba,PR,Sul,2024-07-11,2024-07-29
+418,Karina Pereira Araújo,Consumidor Final,Sorocaba,SP,Sudeste,2024-03-20,2024-04-08
+419,Juliana Oliveira Costa,Consumidor Final,Petrópolis,RJ,Sudeste,2024-06-26,2024-07-02
+420,Sofia Gomes Barros,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-09-12,2024-10-02
+421,Nimbus Educação EPP,Média Empresa,Porto Alegre,RS,Sul,2023-12-18,2024-01-05
+422,Eduarda Carvalho Pinto,Consumidor Final,Niterói,RJ,Sudeste,2024-06-22,2024-07-11
+423,Horizonte Tecnologia Ltda,Pequena Empresa,Recife,PE,Nordeste,2024-02-17,2024-03-01
+424,Rafael Lima,Consumidor Final,Recife,PE,Nordeste,2024-09-18,2024-09-18
+425,Fênix Logística EPP,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-03-21,2024-04-10
+426,Jaguar Indústria S.A.,Média Empresa,Salvador,BA,Nordeste,2024-05-29,2024-05-29
+427,Lumen Alimentos S.A.,Corporativo,Belo Horizonte,MG,Sudeste,2023-12-26,2024-01-10
+428,Felipe Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2024-07-07,2024-07-17
+429,Quasar Logística ME,Média Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-02,2024-01-20
+430,Paulo Rodrigues Silva,Consumidor Final,Vitória da Conquista,BA,Nordeste,2024-10-22,2024-10-26
+431,Nexo Construções S.A.,Média Empresa,Campinas,SP,Sudeste,2024-01-07,2024-01-12
+432,Nicolas Moreira Campos,Consumidor Final,Ceilândia,DF,Centro-Oeste,2025-11-20,2025-12-05
+433,Queila Rocha Freitas,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-10-01,2024-10-14
+434,Atlas Construções Ltda,Corporativo,Rio de Janeiro,RJ,Sudeste,2024-01-04,2024-01-04
+435,Vinícius Campos,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-05-08,2024-05-13
+436,Zênite Tecnologia S.A.,Pequena Empresa,Lauro de Freitas,BA,Nordeste,2024-01-17,2024-01-25
+437,Yasmin Souza Nascimento,Consumidor Final,São Paulo,SP,Sudeste,2024-04-01,2024-04-15
+438,João Campos Fernandes,Consumidor Final,São Paulo,SP,Sudeste,2024-05-16,2024-05-25
+439,Zênite Alimentos EPP,Pequena Empresa,Niterói,RJ,Sudeste,2024-01-18,2024-01-23
+440,Ana Martins Fernandes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-13,2024-02-28
+441,Felipe Lima,Consumidor Final,São Paulo,SP,Sudeste,2024-09-10,2024-09-16
+442,Unidade Consultoria EPP,Pequena Empresa,Porto Alegre,RS,Sul,2023-12-13,2024-01-02
+443,Jaguar Contabilidade S.A.,Média Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-16,2024-01-03
+444,Aurora Indústria EPP,Média Empresa,Porto Alegre,RS,Sul,2023-12-14,2024-01-02
+445,Queila Campos,Consumidor Final,Ribeirão Preto,SP,Sudeste,2024-09-30,2024-09-30
+446,Domínio Engenharia S.A.,Média Empresa,Campinas,SP,Sudeste,2023-12-29,2024-01-06
+447,Eduardo Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2024-10-20,2024-11-07
+448,Orbital Digital EPP,Média Empresa,Belo Horizonte,MG,Sudeste,2023-12-15,2024-01-02
+449,Estrela Educação ME,Pequena Empresa,São José dos Campos,SP,Sudeste,2024-02-22,2024-03-06
+450,Helena Rodrigues,Consumidor Final,Santos,SP,Sudeste,2024-11-20,2024-11-26
+451,Isabela Cardoso,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-25,2024-04-12
+452,Nimbus Agro EPP,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-04,2024-01-10
+453,Vinícius Alves,Consumidor Final,Jaboatão dos Guararapes,PE,Nordeste,2024-03-31,2024-04-10
+454,Zênite Engenharia Ltda,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-07,2024-01-25
+455,Gustavo Nascimento,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2023-02-05,
+456,Vanguarda Comércio EPP,Pequena Empresa,Taguatinga,DF,Centro-Oeste,2024-01-20,2024-01-20
+457,Ômega Saúde S.A.,Corporativo,Belo Horizonte,MG,Sudeste,2023-12-24,2024-01-02
+458,Cadência Construções Ltda,Pequena Empresa,Taguatinga,DF,Centro-Oeste,2024-03-08,2024-03-20
+459,Pioneira Comércio Ltda,Pequena Empresa,Belo Horizonte,MG,Sudeste,2023-12-31,2024-01-19
+460,Sofia Carvalho Barbosa,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-20,2024-01-27
+461,Mosaico Construções EPP,Média Empresa,Ponta Grossa,PR,Sul,2024-01-02,2024-01-08
+462,Estrela Engenharia Ltda,Média Empresa,São Paulo,SP,Sudeste,2023-12-31,2024-01-01
+463,Queila Campos Castro,Consumidor Final,São Paulo,SP,Sudeste,2023-12-19,2024-01-03
+464,Úrsula Silva Carvalho,Consumidor Final,São Paulo,SP,Sudeste,2024-03-18,2024-03-18
+465,Íris Comércio ME,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-18,2024-01-07
+466,Cadência Engenharia Ltda,Corporativo,Sorocaba,SP,Sudeste,2023-12-25,2024-01-12
+467,Domínio Agro Ltda,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-11,2024-01-14
+468,Solaris Construções EPP,Pequena Empresa,Sorocaba,SP,Sudeste,2023-12-23,2024-01-04
+469,Pioneira Logística EPP,Corporativo,Salvador,BA,Nordeste,2024-01-28,2024-02-01
+470,Caio Silva,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-06-16,2024-06-24
+471,Helena Cavalcanti Oliveira,Consumidor Final,Santos,SP,Sudeste,2024-03-02,2024-03-05
+472,Vanguarda Comércio Ltda,Média Empresa,Brasília,DF,Centro-Oeste,2023-12-23,2024-01-12
+473,Granito Contabilidade S.A.,Média Empresa,São Paulo,SP,Sudeste,2024-01-31,2024-02-05
+474,Gustavo Campos Nascimento,Consumidor Final,São Paulo,SP,Sudeste,2024-06-20,2024-06-23
+475,Paulo Souza,Consumidor Final,São Paulo,SP,Sudeste,2024-02-05,2024-02-23
+476,Íris Contabilidade Ltda,Média Empresa,Maringá,PR,Sul,2024-01-02,2024-01-02
+477,Úrsula Monteiro Ribeiro,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-07-17,2024-07-28
+478,Fernanda Ribeiro,Consumidor Final,Salvador,BA,Nordeste,2025-04-09,2025-04-09
+479,Olívia Lima Martins,Consumidor Final,Petrópolis,RJ,Sudeste,2024-01-29,2024-02-07
+480,Aurora Alimentos ME,Corporativo,Belo Horizonte,MG,Sudeste,2023-12-17,2024-01-02
+481,Unidade Logística EPP,Média Empresa,Belo Horizonte,MG,Sudeste,2023-12-25,2024-01-02
+482,Caio Ribeiro,Consumidor Final,Brasília,DF,Centro-Oeste,2024-06-17,2024-07-04
+483,Henrique Freitas Pinto,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-29,2024-02-09
+484,Carla Fernandes Monteiro,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-05,2024-03-20
+485,Nimbus Serviços ME,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-07,2024-01-22
+486,Solaris Digital Ltda,Média Empresa,Porto Alegre,RS,Sul,2023-12-24,2024-01-03
+487,Prisma Saúde S.A.,Corporativo,Recife,PE,Nordeste,2024-02-24,2024-03-03
+488,Mariana Costa Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2024-01-13,2024-01-15
+489,Bruno Mendes Castro,Consumidor Final,Curitiba,PR,Sul,2024-03-08,2024-03-18
+490,Delta Alimentos ME,Média Empresa,São Paulo,SP,Sudeste,2023-12-31,2024-01-09
+491,Ômega Consultoria EPP,Pequena Empresa,Campinas,SP,Sudeste,2024-11-05,2024-11-11
+492,Sigma Alimentos S.A.,Média Empresa,Caruaru,PE,Nordeste,2023-12-31,2024-01-04
+493,Bruno Pinto,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-14,2024-01-18
+494,Quasar Engenharia Ltda,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-01-03,2024-01-22
+495,Eduarda Souza Cavalcanti,Consumidor Final,São Paulo,SP,Sudeste,2024-08-15,2024-08-15
+496,Helix Consultoria S.A.,Pequena Empresa,São José dos Campos,SP,Sudeste,2024-01-23,2024-02-06
+497,Gabriela Martins,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-03-12,2024-03-21
+498,Pioneira Engenharia Ltda,Pequena Empresa,Petrópolis,RJ,Sudeste,2025-01-08,2025-01-08
+499,João Barbosa,Consumidor Final,São José dos Campos,SP,Sudeste,2024-01-15,2024-01-15
+500,Helena Santos,Consumidor Final,Curitiba,PR,Sul,2024-10-14,2024-10-16
+501,Carla Oliveira Almeida,Consumidor Final,Porto Alegre,RS,Sul,2025-08-04,2025-08-08
+502,Atlas Engenharia EPP,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-01,2024-01-15
+503,Mariana Pereira,Consumidor Final,Recife,PE,Nordeste,2024-08-16,2024-08-31
+504,Sofia Barbosa Rocha,Consumidor Final,Santos,SP,Sudeste,2024-08-12,2024-08-27
+505,Domínio Educação ME,Pequena Empresa,Salvador,BA,Nordeste,2024-04-11,2024-04-15
+506,Cadência Alimentos Ltda,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-31,2024-01-08
+507,Gabriela Mendes,Consumidor Final,Brasília,DF,Centro-Oeste,2024-01-01,2024-01-17
+508,Olívia Costa Barbosa,Consumidor Final,São Paulo,SP,Sudeste,2024-09-07,2024-09-16
+509,Íris Consultoria EPP,Média Empresa,Salvador,BA,Nordeste,2024-10-18,2024-11-04
+510,Débora Araújo Cardoso,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-04-03,2024-04-15
+511,Eduarda Silva,Consumidor Final,São Paulo,SP,Sudeste,2024-08-29,2024-09-16
+512,Karina Costa,Consumidor Final,Salvador,BA,Nordeste,2024-11-01,2024-11-08
+513,Eduardo Carvalho Lima,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-03,2024-02-04
+514,Yasmin Santos Rocha,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-17,2024-02-23
+515,Eduardo Rodrigues Barros,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-14,2024-01-26
+516,Eduardo Gomes Ribeiro,Consumidor Final,Porto Alegre,RS,Sul,2024-04-07,2024-04-08
+517,Domínio Tecnologia EPP,Pequena Empresa,Ribeirão Preto,SP,Sudeste,2024-01-12,2024-01-17
+518,Fênix Digital EPP,Pequena Empresa,Maringá,PR,Sul,2024-02-24,2024-03-05
+519,Sigma Indústria S.A.,Pequena Empresa,Sorocaba,SP,Sudeste,2024-01-03,2024-01-04
+520,Gustavo Barros,Consumidor Final,Recife,PE,Nordeste,2024-07-10,2024-07-19
+521,Carla Almeida Fernandes,Consumidor Final,Recife,PE,Nordeste,2024-03-24,2024-03-27
+522,Paulo Ribeiro Rodrigues,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-06-17,2024-06-30
+523,Mariana Rodrigues,Consumidor Final,Volta Redonda,RJ,Sudeste,2024-06-25,2024-07-05
+524,Olívia Oliveira Gomes,Consumidor Final,Feira de Santana,BA,Nordeste,2024-06-02,2024-06-07
+525,Jaguar Educação EPP,Média Empresa,Curitiba,PR,Sul,2023-12-24,2024-01-03
+526,Eduardo Monteiro,Consumidor Final,Curitiba,PR,Sul,2024-01-15,2024-01-16
+527,Eduarda Freitas Rocha,Consumidor Final,Sorocaba,SP,Sudeste,2024-02-05,2024-02-06
+528,Igor Dias Oliveira,Consumidor Final,Brasília,DF,Centro-Oeste,2024-02-11,2024-02-23
+529,Estrela Digital Ltda,Pequena Empresa,Porto Alegre,RS,Sul,2024-02-04,2024-02-14
+530,Igor Rodrigues Rocha,Consumidor Final,São Paulo,SP,Sudeste,2024-12-25,2024-12-31
+531,Estrela Serviços S.A.,Média Empresa,Niterói,RJ,Sudeste,2023-12-16,2024-01-02
+532,Isabela Araújo Oliveira,Consumidor Final,São Paulo,SP,Sudeste,2024-01-06,2024-01-10
+533,Zênite Digital S.A.,Pequena Empresa,Vitória da Conquista,BA,Nordeste,2024-07-02,2024-07-15
+534,Quasar Logística EPP,Pequena Empresa,Salvador,BA,Nordeste,2024-01-01,2024-01-08
+535,Yasmin Rodrigues Gomes,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-04-22,2024-05-06
+536,Felipe Campos,Consumidor Final,São Paulo,SP,Sudeste,2024-01-05,2024-01-15
+537,Prisma Saúde Ltda,Pequena Empresa,Campinas,SP,Sudeste,2024-03-13,2024-03-14
+538,Henrique Castro Pinto,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-02-23,2024-03-14
+539,Nexo Logística Ltda,Corporativo,Brasília,DF,Centro-Oeste,2023-12-22,2024-01-02
+540,Nicolas Rocha,Consumidor Final,Porto Alegre,RS,Sul,2024-01-02,2024-01-11
+541,Fernanda Silva Campos,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-06-09,2024-06-19
+542,Solaris Alimentos ME,Corporativo,Curitiba,PR,Sul,2023-12-21,2024-01-04
+543,Zeca Oliveira Pereira,Consumidor Final,Belo Horizonte,MG,Sudeste,2023-12-29,2024-01-05
+544,Felipe Freitas Carvalho,Consumidor Final,Curitiba,PR,Sul,2025-05-12,2025-05-24
+545,Débora Carvalho,Consumidor Final,São Paulo,SP,Sudeste,2024-02-24,2024-03-11
+546,Thiago Moreira,Consumidor Final,Uberlândia,MG,Sudeste,2024-05-24,2024-06-13
+547,Nexo Alimentos EPP,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-20,2024-01-24
+548,Sofia Cavalcanti Rocha,Consumidor Final,Jaboatão dos Guararapes,PE,Nordeste,2024-08-19,2024-08-23
+549,Jaguar Tecnologia ME,Pequena Empresa,Volta Redonda,RJ,Sudeste,2024-01-21,2024-02-05
+550,Prisma Agro ME,Pequena Empresa,Campinas,SP,Sudeste,2024-01-11,2024-01-16
+551,Quasar Construções Ltda,Pequena Empresa,Brasília,DF,Centro-Oeste,2024-01-05,2024-01-18
+552,Vinícius Alves Freitas,Consumidor Final,Brasília,DF,Centro-Oeste,2023-12-26,2024-01-02
+553,Cadência Digital ME,Pequena Empresa,Recife,PE,Nordeste,2024-06-09,2024-06-21
+554,Fernanda Souza,Consumidor Final,São Paulo,SP,Sudeste,2024-06-01,2024-06-04
+555,Kappa Contabilidade Ltda,Corporativo,Porto Alegre,RS,Sul,2024-01-22,2024-02-07
+556,Delta Indústria S.A.,Média Empresa,Águas Claras,DF,Centro-Oeste,2024-01-14,2024-01-23
+557,Eduarda Cardoso,Consumidor Final,Brasília,DF,Centro-Oeste,2024-05-14,2024-05-15
+558,Beatriz Carvalho Dias,Consumidor Final,São Paulo,SP,Sudeste,2024-03-25,2024-04-06
+559,Topázio Advocacia EPP,Pequena Empresa,Recife,PE,Nordeste,2024-04-21,2024-04-22
+560,Estrela Educação EPP,Pequena Empresa,Águas Claras,DF,Centro-Oeste,2024-01-09,2024-01-23
+561,Zeca Fernandes Araújo,Consumidor Final,Porto Alegre,RS,Sul,2024-03-10,2024-03-27
+562,Henrique Dias Moreira,Consumidor Final,São Paulo,SP,Sudeste,2024-01-02,2024-01-17
+563,Aurora Logística Ltda,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-22,2024-01-29
+564,Cadência Agro EPP,Pequena Empresa,Ribeirão Preto,SP,Sudeste,2024-03-23,2024-04-06
+565,Felipe Barbosa Lima,Consumidor Final,São José dos Campos,SP,Sudeste,2024-02-25,2024-03-05
+566,Igor Monteiro,Consumidor Final,Belo Horizonte,MG,Sudeste,2023-12-20,2024-01-02
+567,Vinícius Martins Barros,Consumidor Final,Recife,PE,Nordeste,2024-06-17,2024-06-21
+568,Thiago Araújo Souza,Consumidor Final,Caruaru,PE,Nordeste,2025-03-21,2025-04-09
+569,Ana Santos Rocha,Consumidor Final,Brasília,DF,Centro-Oeste,2025-03-24,2025-04-05
+570,Solaris Digital ME,Pequena Empresa,Curitiba,PR,Sul,2024-02-03,2024-02-17
+571,Yasmin Nascimento Pinto,Consumidor Final,São Paulo,SP,Sudeste,2024-01-03,2024-01-22
+572,Fênix Comércio EPP,Corporativo,Recife,PE,Nordeste,2024-05-27,2024-06-03
+573,Henrique Castro,Consumidor Final,São Paulo,SP,Sudeste,2024-02-04,2024-02-24
+574,Carla Alves,Consumidor Final,São Paulo,SP,Sudeste,2024-01-03,2024-01-18
+575,Paulo Martins Pinto,Consumidor Final,Águas Claras,DF,Centro-Oeste,2024-06-28,2024-07-05
+576,Ômega Agro EPP,Pequena Empresa,Contagem,MG,Sudeste,2024-03-16,2024-03-20
+577,Bússola Educação EPP,Pequena Empresa,Niterói,RJ,Sudeste,2023-12-28,2024-01-02
+578,Solaris Logística Ltda,Pequena Empresa,Santos,SP,Sudeste,2025-10-18,2025-11-03
+579,Íris Logística EPP,Pequena Empresa,Salvador,BA,Nordeste,2025-03-01,2025-03-14
+580,Thiago Cavalcanti,Consumidor Final,Belo Horizonte,MG,Sudeste,2023-12-23,2024-01-12
+581,Zênite Alimentos ME,Média Empresa,Lauro de Freitas,BA,Nordeste,2024-07-22,2024-08-07
+582,Felipe Ribeiro Santos,Consumidor Final,Caruaru,PE,Nordeste,2024-03-19,2024-04-03
+583,Helena Silva Nascimento,Consumidor Final,Salvador,BA,Nordeste,2024-10-11,2024-10-25
+584,Ômega Logística EPP,Média Empresa,Recife,PE,Nordeste,2024-01-09,2024-01-12
+585,Solaris Consultoria Ltda,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2024-01-13,2024-01-25
+586,Henrique Martins Oliveira,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-06-29,2024-07-15
+587,Gustavo Souza Monteiro,Consumidor Final,São Paulo,SP,Sudeste,2024-05-11,2024-05-14
+588,Nimbus Advocacia ME,Pequena Empresa,Londrina,PR,Sul,2024-01-13,2024-01-23
+589,Topázio Comércio Ltda,Pequena Empresa,Curitiba,PR,Sul,2023-12-21,2024-01-08
+590,Quasar Contabilidade S.A.,Média Empresa,Volta Redonda,RJ,Sudeste,2024-01-05,2024-01-08
+591,João Silva Castro,Consumidor Final,Salvador,BA,Nordeste,2025-07-12,2025-07-31
+592,Estrela Serviços Ltda,Pequena Empresa,Rio de Janeiro,RJ,Sudeste,2023-12-29,2024-01-06
+593,Carla Alves Alves,Consumidor Final,Porto Alegre,RS,Sul,2023-12-24,2024-01-13
+594,Vértice Alimentos S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-17,2024-01-03
+595,Beatriz Costa Gomes,Consumidor Final,São Paulo,SP,Sudeste,2024-02-11,2024-02-28
+596,Horizonte Serviços EPP,Pequena Empresa,Salvador,BA,Nordeste,2024-02-29,2024-03-08
+597,Prisma Alimentos ME,Pequena Empresa,Olinda,PE,Nordeste,2024-06-03,2024-06-03
+598,Gustavo Mendes Freitas,Consumidor Final,Vitória da Conquista,BA,Nordeste,2024-02-06,2024-02-26
+599,Helena Costa,Consumidor Final,Volta Redonda,RJ,Sudeste,2024-02-24,2024-02-27
+600,Karina Campos Rocha,Consumidor Final,São Paulo,SP,Sudeste,2024-07-13,2024-07-17
+601,Quasar Contabilidade ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-03-26,2024-03-28
+602,Zeca Almeida,Consumidor Final,Juiz de Fora,MG,Sudeste,2024-11-16,2024-12-06
+603,Igor Barros Barros,Consumidor Final,Caxias do Sul,RS,Sul,2024-03-03,2024-03-21
+604,Mariana Alves Carvalho,Consumidor Final,Recife,PE,Nordeste,2024-06-26,2024-07-01
+605,Topázio Alimentos S.A.,Média Empresa,São Paulo,SP,Sudeste,2024-01-19,2024-01-23
+606,Bruno Mendes Dias,Consumidor Final,Canoas,RS,Sul,2024-02-27,2024-03-14
+607,Úrsula Nascimento Rodrigues,Consumidor Final,Porto Alegre,RS,Sul,2023-12-24,2024-01-11
+608,Úrsula Martins Almeida,Consumidor Final,São Paulo,SP,Sudeste,2024-09-12,2024-09-16
+609,Beatriz Cardoso,Consumidor Final,Curitiba,PR,Sul,2026-03-20,2026-03-25
+610,Íris Tecnologia ME,Pequena Empresa,São Paulo,SP,Sudeste,2023-12-23,2024-01-04
+611,Prisma Contabilidade ME,Média Empresa,Curitiba,PR,Sul,2023-12-25,2024-01-03
+612,Nimbus Construções S.A.,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-28,2024-02-09
+613,Íris Educação ME,Pequena Empresa,Salvador,BA,Nordeste,2026-08-02,2026-08-12
+614,Gustavo Cavalcanti Freitas,Consumidor Final,São Paulo,SP,Sudeste,2023-12-31,2024-01-18
+615,Zênite Engenharia S.A.,Corporativo,Curitiba,PR,Sul,2023-12-31,2024-01-02
+616,Pioneira Educação ME,Pequena Empresa,São Paulo,SP,Sudeste,2024-01-08,2024-01-24
+617,Lucas Ribeiro,Consumidor Final,Rio de Janeiro,RJ,Sudeste,2024-01-05,2024-01-09
+618,Sofia Moreira,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-06,2024-01-18
+619,Isabela Cavalcanti,Consumidor Final,São Paulo,SP,Sudeste,2024-01-03,2024-01-14
+620,Cadência Alimentos S.A.,Pequena Empresa,Ribeirão Preto,SP,Sudeste,2023-12-15,2024-01-03
+621,Lucas Freitas,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-03,2024-01-10
+622,Débora Araújo,Consumidor Final,Salvador,BA,Nordeste,2024-08-01,2024-08-03
+623,Caio Martins,Consumidor Final,São Paulo,SP,Sudeste,2024-03-13,2024-03-13
+624,Zênite Saúde Ltda,Pequena Empresa,Feira de Santana,BA,Nordeste,2025-09-23,2025-09-27
+625,João Freitas,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-06,2024-01-17
+626,Nicolas Alves Freitas,Consumidor Final,São Paulo,SP,Sudeste,2024-01-24,2024-01-29
+627,Orbital Logística S.A.,Pequena Empresa,Petrópolis,RJ,Sudeste,2023-12-24,2024-01-11
+628,Daniel Freitas Alves,Consumidor Final,São Paulo,SP,Sudeste,2024-02-02,2024-02-16
+629,Henrique Pinto Gomes,Consumidor Final,Sorocaba,SP,Sudeste,2024-04-27,2024-05-15
+630,Kappa Consultoria ME,Pequena Empresa,Pelotas,RS,Sul,2024-02-08,2024-02-19
+631,Quasar Comércio S.A.,Pequena Empresa,Recife,PE,Nordeste,2024-07-07,2024-07-20
+632,Nimbus Engenharia Ltda,Média Empresa,Niterói,RJ,Sudeste,2023-12-26,2024-01-02
+633,João Souza,Consumidor Final,Brasília,DF,Centro-Oeste,2023-12-28,2024-01-03
+634,Unidade Agro ME,Pequena Empresa,Recife,PE,Nordeste,2024-04-17,2024-04-29
+635,Vanguarda Serviços ME,Média Empresa,Taguatinga,DF,Centro-Oeste,2024-02-03,2024-02-21
+636,Orbital Agro EPP,Média Empresa,Contagem,MG,Sudeste,2024-01-04,2024-01-05
+637,Mosaico Logística S.A.,Pequena Empresa,Porto Alegre,RS,Sul,2023-12-31,2024-01-15
+638,Beatriz Barros Dias,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-04-25,2024-05-11
+639,Gabriela Oliveira,Consumidor Final,São José dos Campos,SP,Sudeste,2024-02-18,2024-02-29
+640,Karina Pereira,Consumidor Final,Curitiba,PR,Sul,2024-01-01,2024-01-04
+641,Vértice Digital EPP,Pequena Empresa,Volta Redonda,RJ,Sudeste,2024-02-25,2024-02-26
+642,Sofia Pinto,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-03-20,2024-04-01
+643,Débora Monteiro Mendes,Consumidor Final,São Paulo,SP,Sudeste,2024-07-23,2024-07-30
+644,Henrique Campos Santos,Consumidor Final,Belo Horizonte,MG,Sudeste,2024-01-19,2024-02-08
+645,Rafael Fernandes,Consumidor Final,Curitiba,PR,Sul,2024-01-21,2024-02-09
+646,Lucas Rodrigues Pinto,Consumidor Final,Contagem,MG,Sudeste,2023-12-10,
+647,Íris Construções EPP,Pequena Empresa,Porto Alegre,RS,Sul,2023-12-31,2024-01-17
+648,Domínio Digital EPP,Média Empresa,São Paulo,SP,Sudeste,2023-12-26,2024-01-09
+649,Lucas Pereira Pereira,Consumidor Final,Curitiba,PR,Sul,2024-03-31,2024-04-17
+650,Nimbus Consultoria S.A.,Média Empresa,Porto Alegre,RS,Sul,2024-02-17,2024-02-23

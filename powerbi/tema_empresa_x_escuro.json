@@ -1,0 +1,34 @@
+{
+  "name": "Empresa X · Meia-noite",
+  "dataColors": ["#2DD4BF", "#60A5FA", "#F59E0B", "#A78BFA", "#F472B6", "#34D399", "#FB923C", "#94A3B8"],
+  "background": "#0D1117",
+  "foreground": "#E6EDF3",
+  "tableAccent": "#2DD4BF",
+  "good": "#3FB950",
+  "neutral": "#D29922",
+  "bad": "#F85149",
+  "maximum": "#2DD4BF",
+  "center": "#F59E0B",
+  "minimum": "#F85149",
+  "null": "#6E7681",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#E6EDF3" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#E6EDF3" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#8B949E" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#8B949E" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#161B22" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#30363D" } }, "radius": 8 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#E6EDF3" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0D1117" } }, "transparency": 0 }]
+      }
+    }
+  }
+}

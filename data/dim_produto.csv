@@ -1,0 +1,40 @@
+id_produto,sku,produto,categoria,subcategoria,preco_lista,custo_unitario_base,margem_lista_pct,aliquota_imposto
+1,ELE-001,"Notebook Pro 14""",Eletrônicos,Computadores,7490.0,4643.8,0.38,0.18
+2,ELE-002,"Notebook Essencial 15""",Eletrônicos,Computadores,3890.0,2411.8,0.38,0.18
+3,ELE-003,"Monitor 24"" Full HD",Eletrônicos,Monitores,1090.0,654.0,0.4,0.18
+4,ELE-004,"Monitor 27"" 4K",Eletrônicos,Monitores,2490.0,1494.0,0.4,0.18
+5,ELE-005,Teclado Mecânico Pro,Eletrônicos,Periféricos,490.0,269.5,0.45,0.18
+6,ELE-006,Mouse Ergonômico Sem Fio,Eletrônicos,Periféricos,220.0,114.4,0.48,0.18
+7,ELE-007,Webcam Full HD,Eletrônicos,Periféricos,260.0,143.0,0.45,0.18
+8,ELE-008,Headset Profissional,Eletrônicos,Áudio,390.0,218.4,0.44,0.18
+9,ELE-009,Smartphone X Lite,Eletrônicos,Smartphones,1890.0,1209.6,0.36,0.18
+10,ELE-010,Smartphone X Max,Eletrônicos,Smartphones,5290.0,3385.6,0.36,0.18
+11,ELE-011,"Tablet 10""",Eletrônicos,Tablets,1790.0,1109.8,0.38,0.18
+12,ELE-012,Impressora Multifuncional,Eletrônicos,Impressão,1390.0,834.0,0.4,0.18
+13,ESC-013,Cadeira Ergonômica Presidente,Escritório,Mobiliário,1790.0,823.4,0.54,0.17
+14,ESC-014,Mesa Regulável Elétrica,Escritório,Mobiliário,2490.0,1145.4,0.54,0.17
+15,ESC-015,Mesa de Reunião 8 Lugares,Escritório,Mobiliário,3890.0,1867.2,0.52,0.17
+16,ESC-016,Armário Arquivo 4 Gavetas,Escritório,Mobiliário,890.0,400.5,0.55,0.17
+17,ESC-017,Luminária LED de Mesa,Escritório,Iluminação,190.0,79.8,0.58,0.17
+18,ESC-018,Suporte Articulado p/ Monitor,Escritório,Acessórios,290.0,116.0,0.6,0.17
+19,ESC-019,Kit Papelaria Premium,Escritório,Papelaria,120.0,48.0,0.6,0.17
+20,ESC-020,Quadro Branco Magnético,Escritório,Acessórios,390.0,171.6,0.56,0.17
+21,ESC-021,Divisória Acústica,Escritório,Mobiliário,690.0,317.4,0.54,0.17
+22,CAS-022,Cafeteira Expresso Automática,Casa & Conforto,Eletroportáteis,1690.0,895.7,0.47,0.17
+23,CAS-023,Purificador de Água,Casa & Conforto,Eletroportáteis,990.0,514.8,0.48,0.17
+24,CAS-024,Ar-condicionado Split 12000 BTU,Casa & Conforto,Climatização,2890.0,1618.4,0.44,0.17
+25,CAS-025,Ventilador Torre Silencioso,Casa & Conforto,Climatização,390.0,202.8,0.48,0.17
+26,CAS-026,Aspirador Robô,Casa & Conforto,Eletroportáteis,1890.0,1039.5,0.45,0.17
+27,CAS-027,Fritadeira Elétrica 6L,Casa & Conforto,Eletroportáteis,490.0,245.0,0.5,0.17
+28,CAS-028,Kit Smart Lâmpadas (4un),Casa & Conforto,Casa Inteligente,290.0,139.2,0.52,0.17
+29,CAS-029,Cadeira Gamer Reclinável,Casa & Conforto,Mobiliário,1490.0,745.0,0.5,0.17
+30,SFT-030,Licença Office Suite (anual),Software & Assinaturas,Produtividade,690.0,103.5,0.85,0.09
+31,SFT-031,Antivírus Corporativo (anual),Software & Assinaturas,Segurança,290.0,40.6,0.86,0.09
+32,SFT-032,ERP Lite (mensalidade),Software & Assinaturas,Gestão,890.0,178.0,0.8,0.09
+33,SFT-033,Backup em Nuvem 1TB (anual),Software & Assinaturas,Nuvem,590.0,129.8,0.78,0.09
+34,SFT-034,Plataforma de Videoconferência (anual),Software & Assinaturas,Colaboração,490.0,88.2,0.82,0.09
+35,SRV-035,Instalação & Montagem,Serviços,Instalação,350.0,133.0,0.62,0.08
+36,SRV-036,Suporte Técnico Mensal,Serviços,Suporte,1200.0,480.0,0.6,0.08
+37,SRV-037,Consultoria de Layout,Serviços,Consultoria,2800.0,1008.0,0.64,0.08
+38,SRV-038,Manutenção Preventiva,Serviços,Manutenção,780.0,296.4,0.62,0.08
+39,SRV-039,Treinamento de Equipe,Serviços,Treinamento,1800.0,630.0,0.65,0.08
