@@ -1,0 +1,21 @@
+name: Extrair projeto
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extrair o zip
+        run: |
+          unzip -q empresa-x-powerbi.zip
+          cp -a empresa-x-powerbi/. .
+          rm -rf empresa-x-powerbi empresa-x-powerbi.zip
+      - name: Salvar no repositório
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Adiciona projeto da Empresa X"
+          git push
