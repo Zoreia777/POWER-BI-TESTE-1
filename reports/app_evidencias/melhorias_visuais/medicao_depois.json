@@ -1,0 +1,402 @@
+{
+ "light/desk1440/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/desk1440/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/desk1440/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/desk1440/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/desk1440/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "light/win125_1024/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/win125_1024/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/win125_1024/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/win125_1024/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/win125_1024/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "light/tab768/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/tab768/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/tab768/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/tab768/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/tab768/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "light/mob390/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/mob390/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/mob390/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/mob390/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/mob390/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/desk1440/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/desk1440/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/desk1440/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/desk1440/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/desk1440/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/tab768/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/tab768/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/tab768/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/tab768/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/tab768/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/mob390/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/mob390/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/mob390/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/mob390/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/mob390/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ }
+}

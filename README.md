@@ -1,108 +1,120 @@
-# 📊 Empresa X · Banco de dados + Power BI
+# Empresa X — Inteligência Comercial 360°
 
-Um banco de dados completo (e **100% fictício**) para controlar **vendas, lucros, gastos, orçamento,
-metas e pessoas** de uma empresa — pronto para virar dashboards dinâmicos no Power BI.
+Projeto de portfólio de análise de dados: do CSV bruto ao aplicativo analítico, com ETL em camadas, SQL, investigações em Python, relatório executivo e suíte de testes.
 
-- **~59 mil vendas, ~7 mil lançamentos de despesa**, 3 anos de história (jan/2024 → set/2026) e
-  orçamento/metas projetados até dez/2026
-- **Modelo estrela** (8 dimensões + 5 fatos), em **CSV** e em **SQLite**
-- **Medidas DAX** prontas: DRE, YoY, YTD, orçado × realizado, Pareto, turnover, simulador de cenários
-- **Protótipo interativo** do dashboard em HTML (`docs/prototipo_dashboard.html`) para você ver o resultado antes de montar
-- **Temas** escuro e claro, **roteiro de 7 páginas** de dashboard e 15 "histórias escondidas" nos dados
-- Gerador reproduzível em Python — troque pelos dados reais da sua empresa quando quiser
+> ## ⚠️ Dados 100% fictícios
+> A "Empresa X", suas filiais, produtos, clientes e todos os números foram **gerados por um simulador** (`scripts/gerar_dados.py`, semente fixa). Alguns comportamentos (queda de margem, sazonalidade, eventos) foram **programados de propósito** e estão catalogados em [`docs/COMPORTAMENTOS_SINTETICOS.md`](docs/COMPORTAMENTOS_SINTETICOS.md). Nada aqui é evidência sobre empresas ou mercados reais: o objetivo é **demonstrar método**.
+
+## Problema de negócio
+
+Uma varejista de tecnologia com 8 filiais tem ~59 mil linhas de venda e ~7 mil lançamentos de despesa (jan/2024 a set/2026) espalhados em 13 CSVs. A diretoria quer saber: **como está o resultado? onde a margem está sendo corroída? uma queda anual é problema ou ruído? o gasto está dentro do orçamento?** — sem confundir receita provisória com definitiva, nem hipótese com causa.
+
+## Arquitetura
 
 ```
-empresa-x-powerbi/
-├── data/                     ← 13 CSVs prontos para o Power BI
-├── database/empresa_x.db     ← o mesmo conteúdo em SQLite (com views)
-├── sql/                      ← schema.sql, views.sql, consultas_exemplo.sql
-├── powerbi/
-│   ├── medidas_dax.md        ← todas as medidas, por tema
-│   ├── GUIA_DASHBOARDS.md    ← as 7 páginas, visual por visual
-│   ├── MODELO_E_CARGA.md     ← relacionamentos + como carregar (GitHub/local/SQLite)
-│   ├── tema_empresa_x_escuro.json / tema_empresa_x_claro.json
-│   └── consultas_m/          ← Power Query pronto (github/ e local/)
-├── docs/dicionario_de_dados.md
-├── docs/prototipo_dashboard.html   ← prévia interativa (abra no navegador)
-└── scripts/gerar_dados.py    ← gera tudo de novo (semente fixa)
+data/*.csv (13 originais, intactos; SHA-256 em data/CHECKSUMS.sha256)
+   │  scripts/run_etl.py   (uma transação; falha → ROLLBACK)
+   ▼
+raw (texto fiel) → stg (tipado, validado) → mart (estrela + KPIs) ──► ops (auditoria, 146 verificações)
+                                                   │
+        ┌──────────────────────────────────────────┼────────────────────────────────┐
+        ▼                                          ▼                                ▼
+sql/analise (8 análises, 21 resultados)   src/empresax/analise (6 investigações   schema bi (12 views) ──► app Streamlit (5 páginas,
+ scripts/run_queries.py                    + relatório executivo, 69 achados)      scripts/run_powerbi.py   leitura somente)
+                                           scripts/run_analises.py                 └► Power BI (roteiro + 290 valores de referência)
 ```
 
----
+Cada camada tem testes; os números do app, do SQL, do pandas e de um cálculo em Python puro são conferidos entre si.
 
-## 🚀 1. Subir para o seu GitHub
+## Tecnologias
 
-No terminal, dentro da pasta do projeto:
+Python 3.12/3.13 · pandas · DuckDB (SQL) · SciPy · Plotly · Streamlit · pytest · Power BI (camada de consumo preparada, **ainda não validada** — veja Limitações).
 
-```bash
-git init
-git add .
-git commit -m "Banco de dados da Empresa X para Power BI"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/empresa-x-powerbi.git
-git push -u origin main
+## Principais resultados (dados fictícios)
+
+- **Receita ajustada (provisória) jan–set/26: R$ 41,29 mi, +20,4%** sobre o mesmo período de 2025 — crescimento sobretudo de **volume** (decomposição preço × volume × mix × desconto × imposto reconciliada ao centavo).
+- **Margem bruta 40,3%** (−1,5 p.p. vs. jan–set/25); margem operacional **estimada** 6,0% (não é lucro contábil).
+- **Orçamento:** execução correta 100,5% (realizado ÷ orçado **acumulado**); a leitura ingênua (÷ orçamento anual) daria 71,8% e sugeriria uma "economia" falsa.
+
+### Estudos de caso
+
+| Caso | Pergunta | Conclusão (e seu limite) |
+|---|---|---|
+| **Porto Alegre, fev/26 (−48,9%)** | Perda de clientes ou efeito de base? | Pedidos −6,6%, linhas +2,9%, receita por linha −50,4%; um produto explica 62% da variação. É em grande parte base atípica; a **causa não é comprovada** (hipótese rotulada). |
+| **Smartphone X Max** | Por que a margem some? | Preço fixo (R$ 5.290) e custo/un. +37,1%: margem 17,6% → −13,7%; 607 das 612 linhas com margem negativa da empresa são dele. Conta aritmética, **não** recomendação de preço. |
+| **Preço × volume × mix** | O crescimento é "bom"? | Volume ≈ 92–93% da variação (92,8% da receita ajustada no app; 92% da registrada no relatório); o app reconcilia o total com resíduo R$ 0,00. |
+
+Relatório completo: [`reports/executivo/RELATORIO_EXECUTIVO.md`](reports/executivo/RELATORIO_EXECUTIVO.md) (cada achado rotulado como OBSERVAÇÃO, CONCLUSÃO ARITMÉTICA, HIPÓTESE ou PADRÃO PROGRAMADO).
+
+## O aplicativo (capturas reais)
+
+| Visão Geral | Orçamento |
+|---|---|
+| ![Visão Geral](reports/app_evidencias/01_visao_geral.png) | ![Orçamento](reports/app_evidencias/04_orcamento.png) |
+| **Investigações — Smartphone X Max** | **Filtro por filial (Porto Alegre)** |
+| ![Smartphone X Max](reports/app_evidencias/05b_smartphone.png) | ![Filtro Porto Alegre](reports/app_evidencias/06_filtro_porto_alegre.png) |
+
+Outras telas em [`reports/app_evidencias/`](reports/app_evidencias/) (Filiais, Produtos e Margem, preço × volume × mix, mobile). Regenerar: `scripts/capturar_evidencias_app.py` (opcional, usa Playwright).
+
+## Instalação e execução no Windows
+
+> Testado em **Linux** (Python 3.12 e 3.13). Os passos para Windows abaixo usam apenas comandos padrão do Python, mas **não foram executados no Windows** — se algo falhar, registre em uma *issue*.
+
+1. Instale o **Python 3.12 ou 3.13** (python.org; marque *Add python.exe to PATH*). Confira: `py --version`.
+2. Abra o *Prompt de Comando* na pasta do projeto e crie o ambiente virtual:
+   ```bat
+   py -3.13 -m venv .venv
+   .venv\Scripts\activate.bat
+   python -m pip install --upgrade pip
+   pip install -r requirements-lock.txt
+   ```
+   (`requirements-lock.txt` = versões exatas testadas. No PowerShell use `.venv\Scripts\Activate.ps1`; se bloqueado, `Set-ExecutionPolicy -Scope Process RemoteSigned`.)
+3. Gere tudo, **nesta ordem**:
+   ```bat
+   python scripts\run_etl.py          :: CSVs → warehouse\empresa_x.duckdb + reports\relatorio_qualidade.md
+   python scripts\run_queries.py      :: 8 análises SQL → reports\consultas\*.csv
+   python scripts\run_analises.py     :: 6 investigações + relatório executivo → reports\executivo\
+   python scripts\run_powerbi.py      :: views bi + 290 valores de referência + docs do Power BI
+   ```
+4. Abra o aplicativo: `streamlit run app\streamlit_app.py` (http://localhost:8501). **Feche-o antes de rodar o ETL de novo** (o DuckDB aceita um único escritor).
+
+Linux/macOS: troque `py -3.13` por `python3`, `.venv\Scripts\activate.bat` por `source .venv/bin/activate` e `\` por `/`.
+
+## Como executar os testes
+
+```bat
+python -m pytest tests -q
 ```
 
-Antes, crie o repositório vazio em <https://github.com/new> (nome sugerido: `empresa-x-powerbi`).
-Para o Power BI ler os CSVs direto da internet, deixe o repositório **público**.
+**416 testes** (≈5 min; 4 deles são visuais, usam navegador real via Playwright/Chromium e são pulados se ele não estiver instalado), incluindo: oráculos independentes (pandas/Python puro), injeção de defeitos, **testes de mutação do aplicativo** (cada defeito de negócio injetado precisa ser detectado), segurança (SQL parametrizado, app somente leitura), determinismo (duas execuções → mesmos bytes) e preservação dos 13 CSVs originais. Detalhes e versões testadas: [`docs/AMBIENTE_E_REPRODUCAO.md`](docs/AMBIENTE_E_REPRODUCAO.md).
 
-> O maior arquivo tem ~7 MB (`fact_vendas.csv`) e o banco SQLite ~13 MB — bem abaixo do limite
-> de 100 MB por arquivo do GitHub.
+## Limitações e premissas de negócio
 
-## 📥 2. Carregar no Power BI
+- **Dados sintéticos**: padrões foram programados; correlação nunca é lida como causa real (PN-SIN-01).
+- **Receita ajustada é provisória** (PN-DEV-01): considera só vendas *Entregues*; devolução cancela a linha inteira e **não tem data** no dado — fica no mês da venda (PN-DEV-03). O custo recuperado na devolução é **hipótese** (PN-DEV-02). Ver [`docs/DEVOLUCOES.md`](docs/DEVOLUCOES.md).
+- **Resultado operacional estimado ≠ lucro líquido contábil**; despesas não têm produto/canal (o app oculta o indicador nesses cortes).
+- **Orçamento** só é comparado nos meses realizados; 2026 vai até set/26 e nunca se tratam meses futuros como realizados (PN-ORC-01).
+- **Power BI: as 29 medidas DAX ainda NÃO foram executadas no Power BI Desktop.** Existem roteiro passo a passo, 290 valores de referência independentes e um conferidor automático; a validação é uma **pendência registrada**.
+- Antes de usar de verdade: licença do projeto ainda **não definida** (veja `docs/DEPENDENCIAS_E_LICENCAS.md`).
 
-O jeito mais rápido (atualiza sozinho quando você der `git push` em novos dados):
+Todas as premissas: [`docs/PREMISSAS_DE_NEGOCIO.md`](docs/PREMISSAS_DE_NEGOCIO.md).
 
-1. **Transformar dados → Gerenciar parâmetros → Novo parâmetro**: nome `BaseUrl`, tipo Texto, valor  
-   `https://raw.githubusercontent.com/SEU_USUARIO/empresa-x-powerbi/main/data/`
-2. Para cada arquivo de `powerbi/consultas_m/github/`: **Nova fonte → Consulta em branco →
-   Editor Avançado**, cole o conteúdo e dê à consulta o nome do arquivo (`fact_vendas`, etc.).
-3. **Fechar e aplicar** e siga [`powerbi/MODELO_E_CARGA.md`](powerbi/MODELO_E_CARGA.md) para
-   relacionamentos, tabela de datas e ordenação de colunas (5 minutos).
-4. Importe um tema: **Exibição → Temas → Procurar temas** → `tema_empresa_x_escuro.json`.
-5. Crie as medidas de [`powerbi/medidas_dax.md`](powerbi/medidas_dax.md) e monte as páginas com o
-   [`powerbi/GUIA_DASHBOARDS.md`](powerbi/GUIA_DASHBOARDS.md).
+## Documentação detalhada
 
-Prefere banco de dados de verdade? Veja as opções SQLite/ODBC, PostgreSQL e SQL Server em
-`MODELO_E_CARGA.md`.
+| Tema | Documento |
+|---|---|
+| ETL, camadas, validações | [`docs/ETL.md`](docs/ETL.md) · [`docs/MODELO_DIMENSIONAL.md`](docs/MODELO_DIMENSIONAL.md) · [`docs/dicionario_de_dados.md`](docs/dicionario_de_dados.md) |
+| Diagnóstico dos dados e devoluções | [`docs/DIAGNOSTICO.md`](docs/DIAGNOSTICO.md) · [`docs/DEVOLUCOES.md`](docs/DEVOLUCOES.md) |
+| SQL e metodologia | [`docs/CONSULTAS_SQL.md`](docs/CONSULTAS_SQL.md) · [`docs/METODOLOGIA_DECOMPOSICAO.md`](docs/METODOLOGIA_DECOMPOSICAO.md) |
+| Aplicativo | [`docs/APLICATIVO_STREAMLIT.md`](docs/APLICATIVO_STREAMLIT.md) |
+| Power BI | [`docs/POWERBI_CAMADA_DE_CONSUMO.md`](docs/POWERBI_CAMADA_DE_CONSUMO.md) · [`docs/POWERBI_ROTEIRO_DE_CONSTRUCAO.md`](docs/POWERBI_ROTEIRO_DE_CONSTRUCAO.md) |
+| Windows passo a passo e checklist do app | [`docs/GUIA_WINDOWS_PASSO_A_PASSO.md`](docs/GUIA_WINDOWS_PASSO_A_PASSO.md) · [`docs/CHECKLIST_VALIDACAO_APP.md`](docs/CHECKLIST_VALIDACAO_APP.md) |
+| Ambiente, dependências, licenças | [`docs/AMBIENTE_E_REPRODUCAO.md`](docs/AMBIENTE_E_REPRODUCAO.md) · [`docs/DEPENDENCIAS_E_LICENCAS.md`](docs/DEPENDENCIAS_E_LICENCAS.md) |
+| Auditoria final | [`docs/RELATORIO_DE_AUDITORIA.md`](docs/RELATORIO_DE_AUDITORIA.md) |
+| Estudo e entrevista | [`docs/GUIA_DE_ESTUDO_E_ENTREVISTA.md`](docs/GUIA_DE_ESTUDO_E_ENTREVISTA.md) |
+| Fase 1 (legado: SQLite, Power Query, DAX manual) | [`docs/legado/FASE1_BANCO_E_POWERBI.md`](docs/legado/FASE1_BANCO_E_POWERBI.md) |
 
-## 🗃️ 3. Usar o banco SQLite
+## Como foi desenvolvido
 
-```bash
-sqlite3 database/empresa_x.db
-sqlite> SELECT * FROM vw_dre_mensal LIMIT 5;
-sqlite> .read sql/consultas_exemplo.sql
-```
-
-Views prontas: `vw_vendas_detalhada`, `vw_dre_mensal`, `vw_orcado_vs_realizado`,
-`vw_meta_vs_realizado_filial` e `vw_curva_abc_clientes`.
-
-## 🔁 4. Regenerar os dados (ou mudar o período)
-
-```bash
-pip install -r requirements.txt
-python scripts/gerar_dados.py
-```
-
-O script recria CSVs, banco SQLite e consultas Power Query. As constantes no topo
-(`DATA_INICIO`, `DATA_CORTE`, `DATA_FIM`, `PEDIDOS_BASE_DIA`, `SEED`…) controlam período, volume
-e a "sorte" dos dados.
-
-## 🏢 5. Trocar pelos dados reais da sua empresa
-
-Mantenha **os mesmos nomes de tabelas e colunas** (veja
-[`docs/dicionario_de_dados.md`](docs/dicionario_de_dados.md)) e substitua os CSVs. Ordem sugerida:
-filiais/departamentos/categorias → despesas e orçamento → vendas → metas e RH. Seus dashboards
-e medidas continuam funcionando.
-
-## 🔎 6. Histórias escondidas nos dados
-
-Black Friday que derruba a margem, produto vendido quase a custo zero, filial com concorrente
-agressivo, verba de marketing estourada, custo de nuvem fugindo do controle… são 15 "easter eggs"
-listados no final do [`GUIA_DASHBOARDS.md`](powerbi/GUIA_DASHBOARDS.md). Bom exercício para ver se
-seus dashboards realmente contam a história.
-
----
-
-### Aviso
-Todos os nomes de pessoas, clientes e empresas são inventados; qualquer semelhança é coincidência.
-Os números não representam nenhuma empresa real.
+Projeto de portfólio desenvolvido com **apoio de IA (Claude, da Anthropic)** para escrever código, testes e documentação, sob direção e revisão do autor, que definiu escopo, premissas de negócio e critérios de aceite em cada etapa. Veja a distinção detalhada no guia de entrevista.
+<!-- TODO(autor): confirmar nome, links (LinkedIn/GitHub) e licença antes de publicar. -->

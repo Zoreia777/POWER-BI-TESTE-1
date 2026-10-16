@@ -1,0 +1,42 @@
+[
+ {
+  "id": "INV5.1",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "2026 até set/26: orçamento anual R$ 19,67 mi; orçamento acumulado R$ 14,06 mi (71,5% do anual em 9 de 12 meses); realizado acumulado R$ 14,12 mi."
+ },
+ {
+  "id": "INV5.2",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Execução correta (realizado ÷ orçado acumulado): 100,5%. Leitura ingênua (÷ orçamento anual): 71,8% — daria a falsa impressão de que a empresa gastou 28% a menos que o planejado. Prorrateio linear (9/12): 95,7% — também erra, porque o orçamento não é distribuído igualmente pelos meses."
+ },
+ {
+  "id": "INV5.3",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Por departamento, apenas 1 está acima da faixa de ±5%: Tecnologia da Informação 105,7% (R$ 88,1 mil). Por categoria, 5 de 18 estão acima."
+ },
+ {
+  "id": "INV5.4",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Maiores desvios em reais (acima do orçado): Software & Licenças R$ 66,9 mil (117,6%); Energia, Água & Internet R$ 43,3 mil (107,8%); Juros & Tarifas Bancárias R$ 35,6 mil (130,4%). Esses três concentram 76% da soma dos desvios positivos por categoria. O desvio líquido total é R$ 63,7 mil (+0,5%)."
+ },
+ {
+  "id": "INV5.5",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "A maior execução PERCENTUAL é de 'Juros & Tarifas Bancárias' (130,4%), mas sobre valor orçado pequeno (R$ 117,0 mil); percentual alto e valor pequeno exigem menos atenção que desvio moderado em categoria grande."
+ },
+ {
+  "id": "INV5.6",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Se a taxa de execução acumulada (100,5%) se mantivesse, o gasto de 2026 fecharia em ≈ R$ 19,76 mi contra orçamento anual de R$ 19,67 mi (diferença R$ 89,1 mil). A projeção parte do orçamento anual completo. É extrapolação aritmética, sem considerar sazonalidade de despesas nem decisões futuras."
+ },
+ {
+  "id": "INV5.7",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "P14: Marketing executou 116,5% do orçado no 4T/2025 (jan–set/2025: 100,0%). P15: Software & Licenças executou 117,6% em 2026 (2025: 100,0%). P16: Juros & Tarifas Bancárias executaram 111,5% de mar a dez/2025 (2024: 99,5%). Os três desvios foram criados no gerador; aqui só confirmamos que os números os reproduzem."
+ },
+ {
+  "id": "INV5.8",
+  "tipo": "HIPÓTESE",
+  "texto": "Desvios acima do orçado em categorias com crescimento contínuo (software, juros) podem refletir orçamento subdimensionado e não má gestão de gasto; os dados não permitem separar uma coisa da outra."
+ }
+]

@@ -1,0 +1,291 @@
+contexto_id,contexto,indicador_id,indicador,valor_esperado
+C01,Todos os meses realizados (sem filtro),IND-01,Receita Registrada,136505354.390000
+C01,Todos os meses realizados (sem filtro),IND-02,Vendas Entregues,133514827.450000
+C01,Todos os meses realizados (sem filtro),IND-03,Devoluções,2990526.940000
+C01,Todos os meses realizados (sem filtro),IND-04,Receita Ajustada,133514827.450000
+C01,Todos os meses realizados (sem filtro),IND-05,Diferença de Reconciliação,0.000000
+C01,Todos os meses realizados (sem filtro),IND-06,Taxa de Devolução %,0.021908
+C01,Todos os meses realizados (sem filtro),IND-07,Custo Ajustado,78436724.990000
+C01,Todos os meses realizados (sem filtro),IND-08,Lucro Bruto Ajustado,55078102.460000
+C01,Todos os meses realizados (sem filtro),IND-09,Margem Bruta Ajustada %,0.412524
+C01,Todos os meses realizados (sem filtro),IND-10,Unidades Entregues,159015.000000
+C01,Todos os meses realizados (sem filtro),IND-11,Pedidos,33209.000000
+C01,Todos os meses realizados (sem filtro),IND-12,Ticket por Pedido,4020.441069
+C01,Todos os meses realizados (sem filtro),IND-13,Desconto Efetivo %,0.062211
+C01,Todos os meses realizados (sem filtro),IND-14,Preço Bruto Médio por Unidade,1055.947608
+C01,Todos os meses realizados (sem filtro),IND-15,Linhas com Margem Negativa,612.000000
+C01,Todos os meses realizados (sem filtro),IND-16,% Linhas com Margem Negativa,0.010309
+C01,Todos os meses realizados (sem filtro),IND-17,Despesas,45712808.060000
+C01,Todos os meses realizados (sem filtro),IND-18,Despesas % da Receita Ajustada,0.342380
+C01,Todos os meses realizados (sem filtro),IND-19,Resultado Operacional Estimado,9365294.400000
+C01,Todos os meses realizados (sem filtro),IND-20,Margem Operacional Estimada %,0.070144
+C01,Todos os meses realizados (sem filtro),IND-21,Receita Ajustada Mês Anterior,
+C01,Todos os meses realizados (sem filtro),IND-22,Variação MoM %,
+C01,Todos os meses realizados (sem filtro),IND-23,Receita Ajustada Ano Anterior,
+C01,Todos os meses realizados (sem filtro),IND-24,Variação YoY %,
+C01,Todos os meses realizados (sem filtro),IND-25,Orçamento Anual,51117629.000000
+C01,Todos os meses realizados (sem filtro),IND-26,Orçamento Acumulado,45508644.460000
+C01,Todos os meses realizados (sem filtro),IND-27,Realizado Acumulado,45712808.060000
+C01,Todos os meses realizados (sem filtro),IND-28,Execução do Orçamento %,1.004486
+C01,Todos os meses realizados (sem filtro),IND-29,Consumo do Orçamento Anual %,0.894267
+C02,Ano 2024,IND-01,Receita Registrada,41766866.630000
+C02,Ano 2024,IND-02,Vendas Entregues,40802074.790000
+C02,Ano 2024,IND-03,Devoluções,964791.840000
+C02,Ano 2024,IND-04,Receita Ajustada,40802074.790000
+C02,Ano 2024,IND-05,Diferença de Reconciliação,0.000000
+C02,Ano 2024,IND-06,Taxa de Devolução %,0.023099
+C02,Ano 2024,IND-07,Custo Ajustado,23564735.580000
+C02,Ano 2024,IND-08,Lucro Bruto Ajustado,17237339.210000
+C02,Ano 2024,IND-09,Margem Bruta Ajustada %,0.422462
+C02,Ano 2024,IND-10,Unidades Entregues,49297.000000
+C02,Ano 2024,IND-11,Pedidos,10141.000000
+C02,Ano 2024,IND-12,Ticket por Pedido,4023.476461
+C02,Ano 2024,IND-13,Desconto Efetivo %,0.063351
+C02,Ano 2024,IND-14,Preço Bruto Médio por Unidade,1043.023808
+C02,Ano 2024,IND-15,Linhas com Margem Negativa,8.000000
+C02,Ano 2024,IND-16,% Linhas com Margem Negativa,0.000441
+C02,Ano 2024,IND-17,Despesas,14114037.220000
+C02,Ano 2024,IND-18,Despesas % da Receita Ajustada,0.345915
+C02,Ano 2024,IND-19,Resultado Operacional Estimado,3123301.990000
+C02,Ano 2024,IND-20,Margem Operacional Estimada %,0.076548
+C02,Ano 2024,IND-21,Receita Ajustada Mês Anterior,
+C02,Ano 2024,IND-22,Variação MoM %,
+C02,Ano 2024,IND-23,Receita Ajustada Ano Anterior,
+C02,Ano 2024,IND-24,Variação YoY %,
+C02,Ano 2024,IND-25,Orçamento Anual,14060254.720000
+C02,Ano 2024,IND-26,Orçamento Acumulado,14060254.720000
+C02,Ano 2024,IND-27,Realizado Acumulado,14114037.220000
+C02,Ano 2024,IND-28,Execução do Orçamento %,1.003825
+C02,Ano 2024,IND-29,Consumo do Orçamento Anual %,1.003825
+C03,Ano 2025,IND-01,Receita Registrada,52576979.200000
+C03,Ano 2025,IND-02,Vendas Entregues,51420415.020000
+C03,Ano 2025,IND-03,Devoluções,1156564.180000
+C03,Ano 2025,IND-04,Receita Ajustada,51420415.020000
+C03,Ano 2025,IND-05,Diferença de Reconciliação,0.000000
+C03,Ano 2025,IND-06,Taxa de Devolução %,0.021998
+C03,Ano 2025,IND-07,Custo Ajustado,30200755.090000
+C03,Ano 2025,IND-08,Lucro Bruto Ajustado,21219659.930000
+C03,Ano 2025,IND-09,Margem Bruta Ajustada %,0.412670
+C03,Ano 2025,IND-10,Unidades Entregues,61328.000000
+C03,Ano 2025,IND-11,Pedidos,12880.000000
+C03,Ano 2025,IND-12,Ticket por Pedido,3992.268247
+C03,Ano 2025,IND-13,Desconto Efetivo %,0.064330
+C03,Ano 2025,IND-14,Preço Bruto Médio por Unidade,1055.911673
+C03,Ano 2025,IND-15,Linhas com Margem Negativa,228.000000
+C03,Ano 2025,IND-16,% Linhas com Margem Negativa,0.009916
+C03,Ano 2025,IND-17,Despesas,17474510.340000
+C03,Ano 2025,IND-18,Despesas % da Receita Ajustada,0.339836
+C03,Ano 2025,IND-19,Resultado Operacional Estimado,3745149.590000
+C03,Ano 2025,IND-20,Margem Operacional Estimada %,0.072834
+C03,Ano 2025,IND-21,Receita Ajustada Mês Anterior,
+C03,Ano 2025,IND-22,Variação MoM %,
+C03,Ano 2025,IND-23,Receita Ajustada Ano Anterior,
+C03,Ano 2025,IND-24,Variação YoY %,
+C03,Ano 2025,IND-25,Orçamento Anual,17387829.350000
+C03,Ano 2025,IND-26,Orçamento Acumulado,17387829.350000
+C03,Ano 2025,IND-27,Realizado Acumulado,17474510.340000
+C03,Ano 2025,IND-28,Execução do Orçamento %,1.004985
+C03,Ano 2025,IND-29,Consumo do Orçamento Anual %,1.004985
+C04,Ano 2026 (jan–set),IND-01,Receita Registrada,42161508.560000
+C04,Ano 2026 (jan–set),IND-02,Vendas Entregues,41292337.640000
+C04,Ano 2026 (jan–set),IND-03,Devoluções,869170.920000
+C04,Ano 2026 (jan–set),IND-04,Receita Ajustada,41292337.640000
+C04,Ano 2026 (jan–set),IND-05,Diferença de Reconciliação,0.000000
+C04,Ano 2026 (jan–set),IND-06,Taxa de Devolução %,0.020615
+C04,Ano 2026 (jan–set),IND-07,Custo Ajustado,24671234.320000
+C04,Ano 2026 (jan–set),IND-08,Lucro Bruto Ajustado,16621103.320000
+C04,Ano 2026 (jan–set),IND-09,Margem Bruta Ajustada %,0.402523
+C04,Ano 2026 (jan–set),IND-10,Unidades Entregues,48390.000000
+C04,Ano 2026 (jan–set),IND-11,Pedidos,10188.000000
+C04,Ano 2026 (jan–set),IND-12,Ticket por Pedido,4053.036675
+C04,Ano 2026 (jan–set),IND-13,Desconto Efetivo %,0.058418
+C04,Ano 2026 (jan–set),IND-14,Preço Bruto Médio por Unidade,1069.182611
+C04,Ano 2026 (jan–set),IND-15,Linhas com Margem Negativa,376.000000
+C04,Ano 2026 (jan–set),IND-16,% Linhas com Margem Negativa,0.020629
+C04,Ano 2026 (jan–set),IND-17,Despesas,14124260.500000
+C04,Ano 2026 (jan–set),IND-18,Despesas % da Receita Ajustada,0.342055
+C04,Ano 2026 (jan–set),IND-19,Resultado Operacional Estimado,2496842.820000
+C04,Ano 2026 (jan–set),IND-20,Margem Operacional Estimada %,0.060467
+C04,Ano 2026 (jan–set),IND-21,Receita Ajustada Mês Anterior,
+C04,Ano 2026 (jan–set),IND-22,Variação MoM %,
+C04,Ano 2026 (jan–set),IND-23,Receita Ajustada Ano Anterior,
+C04,Ano 2026 (jan–set),IND-24,Variação YoY %,
+C04,Ano 2026 (jan–set),IND-25,Orçamento Anual,19669544.930000
+C04,Ano 2026 (jan–set),IND-26,Orçamento Acumulado,14060560.390000
+C04,Ano 2026 (jan–set),IND-27,Realizado Acumulado,14124260.500000
+C04,Ano 2026 (jan–set),IND-28,Execução do Orçamento %,1.004530
+C04,Ano 2026 (jan–set),IND-29,Consumo do Orçamento Anual %,0.718078
+C05,Mês set/2026,IND-01,Receita Registrada,5410973.760000
+C05,Mês set/2026,IND-02,Vendas Entregues,5301783.740000
+C05,Mês set/2026,IND-03,Devoluções,109190.020000
+C05,Mês set/2026,IND-04,Receita Ajustada,5301783.740000
+C05,Mês set/2026,IND-05,Diferença de Reconciliação,0.000000
+C05,Mês set/2026,IND-06,Taxa de Devolução %,0.020179
+C05,Mês set/2026,IND-07,Custo Ajustado,3196069.240000
+C05,Mês set/2026,IND-08,Lucro Bruto Ajustado,2105714.500000
+C05,Mês set/2026,IND-09,Margem Bruta Ajustada %,0.397171
+C05,Mês set/2026,IND-10,Unidades Entregues,6080.000000
+C05,Mês set/2026,IND-11,Pedidos,1276.000000
+C05,Mês set/2026,IND-12,Ticket por Pedido,4155.002931
+C05,Mês set/2026,IND-13,Desconto Efetivo %,0.060392
+C05,Mês set/2026,IND-14,Preço Bruto Médio por Unidade,1094.894871
+C05,Mês set/2026,IND-15,Linhas com Margem Negativa,45.000000
+C05,Mês set/2026,IND-16,% Linhas com Margem Negativa,0.019711
+C05,Mês set/2026,IND-17,Despesas,1709308.450000
+C05,Mês set/2026,IND-18,Despesas % da Receita Ajustada,0.322403
+C05,Mês set/2026,IND-19,Resultado Operacional Estimado,396406.050000
+C05,Mês set/2026,IND-20,Margem Operacional Estimada %,0.074768
+C05,Mês set/2026,IND-21,Receita Ajustada Mês Anterior,5423543.460000
+C05,Mês set/2026,IND-22,Variação MoM %,-0.022450
+C05,Mês set/2026,IND-23,Receita Ajustada Ano Anterior,4647306.510000
+C05,Mês set/2026,IND-24,Variação YoY %,0.140829
+C05,Mês set/2026,IND-25,Orçamento Anual,19669544.930000
+C05,Mês set/2026,IND-26,Orçamento Acumulado,1693439.700000
+C05,Mês set/2026,IND-27,Realizado Acumulado,1709308.450000
+C05,Mês set/2026,IND-28,Execução do Orçamento %,1.009371
+C05,Mês set/2026,IND-29,Consumo do Orçamento Anual %,0.086901
+C06,Mês jan/2026,IND-01,Receita Registrada,4324698.700000
+C06,Mês jan/2026,IND-02,Vendas Entregues,4242745.630000
+C06,Mês jan/2026,IND-03,Devoluções,81953.070000
+C06,Mês jan/2026,IND-04,Receita Ajustada,4242745.630000
+C06,Mês jan/2026,IND-05,Diferença de Reconciliação,0.000000
+C06,Mês jan/2026,IND-06,Taxa de Devolução %,0.018950
+C06,Mês jan/2026,IND-07,Custo Ajustado,2521968.470000
+C06,Mês jan/2026,IND-08,Lucro Bruto Ajustado,1720777.160000
+C06,Mês jan/2026,IND-09,Margem Bruta Ajustada %,0.405581
+C06,Mês jan/2026,IND-10,Unidades Entregues,4800.000000
+C06,Mês jan/2026,IND-11,Pedidos,1031.000000
+C06,Mês jan/2026,IND-12,Ticket por Pedido,4115.175199
+C06,Mês jan/2026,IND-13,Desconto Efetivo %,0.059751
+C06,Mês jan/2026,IND-14,Preço Bruto Médio por Unidade,1106.880760
+C06,Mês jan/2026,IND-15,Linhas com Margem Negativa,38.000000
+C06,Mês jan/2026,IND-16,% Linhas com Margem Negativa,0.020765
+C06,Mês jan/2026,IND-17,Despesas,1441682.680000
+C06,Mês jan/2026,IND-18,Despesas % da Receita Ajustada,0.339799
+C06,Mês jan/2026,IND-19,Resultado Operacional Estimado,279094.480000
+C06,Mês jan/2026,IND-20,Margem Operacional Estimada %,0.065782
+C06,Mês jan/2026,IND-21,Receita Ajustada Mês Anterior,5909917.250000
+C06,Mês jan/2026,IND-22,Variação MoM %,-0.282097
+C06,Mês jan/2026,IND-23,Receita Ajustada Ano Anterior,3180975.520000
+C06,Mês jan/2026,IND-24,Variação YoY %,0.333788
+C06,Mês jan/2026,IND-25,Orçamento Anual,19669544.930000
+C06,Mês jan/2026,IND-26,Orçamento Acumulado,1414790.130000
+C06,Mês jan/2026,IND-27,Realizado Acumulado,1441682.680000
+C06,Mês jan/2026,IND-28,Execução do Orçamento %,1.019008
+C06,Mês jan/2026,IND-29,Consumo do Orçamento Anual %,0.073295
+C07,"Porto Alegre, fev/2026",IND-01,Receita Registrada,182901.290000
+C07,"Porto Alegre, fev/2026",IND-02,Vendas Entregues,179410.160000
+C07,"Porto Alegre, fev/2026",IND-03,Devoluções,3491.130000
+C07,"Porto Alegre, fev/2026",IND-04,Receita Ajustada,179410.160000
+C07,"Porto Alegre, fev/2026",IND-05,Diferença de Reconciliação,0.000000
+C07,"Porto Alegre, fev/2026",IND-06,Taxa de Devolução %,0.019088
+C07,"Porto Alegre, fev/2026",IND-07,Custo Ajustado,107173.160000
+C07,"Porto Alegre, fev/2026",IND-08,Lucro Bruto Ajustado,72237.000000
+C07,"Porto Alegre, fev/2026",IND-09,Margem Bruta Ajustada %,0.402636
+C07,"Porto Alegre, fev/2026",IND-10,Unidades Entregues,226.000000
+C07,"Porto Alegre, fev/2026",IND-11,Pedidos,57.000000
+C07,"Porto Alegre, fev/2026",IND-12,Ticket por Pedido,3147.546667
+C07,"Porto Alegre, fev/2026",IND-13,Desconto Efetivo %,0.060923
+C07,"Porto Alegre, fev/2026",IND-14,Preço Bruto Médio por Unidade,992.156017
+C07,"Porto Alegre, fev/2026",IND-15,Linhas com Margem Negativa,1.000000
+C07,"Porto Alegre, fev/2026",IND-16,% Linhas com Margem Negativa,0.009346
+C07,"Porto Alegre, fev/2026",IND-17,Despesas,82269.710000
+C07,"Porto Alegre, fev/2026",IND-18,Despesas % da Receita Ajustada,0.458557
+C07,"Porto Alegre, fev/2026",IND-19,Resultado Operacional Estimado,-10032.710000
+C07,"Porto Alegre, fev/2026",IND-20,Margem Operacional Estimada %,-0.055921
+C07,"Porto Alegre, fev/2026",IND-21,Receita Ajustada Mês Anterior,307646.070000
+C07,"Porto Alegre, fev/2026",IND-22,Variação MoM %,-0.416829
+C07,"Porto Alegre, fev/2026",IND-23,Receita Ajustada Ano Anterior,351281.390000
+C07,"Porto Alegre, fev/2026",IND-24,Variação YoY %,-0.489269
+C07,"Porto Alegre, fev/2026",IND-25,Orçamento Anual,1248698.510000
+C07,"Porto Alegre, fev/2026",IND-26,Orçamento Acumulado,87433.230000
+C07,"Porto Alegre, fev/2026",IND-27,Realizado Acumulado,82269.710000
+C07,"Porto Alegre, fev/2026",IND-28,Execução do Orçamento %,0.940943
+C07,"Porto Alegre, fev/2026",IND-29,Consumo do Orçamento Anual %,0.065884
+C08,"Matriz, ano 2026",IND-01,Receita Registrada,12530303.670000
+C08,"Matriz, ano 2026",IND-02,Vendas Entregues,12279853.200000
+C08,"Matriz, ano 2026",IND-03,Devoluções,250450.470000
+C08,"Matriz, ano 2026",IND-04,Receita Ajustada,12279853.200000
+C08,"Matriz, ano 2026",IND-05,Diferença de Reconciliação,0.000000
+C08,"Matriz, ano 2026",IND-06,Taxa de Devolução %,0.019988
+C08,"Matriz, ano 2026",IND-07,Custo Ajustado,7203706.740000
+C08,"Matriz, ano 2026",IND-08,Lucro Bruto Ajustado,5076146.460000
+C08,"Matriz, ano 2026",IND-09,Margem Bruta Ajustada %,0.413372
+C08,"Matriz, ano 2026",IND-10,Unidades Entregues,14863.000000
+C08,"Matriz, ano 2026",IND-11,Pedidos,2991.000000
+C08,"Matriz, ano 2026",IND-12,Ticket por Pedido,4105.601204
+C08,"Matriz, ano 2026",IND-13,Desconto Efetivo %,0.060713
+C08,"Matriz, ano 2026",IND-14,Preço Bruto Médio por Unidade,1036.980910
+C08,"Matriz, ano 2026",IND-15,Linhas com Margem Negativa,107.000000
+C08,"Matriz, ano 2026",IND-16,% Linhas com Margem Negativa,0.020007
+C08,"Matriz, ano 2026",IND-17,Despesas,6897971.940000
+C08,"Matriz, ano 2026",IND-18,Despesas % da Receita Ajustada,0.561731
+C08,"Matriz, ano 2026",IND-19,Resultado Operacional Estimado,-1821825.480000
+C08,"Matriz, ano 2026",IND-20,Margem Operacional Estimada %,-0.148359
+C08,"Matriz, ano 2026",IND-21,Receita Ajustada Mês Anterior,
+C08,"Matriz, ano 2026",IND-22,Variação MoM %,
+C08,"Matriz, ano 2026",IND-23,Receita Ajustada Ano Anterior,
+C08,"Matriz, ano 2026",IND-24,Variação YoY %,
+C08,"Matriz, ano 2026",IND-25,Orçamento Anual,9540931.760000
+C08,"Matriz, ano 2026",IND-26,Orçamento Acumulado,6912626.710000
+C08,"Matriz, ano 2026",IND-27,Realizado Acumulado,6897971.940000
+C08,"Matriz, ano 2026",IND-28,Execução do Orçamento %,0.997880
+C08,"Matriz, ano 2026",IND-29,Consumo do Orçamento Anual %,0.722987
+C09,"Smartphone X Max, ano 2026",IND-01,Receita Registrada,3273434.020000
+C09,"Smartphone X Max, ano 2026",IND-02,Vendas Entregues,3215394.240000
+C09,"Smartphone X Max, ano 2026",IND-03,Devoluções,58039.780000
+C09,"Smartphone X Max, ano 2026",IND-04,Receita Ajustada,3215394.240000
+C09,"Smartphone X Max, ano 2026",IND-05,Diferença de Reconciliação,0.000000
+C09,"Smartphone X Max, ano 2026",IND-06,Taxa de Devolução %,0.017731
+C09,"Smartphone X Max, ano 2026",IND-07,Custo Ajustado,3534265.810000
+C09,"Smartphone X Max, ano 2026",IND-08,Lucro Bruto Ajustado,-318871.570000
+C09,"Smartphone X Max, ano 2026",IND-09,Margem Bruta Ajustada %,-0.099170
+C09,"Smartphone X Max, ano 2026",IND-10,Unidades Entregues,787.000000
+C09,"Smartphone X Max, ano 2026",IND-11,Pedidos,378.000000
+C09,"Smartphone X Max, ano 2026",IND-12,Ticket por Pedido,8506.333968
+C09,"Smartphone X Max, ano 2026",IND-13,Desconto Efetivo %,0.057890
+C09,"Smartphone X Max, ano 2026",IND-14,Preço Bruto Médio por Unidade,5290.000000
+C09,"Smartphone X Max, ano 2026",IND-15,Linhas com Margem Negativa,376.000000
+C09,"Smartphone X Max, ano 2026",IND-16,% Linhas com Margem Negativa,0.994709
+C09,"Smartphone X Max, ano 2026",IND-17,Despesas,
+C09,"Smartphone X Max, ano 2026",IND-18,Despesas % da Receita Ajustada,
+C09,"Smartphone X Max, ano 2026",IND-19,Resultado Operacional Estimado,
+C09,"Smartphone X Max, ano 2026",IND-20,Margem Operacional Estimada %,
+C09,"Smartphone X Max, ano 2026",IND-21,Receita Ajustada Mês Anterior,
+C09,"Smartphone X Max, ano 2026",IND-22,Variação MoM %,
+C09,"Smartphone X Max, ano 2026",IND-23,Receita Ajustada Ano Anterior,
+C09,"Smartphone X Max, ano 2026",IND-24,Variação YoY %,
+C09,"Smartphone X Max, ano 2026",IND-25,Orçamento Anual,
+C09,"Smartphone X Max, ano 2026",IND-26,Orçamento Acumulado,
+C09,"Smartphone X Max, ano 2026",IND-27,Realizado Acumulado,
+C09,"Smartphone X Max, ano 2026",IND-28,Execução do Orçamento %,
+C09,"Smartphone X Max, ano 2026",IND-29,Consumo do Orçamento Anual %,
+C10,"Notebook Pro 14"", ago/2025",IND-01,Receita Registrada,12312.310000
+C10,"Notebook Pro 14"", ago/2025",IND-02,Vendas Entregues,12312.310000
+C10,"Notebook Pro 14"", ago/2025",IND-03,Devoluções,0.000000
+C10,"Notebook Pro 14"", ago/2025",IND-04,Receita Ajustada,12312.310000
+C10,"Notebook Pro 14"", ago/2025",IND-05,Diferença de Reconciliação,0.000000
+C10,"Notebook Pro 14"", ago/2025",IND-06,Taxa de Devolução %,0.000000
+C10,"Notebook Pro 14"", ago/2025",IND-07,Custo Ajustado,10220.210000
+C10,"Notebook Pro 14"", ago/2025",IND-08,Lucro Bruto Ajustado,2092.100000
+C10,"Notebook Pro 14"", ago/2025",IND-09,Margem Bruta Ajustada %,0.169919
+C10,"Notebook Pro 14"", ago/2025",IND-10,Unidades Entregues,2.000000
+C10,"Notebook Pro 14"", ago/2025",IND-11,Pedidos,2.000000
+C10,"Notebook Pro 14"", ago/2025",IND-12,Ticket por Pedido,6156.155000
+C10,"Notebook Pro 14"", ago/2025",IND-13,Desconto Efetivo %,0.035000
+C10,"Notebook Pro 14"", ago/2025",IND-14,Preço Bruto Médio por Unidade,7779.800000
+C10,"Notebook Pro 14"", ago/2025",IND-15,Linhas com Margem Negativa,0.000000
+C10,"Notebook Pro 14"", ago/2025",IND-16,% Linhas com Margem Negativa,0.000000
+C10,"Notebook Pro 14"", ago/2025",IND-17,Despesas,
+C10,"Notebook Pro 14"", ago/2025",IND-18,Despesas % da Receita Ajustada,
+C10,"Notebook Pro 14"", ago/2025",IND-19,Resultado Operacional Estimado,
+C10,"Notebook Pro 14"", ago/2025",IND-20,Margem Operacional Estimada %,
+C10,"Notebook Pro 14"", ago/2025",IND-21,Receita Ajustada Mês Anterior,411479.900000
+C10,"Notebook Pro 14"", ago/2025",IND-22,Variação MoM %,-0.970078
+C10,"Notebook Pro 14"", ago/2025",IND-23,Receita Ajustada Ano Anterior,268439.840000
+C10,"Notebook Pro 14"", ago/2025",IND-24,Variação YoY %,-0.954134
+C10,"Notebook Pro 14"", ago/2025",IND-25,Orçamento Anual,
+C10,"Notebook Pro 14"", ago/2025",IND-26,Orçamento Acumulado,
+C10,"Notebook Pro 14"", ago/2025",IND-27,Realizado Acumulado,
+C10,"Notebook Pro 14"", ago/2025",IND-28,Execução do Orçamento %,
+C10,"Notebook Pro 14"", ago/2025",IND-29,Consumo do Orçamento Anual %,

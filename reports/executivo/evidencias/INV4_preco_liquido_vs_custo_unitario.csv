@@ -1,0 +1,40 @@
+id_produto,produto,cresc_preco_liq,cresc_custo,custo_cresceu_mais
+1,"Notebook Pro 14""",0.017688,0.056408,True
+2,"Notebook Essencial 15""",0.018939,0.017781,False
+3,"Monitor 24"" Full HD",0.016105,0.017539,True
+4,"Monitor 27"" 4K",0.016039,0.018914,True
+5,Teclado Mecânico Pro,0.016750,0.017003,True
+6,Mouse Ergonômico Sem Fio,0.017851,0.017623,False
+7,Webcam Full HD,0.019263,0.018056,False
+8,Headset Profissional,0.015462,0.017913,True
+9,Smartphone X Lite,0.015518,0.018051,True
+10,Smartphone X Max,-0.003194,0.128155,True
+11,"Tablet 10""",0.017660,0.016516,False
+12,Impressora Multifuncional,0.015309,0.018243,True
+13,Cadeira Ergonômica Presidente,0.017018,0.017452,True
+14,Mesa Regulável Elétrica,0.016567,0.018588,True
+15,Mesa de Reunião 8 Lugares,0.014770,0.019298,True
+16,Armário Arquivo 4 Gavetas,0.019530,0.016225,False
+17,Luminária LED de Mesa,0.013929,0.017841,True
+18,Suporte Articulado p/ Monitor,0.015599,0.018597,True
+19,Kit Papelaria Premium,0.017749,0.018693,True
+20,Quadro Branco Magnético,0.016450,0.018191,True
+21,Divisória Acústica,0.017106,0.018376,True
+22,Cafeteira Expresso Automática,0.018650,0.018122,False
+23,Purificador de Água,0.016323,0.016184,False
+24,Ar-condicionado Split 12000 BTU,0.012086,0.017020,True
+25,Ventilador Torre Silencioso,0.016231,0.017264,True
+26,Aspirador Robô,0.014257,0.018554,True
+27,Fritadeira Elétrica 6L,0.012484,0.017802,True
+28,Kit Smart Lâmpadas (4un),0.013104,0.017284,True
+29,Cadeira Gamer Reclinável,0.017369,0.016992,False
+30,Licença Office Suite (anual),0.019569,0.018432,False
+31,Antivírus Corporativo (anual),0.017683,0.018413,True
+32,ERP Lite (mensalidade),0.019474,0.018550,False
+33,Backup em Nuvem 1TB (anual),0.018243,0.017955,False
+34,Plataforma de Videoconferência (anual),0.016823,0.017049,True
+35,Instalação & Montagem,0.017174,0.017716,True
+36,Suporte Técnico Mensal,0.014004,0.017780,True
+37,Consultoria de Layout,0.018735,0.017712,False
+38,Manutenção Preventiva,0.019056,0.018004,False
+39,Treinamento de Equipe,0.015710,0.015660,False

@@ -1,0 +1,4 @@
+ano,meses_realizados_no_ano,ano_completo,receita_registrada_ano_realizado,receita_ajustada_ano_realizado,periodo_ytd_comparado,receita_registrada_ytd,devolucoes_ytd,receita_ajustada_ytd,ajustada_ytd_ano_anterior,status_yoy_ytd,variacao_yoy_ytd_pct
+2024,12,True,41766866.630000,40802074.790000,jan a 09,27725174.370000,650914.120000,27074260.250000,,sem_base,
+2025,12,True,52576979.200000,51420415.020000,jan a 09,35052068.630000,767467.590000,34284601.040000,27074260.250000,comparavel,0.266317
+2026,9,False,42161508.560000,41292337.640000,jan a 09,42161508.560000,869170.920000,41292337.640000,34284601.040000,comparavel,0.204399

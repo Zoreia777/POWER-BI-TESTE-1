@@ -9,3 +9,15 @@ venv/
 ~$*
 .vscode/
 .DS_Store
+
+# ETL (Etapa 2)
+warehouse/*.duckdb
+warehouse/*.duckdb.wal
+logs/*.log
+.pytest_cache/
+
+# Etapa 4: CSVs exportados da camada bi (regeneráveis; fato_vendas é grande)
+powerbi/dados/
+powerbi/referencia/checklist_preenchido*.csv
+reports/powerbi_conferencia.md
+.ruff_cache/

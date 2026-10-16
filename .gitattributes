@@ -1,0 +1,8 @@
+# Preserva os CSVs byte a byte (hashes SHA-256 em data/CHECKSUMS.sha256), inclusive no Windows
+data/*.csv -text
+*.duckdb binary
+*.png binary
+*.sh text eol=lf
+*.py text eol=lf
+*.sql text eol=lf
+*.md text eol=lf

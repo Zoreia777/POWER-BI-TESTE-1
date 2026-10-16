@@ -1,2 +1,9 @@
-numpy>=1.26
-pandas>=2.1
+# Faixas = versões efetivamente testadas (e a mesma série principal). Versões fora dessas faixas NÃO foram testadas.
+# Instalação reproduzível exata: pip install -r requirements-lock.txt   (ver docs/AMBIENTE_E_REPRODUCAO.md)
+numpy>=2.5,<3
+pandas>=3.0,<4
+scipy>=1.18,<2        # exigido por pandas.DataFrame.corr(method="spearman") (Investigação 6)
+duckdb>=1.5,<2
+plotly>=7.1,<8
+streamlit>=1.65,<2
+pytest>=9.0,<10

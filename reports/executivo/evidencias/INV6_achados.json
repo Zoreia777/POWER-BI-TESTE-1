@@ -1,0 +1,67 @@
+[
+ {
+  "id": "INV6.1",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Correlação de Spearman com a margem bruta mensal (33 meses; entre parênteses, em variação mês a mês): desconto efetivo -0,42 (0,06); peso do marketplace -0,62 (-0,20); preço praticado vs lista -0,62 (-0,42); peso de Eletrônicos -0,60 (-0,76)."
+ },
+ {
+  "id": "INV6.2",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Em nível, quase tudo se correlaciona com tudo porque os indicadores têm tendência comum (tempo); por isso a leitura principal é a de variação mês a mês, mais exigente. Com 32–33 pontos, correlações pequenas (|ρ| < 0,35) não distinguem de acaso."
+ },
+ {
+  "id": "INV6.3",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Por linha de venda (59.365 linhas), dentro do mesmo produto: +1 p.p. de desconto está associado a 0,127 unidades a mais por linha (R² intra-produto 0,032; Spearman geral 0,18). Controlando também canal, segmento do cliente, novembro e ano, a associação passa a -0,001 unidades por p.p."
+ },
+ {
+  "id": "INV6.4",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "A associação positiva entre desconto e quantidade cai 99% quando se comparam linhas do mesmo canal e segmento do cliente. É compatível com efeito de COMPOSIÇÃO (certos canais/segmentos têm desconto e quantidade maiores); a associação bruta não deve ser lida como 'o desconto vende mais'."
+ },
+ {
+  "id": "INV6.5",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "No gerador, o desconto vem do canal (3–7%), do segmento do cliente (0–3%), de novembro (+5 p.p.) e da Black Friday (+8 p.p. — P04), mais ruído; ele NÃO depende da quantidade. Qualquer associação restante é efeito de confusão, não de causa."
+ },
+ {
+  "id": "INV6.6",
+  "tipo": "HIPÓTESE",
+  "texto": "Numa empresa real, descontos podem aumentar pedidos ou recorrência sem aumentar a quantidade por linha; esse teste não enxerga isso. Também pode haver desconto por volume (causa inversa) — aqui não há, por construção do gerador."
+ },
+ {
+  "id": "INV6.7",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Marketplace: 6,4% da receita ajustada (jan–set/2024) → 13,4% (2026); margem bruta 35,6% → 35,1%; desconto efetivo 7,8% → 7,8%."
+ },
+ {
+  "id": "INV6.8",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Variação da margem bruta 2024→2026 por canal: -3,1 p.p. = mix de canais -0,6 p.p. + margem dentro de cada canal -2,4 p.p.. Como a margem de cada canal é uma média de produtos, o 'efeito taxa' por canal inclui o problema do Smartphone X Max (INV3) e o mix de produtos de cada canal."
+ },
+ {
+  "id": "INV6.9",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "P12: o gerador migra o mix de canais para marketplace (comissão de 11% lançada em despesas, não em custo). A comissão NÃO aparece na margem bruta por canal; a rentabilidade real do marketplace é, portanto, menor que a mostrada aqui."
+ },
+ {
+  "id": "INV6.10",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Crescimento anual da receita registrada em 2025 (12 meses comparáveis, soma de R$ 10,81 mi): volume R$ 10,27 mi (95%), mix -R$ 295,9 mil (-3%), preço R$ 892,4 mil (8%), desconto -R$ 57,2 mil (-1%), impostos R$ 0,0 mil."
+ },
+ {
+  "id": "INV6.11",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Crescimento anual da receita registrada em 2026 (9 meses comparáveis, soma de R$ 7,11 mi): volume R$ 6,56 mi (92%), mix -R$ 86,1 mil (-1%), preço R$ 716,9 mil (10%), desconto -R$ 84,4 mil (-1%), impostos R$ 0,0 mil."
+ },
+ {
+  "id": "INV6.12",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "P05 (crescimento tendencial de 1,1% ao mês de pedidos) e P06 (reajuste mensal de preço) explicam, por construção, por que volume é o principal componente e preço o segundo."
+ },
+ {
+  "id": "INV6.13",
+  "tipo": "HIPÓTESE",
+  "texto": "Associações entre desconto, marketplace e margem podem ser confundidas por tempo (tudo muda junto) e por produto (o Smartphone X Max pesa na margem e tem desconto como os demais). Sem experimento ou controles adicionais, os dados mostram associação, não efeito causal."
+ }
+]

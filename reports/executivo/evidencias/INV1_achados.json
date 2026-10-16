@@ -1,0 +1,62 @@
+[
+ {
+  "id": "INV1.1",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Receita ajustada de Porto Alegre: R$ 351.281 em fev/25 → R$ 179.410 em fev/26 (-48,9%; queda de R$ 171,9 mil)."
+ },
+ {
+  "id": "INV1.2",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "A atividade não encolheu na mesma proporção: pedidos -6,6%, linhas +2,9%, unidades -22,2%; a receita por linha caiu 50,4% (R$ 3.378 → R$ 1.677)."
+ },
+ {
+  "id": "INV1.3",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Decomposição da variação registrada (-R$ 171,5 mil): volume -R$ 75,1 mil, mix -R$ 90,5 mil, preço R$ 3,1 mil, desconto -R$ 0,8 mil, produtos que deixaram de vender -R$ 12,9 mil, produtos novos R$ 4,7 mil. Preço e desconto praticamente não contribuem; o resíduo é 0,00."
+ },
+ {
+  "id": "INV1.4",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Um único produto, Notebook Pro 14\", responde por -R$ 106,6 mil (62,2% da variação registrada): 20 unidades em fev/25 contra 2 em fev/26."
+ },
+ {
+  "id": "INV1.5",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Em Porto Alegre, Notebook Pro 14\" vendeu em média 4,5 unidades/mês (mediana 4,0); fev/25 teve 20 unidades — o máximo da série de 33 meses; fev/26 teve 2. Meses com volume igual ou maior que o da base: 1."
+ },
+ {
+  "id": "INV1.6",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Concentração na base: as 5 maiores linhas de fev/25 somam 38,1% da receita do mês (em fev/26: 22,7%). O maior cliente da base (id 421) comprou R$ 103.131 (29,4% da filial no mês); em fev/26 esse cliente comprou R$ 22.135."
+ },
+ {
+  "id": "INV1.7",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Sensibilidade aritmética (não é cenário real): retirando da base as 3 maiores linhas (R$ 105.897), a variação anual seria -26,9% em vez de -48,9%."
+ },
+ {
+  "id": "INV1.8",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Entre as 168 variações anuais mês×filial calculáveis, a de Porto Alegre em fev/26 é a pior (mediana geral: +18,6%)."
+ },
+ {
+  "id": "INV1.9",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Relação fev/jan em Porto Alegre: 1,12 (2024), 1,07 (2025), 0,58 (2026). Na empresa toda foi 0,84, 0,97 e 0,77."
+ },
+ {
+  "id": "INV1.10",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "O gerador programa para Porto Alegre apenas o efeito de concorrente em jun–ago/2025 (P10, −18%). Nenhum padrão P01–P17 cobre fev/2025 nem fev/2026 em Porto Alegre; a sazonalidade de fevereiro (P01, 0,84×) é um fator geral do gerador, não específico de Porto Alegre."
+ },
+ {
+  "id": "INV1.11",
+  "tipo": "HIPÓTESE",
+  "texto": "Base de comparação atípica: fev/2025 teria sido inflado por poucas compras grandes (concentradas em Notebook Pro 14\" e em poucos clientes), não recorrentes. É coerente com os números acima, mas NÃO está provado — os dados não distinguem compra pontual de demanda recorrente. Em dados sintéticos, a variação aleatória das quantidades por linha é uma explicação natural; em uma empresa real seria preciso verificar contratos/pedidos."
+ },
+ {
+  "id": "INV1.12",
+  "tipo": "HIPÓTESE",
+  "texto": "Hipótese alternativa (não sustentada pelos pedidos): perda de clientes ou de demanda local. Os pedidos caíram pouco (-6,6%) e as linhas subiram (+2,9%), o que a torna menos provável, mas não a elimina."
+ }
+]

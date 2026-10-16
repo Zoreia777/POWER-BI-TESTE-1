@@ -1,0 +1,2288 @@
+{
+ "light/desk1440/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/desk1440/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/desk1440/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/desk1440/Orçamento": {
+  "trunc": [
+   "Execução (realizado ÷ orçado acumulado)"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/desk1440/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "light/win125_1024/Visão Geral": {
+  "trunc": [
+   "Receita ajustada (provisória)",
+   "R$ 41,29 mi",
+   "+20,4% vs. jan/25 a set/25",
+   "Margem bruta ajustada",
+   "R$ 869,2 mil",
+   "Despesas (dataset)",
+   "R$ 14,12 mi",
+   "Resultado operacional estimado",
+   "R$ 2,50 mi",
+   "Unidades entregues",
+   "Linhas com margem negativa",
+   "R$ 42.161.509",
+   "R$ 41.292.338",
+   "Receita ajustada (provisória)",
+   "R$ 41.292.338"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/win125_1024/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/win125_1024/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/win125_1024/Orçamento": {
+  "trunc": [
+   "Orçado acumulado",
+   "R$ 14,06 mi",
+   "R$ 14,12 mi",
+   "Execução (realizado ÷ orçado acumulado)",
+   "R$ 63,7 mil",
+   "Orçamento ANUAL (12 meses)",
+   "Orçamento ACUMULADO (meses do período)"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/win125_1024/Investigações": {
+  "trunc": [
+   "Receita ajustada",
+   "R$ 179,4 mil",
+   "Linhas de pedido",
+   "Unidades",
+   "Receita por linha",
+   "R$ 1.677"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "light/tab768/Visão Geral": {
+  "trunc": [
+   "Receita ajustada (provisória)",
+   "+20,4% vs. jan/25 a set/25",
+   "Margem bruta ajustada",
+   "Resultado operacional estimado",
+   "Linhas com margem negativa"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/tab768/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/tab768/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/tab768/Orçamento": {
+  "trunc": [
+   "Execução (realizado ÷ orçado acumulado)",
+   "Orçamento ACUMULADO (meses do período)"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/tab768/Investigações": {
+  "trunc": [
+   "Receita ajustada",
+   "R$ 179,4 mil",
+   "Linhas de pedido",
+   "Receita por linha"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "light/mob390/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "light/mob390/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/mob390/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "light/mob390/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "light/mob390/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/desk1440/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/desk1440/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 0,
+    "txt": "2.970.981",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "2.982.215",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "3.515.480",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.082.538",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.482.743",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.087.879",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.890.649",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "12.279.853",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "38,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "41,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "42,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "4,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "10,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "18,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "33,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "47,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "115,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "YoY",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/desk1440/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-9,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "13,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "17,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "19,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "20,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "27,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "28,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "13,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "32,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "41,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "56,7%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "79,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/desk1440/Orçamento": {
+  "trunc": [
+   "Execução (realizado ÷ orçado acumulado)"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/desk1440/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-48,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-6,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "+2,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-22,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-50,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "351,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−75,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−90,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+3,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,8 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+4,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−12,9 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "179,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "34.284,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+6.502,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−40,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+713,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−65,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−101,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "41.292,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Visão Geral": {
+  "trunc": [
+   "Receita ajustada (provisória)",
+   "R$ 41,29 mi",
+   "+20,4% vs. jan/25 a set/25",
+   "Margem bruta ajustada",
+   "R$ 869,2 mil",
+   "Despesas (dataset)",
+   "R$ 14,12 mi",
+   "Resultado operacional estimado",
+   "R$ 2,50 mi",
+   "Unidades entregues",
+   "Linhas com margem negativa",
+   "R$ 42.161.509",
+   "R$ 41.292.338",
+   "Receita ajustada (provisória)",
+   "R$ 41.292.338"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 0,
+    "txt": "2.970.981",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "2.982.215",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "3.515.480",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.082.538",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.482.743",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.087.879",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.890.649",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "12.279.853",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "38,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "41,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "42,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "4,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "10,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "18,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "33,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "47,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "115,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "YoY",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-9,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "13,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "17,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "19,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "20,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "27,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "28,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "13,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "32,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "41,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "56,7%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "79,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Orçamento": {
+  "trunc": [
+   "Orçado acumulado",
+   "R$ 14,06 mi",
+   "R$ 14,12 mi",
+   "Execução (realizado ÷ orçado acumulado)",
+   "R$ 63,7 mil",
+   "Orçamento ANUAL (12 meses)",
+   "Orçamento ACUMULADO (meses do período)"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/win125_1024/Investigações": {
+  "trunc": [
+   "Receita ajustada",
+   "R$ 179,4 mil",
+   "Linhas de pedido",
+   "Unidades",
+   "Receita por linha",
+   "R$ 1.677"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-48,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-6,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "+2,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-22,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-50,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "351,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−75,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−90,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+3,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,8 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+4,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−12,9 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "179,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "34.284,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+6.502,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−40,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+713,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−65,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−101,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "41.292,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/tab768/Visão Geral": {
+  "trunc": [
+   "Receita ajustada (provisória)",
+   "+20,4% vs. jan/25 a set/25",
+   "Margem bruta ajustada",
+   "Resultado operacional estimado",
+   "Linhas com margem negativa"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/tab768/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 0,
+    "txt": "2.970.981",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "2.982.215",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "3.515.480",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.082.538",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.482.743",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.087.879",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.890.649",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "12.279.853",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "38,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "41,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "42,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "4,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "10,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "18,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "33,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "47,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "115,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "YoY",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/tab768/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-9,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "13,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "17,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "19,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "20,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "27,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "28,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "13,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "32,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "41,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "56,7%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "79,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/tab768/Orçamento": {
+  "trunc": [
+   "Execução (realizado ÷ orçado acumulado)",
+   "Orçamento ACUMULADO (meses do período)"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/tab768/Investigações": {
+  "trunc": [
+   "Receita ajustada",
+   "R$ 179,4 mil",
+   "Linhas de pedido",
+   "Receita por linha"
+  ],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-48,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-6,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "+2,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-22,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-50,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "351,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−75,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−90,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+3,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,8 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+4,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−12,9 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "179,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "34.284,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+6.502,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−40,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+713,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−65,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−101,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "41.292,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 9,
+  "exceptions": 0
+ },
+ "dark/mob390/Visão Geral": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [],
+  "metrics": 12,
+  "exceptions": 0
+ },
+ "dark/mob390/Filiais": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 0,
+    "txt": "2.970.981",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "2.982.215",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "3.515.480",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.082.538",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "4.482.743",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.087.879",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "5.890.649",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 0,
+    "txt": "12.279.853",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "38,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "39,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "41,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "42,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "4,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "6,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "10,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "18,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "33,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "47,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "115,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "−50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "50%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "100%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "150%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 3,
+    "txt": "YoY",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/mob390/Produtos e Margem": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-9,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "13,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "17,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "19,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "20,0%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,3%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "22,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "27,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "28,8%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "13,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "32,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "41,5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "56,7%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "79,1%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 0,
+  "exceptions": 0
+ },
+ "dark/mob390/Orçamento": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "faixa ±5%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 7,
+  "exceptions": 0
+ },
+ "dark/mob390/Investigações": {
+  "trunc": [],
+  "hscroll": {
+   "main": 0,
+   "doc": 0
+  },
+  "lowcontrast": [
+   {
+    "g": 1,
+    "txt": "-48,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-6,6%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "+2,9%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-22,2%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 1,
+    "txt": "-50,4%",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "351,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−75,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−90,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+3,1 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,8 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "+4,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−12,9 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "−0,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 2,
+    "txt": "179,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "34.284,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+6.502,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−40,6 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+713,5 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−65,4 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "+0,0 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "−101,7 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   },
+   {
+    "g": 6,
+    "txt": "41.292,3 mil",
+    "fill": "rgb(31, 41, 51)",
+    "cr": 1.28
+   }
+  ],
+  "metrics": 9,
+  "exceptions": 0
+ }
+}

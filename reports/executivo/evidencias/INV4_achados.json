@@ -1,0 +1,77 @@
+[
+ {
+  "id": "INV4.1",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Jan–set: receita ajustada R$ 27,07 mi → R$ 34,28 mi → R$ 41,29 mi; margem bruta 43,3% → 41,8% → 40,3%; despesas/receita 37,1% → 35,6% → 34,2%; margem operacional estimada 6,3% → 6,2% → 6,0%."
+ },
+ {
+  "id": "INV4.2",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Resultado operacional estimado (jan–set): R$ 1,69 mi → R$ 2,11 mi → R$ 2,50 mi. É resultado operacional ESTIMADO do dataset (receita ajustada − custo ajustado − despesas); não é lucro líquido contábil."
+ },
+ {
+  "id": "INV4.3",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Margem bruta 2024→2025: -1,5 p.p. (de 43,3% para 41,8%) = mix de produtos -0,5 p.p. + margem dentro de cada produto -1,0 p.p. (resíduo 0,0000 p.p.)."
+ },
+ {
+  "id": "INV4.4",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Margem bruta 2025→2026: -1,5 p.p. (de 41,8% para 40,3%) = mix de produtos -0,2 p.p. + margem dentro de cada produto -1,3 p.p. (resíduo 0,0000 p.p.)."
+ },
+ {
+  "id": "INV4.5",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Margem bruta 2024→2026: -3,1 p.p. (de 43,3% para 40,3%) = mix de produtos -0,6 p.p. + margem dentro de cada produto -2,4 p.p. (resíduo 0,0000 p.p.)."
+ },
+ {
+  "id": "INV4.6",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Maiores contribuições negativas de margem DENTRO do produto (2024→2026): Smartphone X Max (-1,85 p.p.); Notebook Pro 14\" (-0,50 p.p.); Mesa de Reunião 8 Lugares (-0,01 p.p.)."
+ },
+ {
+  "id": "INV4.7",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Smartphone X Max e Notebook Pro 14\" juntos respondem por 97% da perda de margem dentro dos produtos e por 76% da queda total da margem bruta 2024→2026 (-3,1 p.p.)."
+ },
+ {
+  "id": "INV4.8",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Maiores contribuições negativas de MIX (2024→2026): Licença Office Suite (anual) (-0,38 p.p.); Notebook Pro 14\" (-0,15 p.p.); Smartphone X Max (-0,14 p.p.) (perda de peso de produtos de margem acima da média, ou ganho de peso de produtos de margem abaixo da média)."
+ },
+ {
+  "id": "INV4.9",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Por unidade vendida (2025→2026, mesmo período do ano): preço líquido cresceu em média +1,6% e custo +3,0% (média por produto ponderada pela receita). Em 25 de 39 produtos o custo por unidade subiu mais que o preço líquido."
+ },
+ {
+  "id": "INV4.10",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "P06 e P07: o gerador reajusta preço (`ip`) e custo (`ic`) de cada produto todo mês; o padrão é ic=ip=0,15% a.m., com exceções (Notebook Pro 14\": custo +0,45% e preço +0,20% a.m.; Smartphone X Max: custo +1,00% e preço 0%). Logo, a compressão de margem destes dois produtos é programada; a dos demais depende do sorteio de custo/preço (±1,5%) em torno de reajustes iguais."
+ },
+ {
+  "id": "INV4.11",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Margem operacional 2024→2026: -0,2 p.p. = margem bruta -3,1 p.p. − variação de despesas/receita (-2,9 p.p.). Por grupo (variação de despesas/receita): Despesas com Pessoal -1,82 p.p.; Despesas Administrativas -1,63 p.p.; Despesas Operacionais -0,04 p.p.; Despesas Comerciais -0,01 p.p.; Despesas Financeiras +0,64 p.p."
+ },
+ {
+  "id": "INV4.12",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "Despesas financeiras/receita +0,64 p.p. entre 2024 e 2026: coerente com P16 (juros bancários sobem desde mar/2025 no gerador)."
+ },
+ {
+  "id": "INV4.13",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "A queda da margem bruta foi em grande parte compensada por despesas que cresceram menos que a receita (despesas/receita -2,9 p.p.); sem essa alavancagem, a margem operacional teria caído o mesmo que a bruta."
+ },
+ {
+  "id": "INV4.14",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Série mensal: margem operacional estimada entre -2,4% (fev/26) e 13,3% (dez/24); 1 mês com resultado estimado negativo (fev/26)."
+ },
+ {
+  "id": "INV4.15",
+  "tipo": "HIPÓTESE",
+  "texto": "O mix pode estar mudando por política comercial (mais volume de itens de menor margem) ou por crescimento diferente entre categorias; os dados mostram a mudança de composição, não a intenção. Sobre despesas: parte do crescimento menor que a receita pode ser custo fixo diluído (despesas de pessoal e administrativas) — compatível com os dados, não testado."
+ }
+]

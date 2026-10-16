@@ -1,0 +1,57 @@
+[
+ {
+  "id": "INV2.1",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "18 quedas anuais (≤ -10%) em mês×filial, somando R$ 1,67 mi de receita a menos que no mesmo mês do ano anterior. As três maiores: Porto Alegre fev/26 (-48,9%, -R$ 171,9 mil); São Paulo (Matriz) jul/26 (-10,0%, -R$ 157,0 mil); Belo Horizonte nov/25 (-19,7%, -R$ 151,6 mil)."
+ },
+ {
+  "id": "INV2.2",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Persistência: 0 das 18 quedas fazem parte de sequências de 3+ meses seguidos. As demais (18) são episódios curtos."
+ },
+ {
+  "id": "INV2.3",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Em 100% das quedas de filial, o efeito volume+mix é maior (em módulo) que o efeito preço+desconto+imposto: as quedas anuais são, aritmeticamente, de quantidade/composição de produtos, não de preço."
+ },
+ {
+  "id": "INV2.4",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "3 quedas de filial coincidem com a janela de um evento programado: Porto Alegre jul/25 (P10: Concorrente em Porto Alegre (-18%)); Rio de Janeiro mar/25 (P10: Chuvas no Rio de Janeiro (-22%)); Porto Alegre jun/25 (P10: Concorrente em Porto Alegre (-18%))."
+ },
+ {
+  "id": "INV2.5",
+  "tipo": "HIPÓTESE",
+  "texto": "As 15 quedas curtas e sem evento programado podem refletir variação natural de pedidos grandes (ver INV1 — Porto Alegre) e de calendário (dias úteis); isso não foi testado causa a causa."
+ },
+ {
+  "id": "INV2.6",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "104 quedas anuais (≤ -10%) em produto×mês, em 38 dos 39 produtos; as 10 maiores concentram 39% do valor perdido (R$ 2,75 mi no total)."
+ },
+ {
+  "id": "INV2.7",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Persistência: 3 das 104 quedas pertencem a sequências de 3+ meses; 101 são episódios curtos."
+ },
+ {
+  "id": "INV2.8",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Maior queda: Notebook Pro 14\" em ago/25 (-95,4%; -R$ 256,1 mil)."
+ },
+ {
+  "id": "INV2.9",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "Notebook Pro 14\" em ago/25 coincide com P09: Ruptura de estoque do Notebook Pro 14 (fator 0,10× no gerador) — causa conhecida; em dado real equivaleria a uma ruptura de estoque a confirmar."
+ },
+ {
+  "id": "INV2.10",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Produtos com maior valor acumulado de quedas anuais: Notebook Pro 14\" (4 meses, -R$ 503,3 mil); Notebook Essencial 15\" (4 meses, -R$ 249,2 mil); Monitor 27\" 4K (3 meses, -R$ 171,6 mil); Consultoria de Layout (6 meses, -R$ 137,3 mil); Mesa Regulável Elétrica (2 meses, -R$ 130,0 mil)."
+ },
+ {
+  "id": "INV2.11",
+  "tipo": "HIPÓTESE",
+  "texto": "Como 101 de 104 quedas de produto são episódios curtos, a explicação mais compatível é variação pontual de pedidos (e, no caso do P09, ruptura), e não perda estrutural de demanda. É hipótese: não foi testada produto a produto."
+ }
+]

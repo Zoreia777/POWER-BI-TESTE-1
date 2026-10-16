@@ -1,0 +1,41 @@
+id_filial,filial,tipo,grupo_dre,despesas,participacao_na_filial_pct,participacao_no_total_pct,grupo_sobre_receita_ajustada_pct
+1,São Paulo (Matriz),Matriz,Despesas Administrativas,4879013.880000,0.217633,0.106732,0.112841
+1,São Paulo (Matriz),Matriz,Despesas Comerciais,2565223.760000,0.114424,0.056116,0.059328
+1,São Paulo (Matriz),Matriz,Despesas Financeiras,1500488.250000,0.066931,0.032824,0.034703
+1,São Paulo (Matriz),Matriz,Despesas Operacionais,1304269.450000,0.058178,0.028532,0.030165
+1,São Paulo (Matriz),Matriz,Despesas com Pessoal,12169562.820000,0.542834,0.266218,0.281455
+2,Rio de Janeiro,Filial,Despesas Administrativas,1140507.040000,0.247929,0.024949,0.056989
+2,Rio de Janeiro,Filial,Despesas Comerciais,1175638.730000,0.255566,0.025718,0.058744
+2,Rio de Janeiro,Filial,Despesas Financeiras,500897.160000,0.108887,0.010957,0.025029
+2,Rio de Janeiro,Filial,Despesas Operacionais,656373.120000,0.142685,0.014359,0.032798
+2,Rio de Janeiro,Filial,Despesas com Pessoal,1126726.220000,0.244933,0.024648,0.056300
+3,Belo Horizonte,Filial,Despesas Administrativas,880052.640000,0.216630,0.019252,0.047662
+3,Belo Horizonte,Filial,Despesas Comerciais,1085250.270000,0.267141,0.023741,0.058775
+3,Belo Horizonte,Filial,Despesas Financeiras,390029.290000,0.096008,0.008532,0.021123
+3,Belo Horizonte,Filial,Despesas Operacionais,580279.700000,0.142839,0.012694,0.031427
+3,Belo Horizonte,Filial,Despesas com Pessoal,1126848.250000,0.277381,0.024651,0.061028
+4,Curitiba,Filial,Despesas Administrativas,800599.930000,0.224542,0.017514,0.055595
+4,Curitiba,Filial,Despesas Comerciais,837453.650000,0.234878,0.018320,0.058154
+4,Curitiba,Filial,Despesas Financeiras,323309.960000,0.090678,0.007073,0.022451
+4,Curitiba,Filial,Despesas Operacionais,476929.290000,0.133763,0.010433,0.033119
+4,Curitiba,Filial,Despesas com Pessoal,1127183.530000,0.316138,0.024658,0.078274
+5,Porto Alegre,Filial,Despesas Administrativas,713568.280000,0.229125,0.015610,0.068222
+5,Porto Alegre,Filial,Despesas Comerciais,629508.110000,0.202134,0.013771,0.060185
+5,Porto Alegre,Filial,Despesas Financeiras,263484.360000,0.084604,0.005764,0.025191
+5,Porto Alegre,Filial,Despesas Operacionais,382623.110000,0.122859,0.008370,0.036581
+5,Porto Alegre,Filial,Despesas com Pessoal,1125132.450000,0.361278,0.024613,0.107570
+6,Brasília,Filial,Despesas Administrativas,806610.350000,0.242227,0.017645,0.067436
+6,Brasília,Filial,Despesas Comerciais,688136.110000,0.206649,0.015053,0.057531
+6,Brasília,Filial,Despesas Financeiras,290401.850000,0.087208,0.006353,0.024279
+6,Brasília,Filial,Despesas Operacionais,418388.160000,0.125643,0.009153,0.034979
+6,Brasília,Filial,Despesas com Pessoal,1126442.820000,0.338273,0.024642,0.094176
+7,Salvador,Filial,Despesas Administrativas,467910.110000,0.231459,0.010236,0.070046
+7,Salvador,Filial,Despesas Comerciais,395431.610000,0.195606,0.008650,0.059196
+7,Salvador,Filial,Despesas Financeiras,169828.660000,0.084008,0.003715,0.025423
+7,Salvador,Filial,Despesas Operacionais,255461.060000,0.126368,0.005588,0.038242
+7,Salvador,Filial,Despesas com Pessoal,732939.440000,0.362559,0.016034,0.109720
+8,Recife,Filial,Despesas Administrativas,612930.220000,0.235715,0.013408,0.073861
+8,Recife,Filial,Despesas Comerciais,489177.430000,0.188123,0.010701,0.058948
+8,Recife,Filial,Despesas Financeiras,200540.860000,0.077122,0.004387,0.024166
+8,Recife,Filial,Despesas Operacionais,301340.060000,0.115886,0.006592,0.036313
+8,Recife,Filial,Despesas com Pessoal,996316.070000,0.383154,0.021795,0.120061

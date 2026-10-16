@@ -1,0 +1,52 @@
+[
+ {
+  "id": "INV3.1",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "607 das 612 linhas com margem negativa da empresa (99,2%) são do Smartphone X Max; prejuízo bruto dessas linhas: R$ 412.711 de R$ 413.544 (99,8%)."
+ },
+ {
+  "id": "INV3.2",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Preço bruto médio por unidade: R$ 5.290 em jan/24 → R$ 5.290 em set/26 (0,0% de variação); custo por unidade: R$ 3.389 → R$ 4.647 (+37,1%, ≈ 0,99% ao mês). Margem bruta do produto: 17,6% → -13,7%."
+ },
+ {
+  "id": "INV3.3",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Marcos: primeira linha negativa em nov/24; margem mensal do produto fica negativa em set/25; metade das linhas do mês é negativa a partir de set/25; 100% das linhas do mês são negativas a partir de nov/25."
+ },
+ {
+  "id": "INV3.4",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Desde nov/25 todas as 511 linhas do produto têm margem negativa, em qualquer canal, filial ou faixa de desconto — a causa é estrutural (custo por unidade acima do preço líquido), e não de desconto pontual."
+ },
+ {
+  "id": "INV3.5",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Taxa de linhas negativas por faixa de desconto (todo o período): 0% 16%; 0–5% 39%; 5–10% 56%; 10–15% 66%; >15% 100%. A associação com o desconto é em parte mecânica (desconto reduz a receita) e em parte de calendário (as linhas mais recentes, quando o custo já é alto, pesam mais nas faixas)."
+ },
+ {
+  "id": "INV3.6",
+  "tipo": "OBSERVAÇÃO",
+  "texto": "Antes de nov/25 (período em que ainda há linhas positivas), a taxa de linhas negativas por canal varia de 9% a 21% e por filial de 12% a 38%; essas diferenças misturam canal/filial com a data em que cada uma vendeu mais (efeito de calendário), por isso não indicam, sozinhas, que um canal ou filial seja o 'culpado'."
+ },
+ {
+  "id": "INV3.7",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Cálculo aritmético em set/26 (custo R$ 4.647/un., desconto efetivo 5,8%, imposto efetivo 18,0%): para margem bruta de 0% o preço bruto teria de ser R$ 6.017 (13,7% sobre o preço de lista de R$ 5.290); para margem bruta de 10% o preço bruto teria de ser R$ 6.686 (26,4% sobre o preço de lista de R$ 5.290); para margem bruta de 20% o preço bruto teria de ser R$ 7.521 (42,2% sobre o preço de lista de R$ 5.290). Não considera elasticidade da demanda nem preço dos concorrentes — não é recomendação de preço."
+ },
+ {
+  "id": "INV3.8",
+  "tipo": "CONCLUSÃO ARITMÉTICA",
+  "texto": "Em 2026 (jan–set), o Smartphone X Max representa 7,8% da receita ajustada, mas seu lucro bruto é negativo (-R$ 318.872, -1,9% do lucro bruto da empresa). A margem bruta da empresa seria 44,5% sem o produto, contra 40,3% com ele (-4,2 p.p.)."
+ },
+ {
+  "id": "INV3.9",
+  "tipo": "PADRÃO PROGRAMADO",
+  "texto": "P07: o gerador define para este produto aumento de custo de 1% ao mês com preço fixo (linha 304 de gerar_dados.py). O comportamento observado (custo ≈ +1% a.m., preço constante) é exatamente o programado — logo a 'causa' aqui é conhecida por construção, não descoberta."
+ },
+ {
+  "id": "INV3.10",
+  "tipo": "HIPÓTESE",
+  "texto": "Em uma empresa real, o padrão seria compatível com repasse de custo (câmbio/fornecedor) sem reajuste de preço, ou com política comercial mantida por contrato/mercado. Os dados não permitem saber qual das duas — nem se o volume vendido depende do preço baixo."
+ }
+]

@@ -1,0 +1,58 @@
+filial,mes,receita_ajustada,variacao_mom_pct,classificacao_mom,variacao_yoy_pct,classificacao_yoy,queda_yoy_em_reais
+Porto Alegre,2026-02-01,179410.160000,-0.416829,queda_relevante,-0.489269,queda_relevante,171871.230000
+São Paulo (Matriz),2026-07-01,1410315.590000,0.089796,sem_queda_relevante,-0.100169,queda_relevante,156995.780000
+Belo Horizonte,2025-11-01,617620.190000,-0.128998,sem_queda_relevante,-0.197122,queda_relevante,151637.900000
+Belo Horizonte,2026-09-01,530270.040000,-0.183616,queda_relevante,-0.196828,queda_relevante,129949.360000
+Belo Horizonte,2025-01-01,445538.160000,-0.465488,queda_relevante,-0.220651,queda_relevante,126141.430000
+Recife,2026-07-01,331267.680000,-0.082856,sem_queda_relevante,-0.248412,queda_relevante,109489.330000
+Belo Horizonte,2026-07-01,619719.800000,0.033389,sem_queda_relevante,-0.129455,queda_relevante,92155.530000
+Curitiba,2025-09-01,352415.430000,-0.138418,sem_queda_relevante,-0.206593,queda_relevante,91764.620000
+Brasília,2025-06-01,210535.510000,-0.318756,queda_relevante,-0.299197,queda_relevante,89885.030000
+Porto Alegre,2025-07-01,230934.850000,0.089214,sem_queda_relevante,-0.267132,queda_relevante,84176.340000
+Curitiba,2025-05-01,339701.910000,-0.006588,sem_queda_relevante,-0.194184,queda_relevante,81860.650000
+Rio de Janeiro,2025-03-01,361886.250000,-0.247917,queda_relevante,-0.182692,queda_relevante,80891.970000
+Recife,2026-05-01,272420.790000,-0.105439,sem_queda_relevante,-0.199396,queda_relevante,67848.400000
+Belo Horizonte,2025-08-01,577059.100000,-0.189382,queda_relevante,-0.102272,queda_relevante,65740.450000
+Brasília,2026-02-01,240666.200000,-0.441970,queda_relevante,-0.194183,queda_relevante,57994.750000
+Porto Alegre,2026-03-01,286556.110000,0.597212,sem_queda_relevante,-0.142876,queda_relevante,47766.620000
+Brasília,2025-03-01,344441.920000,0.153287,sem_queda_relevante,-0.104809,queda_relevante,40327.380000
+Porto Alegre,2025-06-01,212019.670000,-0.300588,queda_relevante,-0.101502,queda_relevante,23951.610000
+Belo Horizonte,2024-02-01,376935.620000,-0.340652,queda_relevante,,sem_base,
+Belo Horizonte,2024-06-01,355707.500000,-0.200809,queda_relevante,,sem_base,
+Belo Horizonte,2024-09-01,463627.350000,-0.278737,queda_relevante,,sem_base,
+Belo Horizonte,2026-02-01,389284.290000,-0.453545,queda_relevante,-0.084218,sem_queda_relevante,
+Brasília,2024-02-01,170472.400000,-0.410909,queda_relevante,,sem_base,
+Brasília,2024-04-01,272310.850000,-0.292275,queda_relevante,,sem_base,
+Brasília,2024-09-01,230683.470000,-0.281148,queda_relevante,,sem_base,
+Brasília,2025-01-01,340317.550000,-0.211879,queda_relevante,0.176014,sem_queda_relevante,
+Brasília,2025-04-01,276066.440000,-0.198511,queda_relevante,0.013792,sem_queda_relevante,
+Brasília,2026-01-01,431278.430000,-0.169324,queda_relevante,0.267282,sem_queda_relevante,
+Brasília,2026-09-01,484852.850000,-0.231202,queda_relevante,0.559916,sem_queda_relevante,
+Curitiba,2024-08-01,329288.570000,-0.198704,queda_relevante,,sem_base,
+Curitiba,2025-01-01,363613.720000,-0.289926,queda_relevante,0.186320,sem_queda_relevante,
+Curitiba,2025-02-01,302737.120000,-0.167421,queda_relevante,-0.073312,sem_queda_relevante,
+Curitiba,2025-04-01,341954.810000,-0.179450,queda_relevante,0.099169,sem_queda_relevante,
+Curitiba,2026-02-01,349453.630000,-0.270561,queda_relevante,0.154314,sem_queda_relevante,
+Curitiba,2026-06-01,464335.640000,-0.216972,queda_relevante,0.176599,sem_queda_relevante,
+Porto Alegre,2024-04-01,253041.820000,-0.159344,queda_relevante,,sem_base,
+Porto Alegre,2024-05-01,209830.930000,-0.170766,queda_relevante,,sem_base,
+Porto Alegre,2025-12-01,407379.310000,-0.261692,queda_relevante,0.137184,sem_queda_relevante,
+Porto Alegre,2026-01-01,307646.070000,-0.244817,queda_relevante,-0.065600,sem_queda_relevante,
+Recife,2024-07-01,96616.840000,-0.192428,queda_relevante,,sem_base,
+Recife,2025-01-01,203040.080000,-0.336383,queda_relevante,,base_zerada,
+Recife,2025-06-01,257500.390000,-0.243245,queda_relevante,1.152318,sem_queda_relevante,
+Recife,2025-08-01,343114.050000,-0.221535,queda_relevante,1.619202,sem_queda_relevante,
+Recife,2026-01-01,269078.930000,-0.394849,queda_relevante,0.325250,sem_queda_relevante,
+Rio de Janeiro,2024-02-01,352712.200000,-0.234078,queda_relevante,,sem_base,
+Rio de Janeiro,2024-05-01,433751.820000,-0.225416,queda_relevante,,sem_base,
+Rio de Janeiro,2025-01-01,507507.790000,-0.367412,queda_relevante,0.102064,sem_queda_relevante,
+Rio de Janeiro,2025-08-01,528111.930000,-0.175758,queda_relevante,-0.080551,sem_queda_relevante,
+Rio de Janeiro,2026-01-01,511213.070000,-0.401863,queda_relevante,0.007301,sem_queda_relevante,
+Rio de Janeiro,2026-09-01,686677.720000,-0.177909,queda_relevante,-0.078937,sem_queda_relevante,
+Salvador,2025-07-01,225046.020000,-0.248938,queda_relevante,,base_zerada,
+Salvador,2026-01-01,300775.290000,-0.480582,queda_relevante,,base_zerada,
+Salvador,2026-04-01,300871.900000,-0.383542,queda_relevante,1.511246,sem_queda_relevante,
+Salvador,2026-08-01,343813.500000,-0.221941,queda_relevante,0.643758,sem_queda_relevante,
+São Paulo (Matriz),2025-01-01,991713.560000,-0.460740,queda_relevante,0.039263,sem_queda_relevante,
+São Paulo (Matriz),2026-01-01,1231300.790000,-0.319135,queda_relevante,0.241589,sem_queda_relevante,
+São Paulo (Matriz),2026-02-01,963562.290000,-0.217444,queda_relevante,0.111109,sem_queda_relevante,

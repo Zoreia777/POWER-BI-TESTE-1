@@ -1,0 +1,4 @@
+ano,meses_realizados,meses_no_ytd,receita_ajustada_ytd,lucro_bruto_ytd,despesas_ytd,resultado_operacional_estimado_ytd,margem_operacional_estimada_ytd_pct,margem_bruta_ytd_pct,rotulo
+2024,12,9,27074260.250000,11730756.640000,10036313.880000,1694442.760000,0.062585,0.433281,resultado operacional ESTIMADO do dataset; nao e lucro liquido contabil
+2025,12,9,34284601.040000,14324011.880000,12215184.630000,2108827.250000,0.061509,0.417797,resultado operacional ESTIMADO do dataset; nao e lucro liquido contabil
+2026,9,9,41292337.640000,16621103.320000,14124260.500000,2496842.820000,0.060467,0.402523,resultado operacional ESTIMADO do dataset; nao e lucro liquido contabil

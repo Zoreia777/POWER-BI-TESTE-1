@@ -1,0 +1,9 @@
+ranking_despesas,id_filial,filial,tipo,despesas,participacao_nas_despesas_pct,receita_ajustada,despesas_sobre_receita_ajustada_pct,nota_leitura
+1,1,São Paulo (Matriz),Matriz,22418558.160000,0.490422,43237969.000000,0.518492,Matriz concentra despesas corporativas: nao usar a razao despesa/receita como medida de eficiencia isolada
+2,2,Rio de Janeiro,Filial,4600142.270000,0.100631,20012899.770000,0.229859,
+3,3,Belo Horizonte,Filial,4062460.150000,0.088869,18464368.780000,0.220016,
+4,4,Curitiba,Filial,3565476.360000,0.077997,14400527.520000,0.247593,
+5,6,Brasília,Filial,3329979.290000,0.072846,11961046.620000,0.278402,
+6,5,Porto Alegre,Filial,3114316.310000,0.068128,10459491.810000,0.297750,
+7,8,Recife,Filial,2600304.640000,0.056884,8298436.900000,0.313349,
+8,7,Salvador,Filial,2021570.880000,0.044223,6680087.050000,0.302626,
